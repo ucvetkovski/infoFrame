@@ -94,7 +94,7 @@ function prikazi(niz){
         if(frame.id == id){
             $.ajax({
                 method: 'POST',
-                url: 'warframe.php',
+                url: 'https://cool-water-4876.on.fleek.co/warframe.php',
                 data: { 
                     ime: frame.name,
                     description: frame.description,
