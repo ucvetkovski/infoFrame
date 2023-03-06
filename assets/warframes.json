@@ -121,7 +121,7 @@
         "prime" : false,
         "name" : "Banshee",
         "gender" : "F",
-        "description" : "This is Banshee, stealthy and ranged.No one puts Banshee in a corner, Tenno. The element of surprise is in her favor.",
+        "description" : "This is Banshee, stealthy and ranged. No one puts Banshee in a corner, Tenno. The element of surprise is in her favor.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/Banshee.webp",
             "background" : "assets/backgrounds/BansheeFull.webp"

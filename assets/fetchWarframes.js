@@ -92,50 +92,93 @@ function prikazi(niz){
     function pretraga(id){
     frames.forEach(frame => {
         if(frame.id == id){
-            $.ajax({
-                method: 'POST',
-                url: 'https://cool-water-4876.on.fleek.co/warframe.php',
-                data: { 
-                    ime: frame.name,
-                    description: frame.description,
-                    armor: frame.stats.armor,
-                    shields: frame.stats.shields,
-                    health: frame.stats.health,
-                    energy: frame.stats.energy,
 
-                    passive: frame.abilities.passive.description,
+            var warframeData = `<div class='text-left' id='content'>
 
-                    firstName: frame.abilities.first.name,
-                    firstIcon: frame.abilities.first.icon,
-                    firstDesc :frame.abilities.first.desc,
-                    firstVideo : frame.abilities.first.video,
-                    firstVideoPH : frame.abilities.first.videoPH,
+            <div style='background-image: url(${frame.image.background}); background-position: top right; background-repeat: no-repeat;'>
+                    <div id='textInfo'>
+                     <h1 class='display-3'>${frame.name}</h1>
+                     <h2>${frame.description}</h2>
+                        <br/>
+                         <h3><b>Armor:</b> ${frame.stats.armor}</h3>
+                        <h3><b>Shields:</b> ${frame.stats.shields}</h3>
+                        <h3><b>Health:</b> ${frame.stats.health}</h3>
+                        <h3><b>Energy:</b> ${frame.stats.energy}</h3>
+                    </div>
+            </div>
+        
+            <br/></br>
+            <br/></br>
+        
+            <div id='info'>
+            <div class='row'>
+        
+            <div id='abilitiesText'>
+            <div class='text-center'><h2>Abilities<h2></div>
+            <div class='text-center'><h3>Passive: ${frame.abilities.passive.description}<h3></div>
+            </div>
+            <div class='col'>
+            <div class='card h-100' style='width: 18rem;'>
+                    <video autoplay loop width='280' height='160'>
+                        <source src='${frame.abilities.first.video}' type='video/mp4'></video>
+                 <div class='card-body'>
+                    <p class='card-title'><b>${frame.abilities.first.name}</b></p>
+                     <img src='${frame.abilities.first.icon}'/>
+                     <br/> <br/>
+                     <p class='card-text'>${frame.abilities.first.desc}</p>
+                </div>
+            </div>
+            </div>
+        
+            <div class='col'>
+                <div class='card h-100' style='width: 18rem;'>
+                        <video autoplay loop width='280' height='160'>
+                        <source src='${frame.abilities.second.video}' type='video/mp4'>
+                        </video>
+                     <div class='card-body'>
+                        <p class='card-title'><b>${frame.abilities.second.name}</b></p>
+                         <img src='${frame.abilities.second.icon}'/>
+                         <br/> <br/>
+                         <p class='card-text'>${frame.abilities.second.desc}</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class='col'>
+                <div class='card h-100' style='width: 18rem;'>
+                        <video autoplay loop width='280' height='160'>
+                        <source src='${frame.abilities.third.video}' type='video/mp4'>
+                        </video>
+                     <div class='card-body'>
+                        <p class='card-title'><b>${frame.abilities.third.name}</b></p>
+                         <img src='${frame.abilities.third.icon}'/>
+                         <br/> <br/>
+                         <p class='card-text'>${frame.abilities.third.desc}</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class='col'>
+                <div class='card h-100' style='width: 18rem;'>
+                       <video autoplay loop width='280' height='160'>
+                        <source src='${frame.abilities.fourth.video}' type='video/mp4'>
+                        </video>
+                     <div class='card-body'>
+                        <p class='card-title'><b>${frame.abilities.fourth.name}</b></p>
+                         <img src='${frame.abilities.fourth.icon}'/>
+                         <br/> <br/>
+                         <p class='card-text'>${frame.abilities.fourth.desc}</p>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            </div>
+        </div></div>`;
 
-                    secondName: frame.abilities.second.name,
-                    secondIcon: frame.abilities.second.icon,
-                    secondDesc :frame.abilities.second.desc,
-                    secondVideo : frame.abilities.second.video,
-                    secondVideoPH : frame.abilities.second.videoPH,
-
-                    thirdName: frame.abilities.third.name,
-                    thirdIcon: frame.abilities.third.icon,
-                    thirdDesc : frame.abilities.third.desc,
-                    thirdVideo : frame.abilities.third.video,
-                    thirdVideoPH : frame.abilities.third.videoPH,
-
-                    fourthName: frame.abilities.fourth.name,
-                    fourthIcon: frame.abilities.fourth.icon,
-                    fourthDesc : frame.abilities.fourth.desc,
-                    fourthVideo : frame.abilities.fourth.video,
-                    fourthVideoPH : frame.abilities.fourth.videoPH,
-
-                    background : frame.image.background
-                     },
-                success: function(response) {
-                    localStorage.setItem('warframeData',response);
-                    location.href = 'https://oor0sh.github.io/infoFrame/warframe.html';
-                }
-            });
+            
+        localStorage.setItem('warframeData',warframeData);
+        location.href = 'warframe.html';
         }
     })
 
