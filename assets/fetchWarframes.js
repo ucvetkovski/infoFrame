@@ -94,7 +94,7 @@ function prikazi(niz){
         if(frame.id == id){
             $.ajax({
                 method: 'POST',
-                url: 'https://oor0sh.github.io/infoFrame/warframe.php',
+                url: 'warframe.php',
                 data: { 
                     ime: frame.name,
                     description: frame.description,
