@@ -1,0 +1,554 @@
+[
+    {
+        "id" : 1,
+        "prime" : false,
+        "name" : "Ash",
+        "gender" : "M",
+        "description" : "This is Ash, lethal and elusive. Ash can remain unseen, but his effects on the battlefield can be felt by all. Keep an eye out, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Ash.webp",
+            "background" : "assets/backgrounds/AshFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Slash procs inflicted by Ash's weapons and abilities deal 25% more damage and last 50% longer. "
+            },
+            "first" : 
+            {   "name" : "Shuriken",
+                "desc" : "Launches a spinning blade of pain, dealing high damage and impaling enemies to walls.",
+                "icon" : "assets/icons/abilityIcons/ash1.webp",
+                "video" : "assets/extracted_mp4/AshPower1_s.mp4"
+            },
+            "second" : 
+            {   "name" : "Smoke Screen",
+                "desc" : "Drops a smoke bomb that stuns enemies and obscures their vision, rendering Ash invisible for a short time.",
+                "icon" : "assets/icons/abilityIcons/ash2.webp",
+                "video" : "assets/extracted_mp4/AshPower2_s.mp4"
+            
+            },
+            "third" : 
+            {   
+                "name" : "Teleport",
+                "desc" : "Ash teleports towards the target, bringing him into melee range and making enemies vulnerable to finishers.",
+                "icon" : "assets/icons/abilityIcons/ash3.webp",
+                "video" : "assets/extracted_mp4/AshPower3_s.mp4"
+            },
+            "fourth" : 
+            {   "name" : "Bladestorm",
+                "desc" : "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport.",
+                "icon" : "assets/icons/abilityIcons/ash4.webp",
+                "video" : "assets/extracted_mp4/AshPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 2,
+        "prime" : false,
+        "name" : "Atlas",
+        "gender" : "M",
+        "description" : "This is Atlas, the brawler, the strong. Moving mountains is no easy task, Tenno. Atlas endures.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Atlas.webp",
+            "background" : "assets/backgrounds/AtlasFull.webp"
+        },
+
+        "releaseDate" : "2015-10-01",
+
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Wielding explosive power and incredible stamina, Atlas strengthens his insurmountable durability through battle. Strong as the mountain, Atlas is immune to Knockdown while in contact with the ground. Rubble is a pickup item unique to Atlas that drops from petrified enemies and Rumblers on death. Rubble restores Health to Atlas if he is injured; if Atlas is at full health, Rubble instead grants additional Armor that decays over time. "
+            },
+
+            "first" :
+            {
+                "name" : "Landslide",
+                "desc" : "Bash enemies with an exploding sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor.",
+                "icon" : "assets/icons/abilityIcons/atlas1.webp",
+                "video" : "assets/extracted_mp4/AtlasPower1_s.webp"
+            },
+            
+            "second" : {           
+                "name" : "Tectonics",
+                "desc" : "Summon a rock-wall, activate again to send the rocks crashing towards the enemy.",
+                "icon" : "assets/icons/abilityIcons/atlas2.webp",
+                "video" : "assets/extracted_mp4/AtlasPower2_s.mp4"
+            },
+
+            "third" : {
+                "name" : "Petrify",
+                "desc" : "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas.",
+                "icon" : "assets/icons/abilityIcons/atlas3.webp",
+                "video" : "assets/extracted_mp4/AtlasPower3_s.mp4"
+            },
+
+            "fourth" : {
+                "name" : "Rumblers",
+                "desc" : "Summon two elemental stone brawlers to the melee. Summoning petrifies enemies in close proximity to Atlas. When finished, Rumblers collapse into a pile of healing Rubble.",
+                "icon" : "assets/icons/abilityIcons/atlas4.webp",
+                "video" : "assets/extracted_mp4/AtlasPower4_s.mp4"
+            }
+
+        },
+        "stats" : {
+            "armor" : 450,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        },
+        "bgVideo" : "assets/backgroundVideos/atlas.webm"
+    },
+    {
+        "id" : 3,
+        "prime" : false,
+        "name" : "Banshee",
+        "gender" : "F",
+        "description" : "This is Banshee, stealthy and ranged.No one puts Banshee in a corner, Tenno. The element of surprise is in her favor.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Banshee.webp",
+            "background" : "assets/backgrounds/BansheeFull.webp"
+        },
+        "releaseDate" : "2013-03-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "All of Banshee's equipped weapons, including Gunblades, and weapons equipped on Sentinels should they be present, are treated as silent."
+            },
+
+            "first" : 
+            {
+              "name" : "Sonic Boom",
+              "desc" : "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
+              "icon" : "assets/icons/abilityIcons/banshee1.webp",
+              "video" : "assets/extracted_mp4/BansheePower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Sonar",
+               "desc" : "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+               "icon" : "assets/icons/abilityIcons/banshee2.webp",
+               "video" : "assets/extracted_mp4/BansheePower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Silence",
+                "desc" : "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
+                "icon" : "assets/icons/abilityIcons/banshee3.webp",
+                "video" : "assets/extracted_mp4/BansheePower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Sound Quake",
+                "desc" : "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
+                "icon" : "assets/icons/abilityIcons/banshee4.webp",
+                "video" : "assets/extracted_mp4/BansheePower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },    {
+        "id" : 4,
+        "prime" : false,
+        "name" : "Baruuk",
+        "gender" : "M",
+        "description" : "This is Baruuk, the reluctant warrior. Following the path that winds between peace and hate, he maintains restraint before unleashing the storm within.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Baruuk.webp",
+            "background" : "assets/backgrounds/Baruuk.webp"
+        },
+        "releaseDate" : "2018-12-18",
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Baruuk's tolerance for violence wanes as his hand is forced by his foes. Restraint is a resource unique to Baruuk that provides up to 50% Damage Reduction when the meter is completely depleted."
+            },
+            "first" : 
+            {   "name" : "Elude",
+                "desc" : "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
+                "icon" : "assets/icons/abilityIcons/baruuk1.webp",
+                "video" : "assets/extracted_mp4/BaruukPower1_s.mp4"
+            },
+            "second" : 
+            {   "name" : "Lull",
+                "desc" : "A calming wave slows enemies until they fall into a slumber. Enemies woken by damage will be confused and disoriented. Short-term amnesia means all waking enemies forget anything that happened before the lull.",
+                "icon" : "assets/icons/abilityIcons/baruuk2.webp",
+                "video" : "assets/extracted_mp4/BaruukPower2_s.mp4"
+            
+            },
+            "third" : 
+            {   
+                "name" : "Desolate Hands",
+                "desc" : "Summon a bevy of orbiting daggers to seek out enemy guns, destroying them with a small explosion. Combine with Elude to double the range.",
+                "icon" : "assets/icons/abilityIcons/barruk3.webp",
+                "video" : "assets/extracted_mp4/BaruukPower3_s.mp4"
+            },
+            "fourth" : 
+            {   "name" : "Serene Storm",
+                "desc" : "With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint.",
+                "icon" : "assets/icons/abilityIcons/baruuk4.webp",
+                "video" : "assets/extracted_mp4/BaruukPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 75,
+            "shields" : 100,
+            "energy" : 200
+        }
+    },
+    {
+        "id" : 5,
+        "prime" : false,
+        "name" : "Caliban",
+        "gender" : "M",
+        "description" : "A twisted hybrid of Warframe and Sentient, he is raised in the wreckage of the Old War. This is Caliban, the survivor, the adaptive. Once a weapon consigned by Erra after the Old War, Caliban is yours to sow vengeance in the New.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Caliban.webp",
+            "background" : "assets/backgrounds/Caliban.webp"
+        },
+
+        "releaseDate" : "2021-12-15",
+
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Versatile and resilient, Caliban and allies within his Affinity Range gain Adaptive Armor that builds damage resistance against the highest damage type received from enemy attacks, stacking 5% per hit up to a cap of 50%. If Caliban or his allies do not receive damage for 5 seconds, their Adaptive Armor loses 2% per second until fully removed."
+            },
+
+            "first" :
+            {
+                "name" : "Razor Gyre",
+                "desc" : "Become a spinning vortex of death. Hold to accelerate the maelstrom, increasing damage or target an enemy by tapping to dash toward them. Hitting enemies inflicted with Sentient Wrath creates a destructive blast",
+                "icon" : "assets/icons/abilityIcons/caliban1.webp",
+                "video" : "assets/extracted_mp4/CalibanPower1_s.webp"
+            },
+            
+            "second" : {           
+                "name" : "Sentient Wrath",
+                "desc" : "Smash the ground sending out a radial wave of destruction. Those not killed by the initial blast are helplessly lifted into the air, where they take amplified damage for a short time.",
+                "icon" : "assets/icons/abilityIcons/caliban2.webp",
+                "video" : "assets/extracted_mp4/CalibanPower2_s.mp4"
+            },
+
+            "third" : {
+                "name" : "Lethal Progeny",
+                "desc" : "Call on Caliban's Sentient aspect to produce up three Conculyst comrades to fight by his side, and repair his shields.",
+                "icon" : "assets/icons/abilityIcons/caliban3.webp",
+                "video" : "assets/extracted_mp4/CalibanPower3_s.mp4"
+            },
+
+            "fourth" : {
+                "name" : "Fusion Strike",
+                "desc" : "Converge three streams of raw energy upon a single point, causing a massive reactive blast. The fallout from the blast will strip the armor and shields from all enemies that touch it.",
+                "icon" : "assets/icons/abilityIcons/caliban4.webp",
+                "video" : "assets/extracted_mp4/CalibanPower4_s.mp4"
+            }
+
+        },
+        "stats" : {
+            "armor" : 450,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 6,
+        "prime" : false,
+        "name" : "Chroma",
+        "gender" : "M",
+        "description" : "This is Chroma, an ancient legend, master of the elements. When all the land is in ruins, Tenno, only Chroma will remain.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Chroma.webp",
+            "background" : "assets/backgrounds/ChromaFull.webp"
+        },
+        "releaseDate" : "2015-03-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Chroma possesses an extra midair jump and bullet jump. Wings matching Chroma's energy colors will form during these maneuvers. Chroma can alter his abilities to match any basic (uncombined) elemental attribute of the player's choice. Customizing Chroma's primary emission color determines what abilities he starts with."
+            },
+
+            "first" : 
+            {
+              "name" : "Spectral Scream",
+              "desc" : "Exhale a deep breath of elemental destruction. Chroma's energy color determines the element.",
+              "icon" : "assets/icons/abilityIcons/chroma1.webp",
+              "video" : "assets/extracted_mp4/ChromaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Elemental Ward",
+               "desc" : "Depending on Chroma's elemental alignment, an offensive area-of-effect is created. Chroma and his nearby allies are imbued with defensive energy.",
+               "icon" : "assets/icons/abilityIcons/chroma2.webp",
+               "video" : "assets/extracted_mp4/ChromaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Vex Armor",
+                "desc" : "When shields are hit, Chroma's armor grows stronger, when health takes a hit, weapon damage increases. Active for a limited time, maximum increases correspond to rank.",
+                "icon" : "assets/icons/abilityIcons/chroma3.webp",
+                "video" : "assets/extracted_mp4/ChromaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Effigy",
+                "desc" : "Chroma turns his pelt into a massive sentry that strengthens nearby allies and engulfs enemies in elemental attacks.",
+                "icon" : "assets/icons/abilityIcons/chroma4.webp",
+                "video" : "assets/extracted_mp4/ChromaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 350,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 7,
+        "prime" : false,
+        "name" : "Citrine",
+        "gender" : "F",
+        "description" : "Glisten bright with gemstone purity and become bejeweled in adamant amber. Revealed by luminous lustre, witness her pristine beauty as the Crystal Bastion, Citrine, ascends from the cavernous unknown.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Citrine.webp",
+            "background" : "assets/backgrounds/Citrine.webp"
+        },
+        "releaseDate" : "2023-02-15",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Bask in her glamorous glow that rivals life-nurturing sunlight. Citrine emits a healing aura within a radius of 50 meters, granting the Geoluminesence buff to herself and allies that continuously recover a base 5 Health points per second."
+            },
+
+            "first" : 
+            {
+              "name" : "Fractured Blast",
+              "desc" : "Slash and stagger enemies with a crystal blast that inflicts Bleed. Enemies afflicted with this Status Effect have an increase chance of dropping Health and Energy Orbs.",
+              "icon" : "assets/icons/abilityIcons/citrine1.webp",
+              "video" : "assets/extracted_mp4/CitrinePower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Preserving Shell",
+               "desc" : "Citrine guards herself and nearby allies with a crystalline shell that gradually decays. Kills and assists increase the defensive power of the shell.",
+               "icon" : "assets/icons/abilityIcons/citrine2.webp",
+               "video" : "assets/extracted_mp4/CitrinePower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Prismatic Gem",
+                "desc" : "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
+                "icon" : "assets/icons/abilityIcons/citrine3.webp",
+                "video" : "assets/extracted_mp4/CitrinePower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Crystallize",
+                "desc" : "Citrine summons crystal fractals. The fractals rush forward, seeking enemies. Enemies touched by the fractals are paralyzed crystalline growths. Hit the growths to deal Critical Damage. ",
+                "icon" : "assets/icons/abilityIcons/citrine4.webp",
+                "video" : "assets/extracted_mp4/CitrinePower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 250,
+            "health" : 135,
+            "shields" : 100,
+            "energy" : 120 
+        }
+    },
+    {
+        "id" : 8,
+        "prime" : false,
+        "name" : "Ember",
+        "gender" : "F",
+        "description" : "This is Ember, destructive and deadly. Ember's presence on the battlefield is devastating. Mind the heat, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Ember.webp",
+            "background" : "assets/backgrounds/emberBG.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Reveling in the heat of combat, Ember gains 5% extra Ability Strength for every enemy burning with an active Heat status effect within a 50 meters radius. "
+            },
+
+            "first" : 
+            {
+              "name" : "Fireball",
+              "desc" : "Charge and release a fiery projectile that ignites enemies on contact.",
+              "icon" : "assets/icons/abilityIcons/ember1.webp",
+              "video" : "assets/extracted_mp4/EmberPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Immolation",
+               "desc" : "Protect Ember with flame armor that burns stronger over time, consuming energy once its meter is at full strength. Cast again to extinguish the flame.",
+               "icon" : "assets/icons/abilityIcons/ember2.webp",
+               "video" : "assets/extracted_mp4/EmberPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Fire Blast",
+                "desc" : "Slam the ground to create a wave of incinerating plasma that knocks back enemies and strips their armor.",
+                "icon" : "assets/icons/abilityIcons/ember3.webp",
+                "video" : "assets/extracted_mp4/EmberPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Inferno",
+                "desc" : "Command a flaming comet to crash down in front of ember, engulfing enemies with a fire that can spread through their ranks.",
+                "icon" : "assets/icons/abilityIcons/ember4.webp",
+                "video" : "assets/extracted_mp4/EmberPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    }, 
+    {
+        "id" : 9,
+        "prime" : false,
+        "name" : "Equinox",
+        "gender" : "F",
+        "description" : "This is Equinox, a deadly duality. A true Tenno must master the divide between night and day. Do you have what it takes?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Equinox.webp",
+            "background" : "assets/backgrounds/EquinoxFull.webp"
+        },
+        "releaseDate" : "2015-07-31",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "When Equinox collects Health Orbs or Energy Orbs, 10% of the restored amount is converted into additional Energy and Health respectively. Equinox can shift between two forms to alter her abilities: the offensive-focused Day-Form or the defensive/supportive-focused Night-Form. Customizing Equinox's primary emission color determines what form she starts with."
+            },
+
+            "first" : 
+            {
+              "name" : "Metamorphosis",
+              "desc" : "Switch forms, temporarily gaining bonus shields and armor in Night-Form, or bonus damage and speed in Day-Form. ",
+              "icon" : "assets/icons/abilityIcons/equinox1.webp",
+              "video" : "assets/extracted_mp4/EquinoxPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Rest & Rage",
+               "desc" : "In Night Form targets are put to sleep. In Day Form targets become more vulnerable to damage. ",
+               "icon" : "assets/icons/abilityIcons/equinox2.webp",
+               "video" : "assets/extracted_mp4/EquinoxPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Pacify & Provoke",
+                "desc" : "In Night Form reduces damage inflicted by nearby enemies. In Day Form increases Ability Strength of nearby allies. ",
+                "icon" : "assets/icons/abilityIcons/equinox3.webp",
+                "video" : "assets/extracted_mp4/EquinoxPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Mend & Maim",
+                "desc" : "In Night Form, allies are healed with each nearby enemy killed. In Day Form, nearby enemies are bled and then subjected to a wave of slashing force. ",
+                "icon" : "assets/icons/abilityIcons/equinox4.webp",
+                "video" : "assets/extracted_mp4/EquinoxPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 10,
+        "prime" : false,
+        "name" : "Excalibur",
+        "gender" : "M",
+        "description" : "This is Excalibur, a master of gun and blade. No matter your style, Tenno, Excalibur is a formidable choice.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Excalibur.webp",
+            "background" : "assets/backgrounds/ExcaliburFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Excalibur has improved mastery in the Tenno art of the blade, receiving +10% Attack Speed and +10% damage bonuses for melee attacks while wielding the following weapons: Swords, Dual swords, Nikanas, Rapiers, Exalted Blade."
+            },
+
+            "first" : 
+            {
+              "name" : "Slash Dash",
+              "desc" : "Dash between enemies while slashing with the Exalted Blade.",
+              "icon" : "assets/icons/abilityIcons/excalibur1.webp",
+              "video" : "assets/extracted_mp4/ExcaliburUmbraPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Radial Blind",
+               "desc" : "Emits a bright flash of light, blinding all enemies in a small radius for several seconds.",
+               "icon" : "assets/icons/abilityIcons/excalibur2.webp",
+               "video" : "assets/extracted_mp4/ExcaliburUmbraPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Radial Javelin",
+                "desc" : "Launches javelins towards enemies, dealing high damage and impaling them to walls.",
+                "icon" : "assets/icons/abilityIcons/excalibur3.webp",
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Exalted Blade",
+                "desc" : "Summon a sword of pure light and immense power.",
+                "icon" : "assets/icons/abilityIcons/excalibur4.webp",
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" :225 ,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    }
+]
