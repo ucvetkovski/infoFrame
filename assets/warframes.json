@@ -1070,5 +1070,305 @@
             "shields" : 450,
             "energy" : 0
         }
+    },
+    {
+        "id" : 19,
+        "prime" : false,
+        "name" : "Hydroid",
+        "gender" : "M",
+        "description" : "This is Hydroid, a deadly marauder from the deep. Whether the seas or the stars, Tenno, Hydroid takes a foreboding command of the battlefield.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Hydroid.webp",
+            "background" : "assets/backgrounds/HydroidFull.webp"
+        },
+        "releaseDate" : "2014-04-09",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Hydroid's melee slam attacks have a 50% chance to spawn a tentacle that lasts for 15 seconds. The tentacle senses nearby enemies within 5 meters to grab and thrash them, dealing 200 True damage per second bypassing shields and armor; captured enemies are released upon death or tentacle expiring. Up to 3 tentacles spawned by this passive may exist at once."
+            },
+
+            "first" : 
+            {
+              "name" : "Tempest Barrage",
+              "desc" : "Target an area and call down a barrage of liquid fury. Charge this attack to increase the lethality of the onslaught.",
+              "icon" : "assets/icons/abilityIcons/hydroid1.webp",
+              "video" : "assets/extracted_mp4/HydroidPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/hydroid1PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Tidal Surge",
+               "desc" : "Crash through enemies in a ferocious wall of water.",
+               "icon" : "assets/icons/abilityIcons/hydroid2.webp",
+               "video" : "assets/extracted_mp4/HydroidPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/hydroid2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "Become a water trap and drown unsuspecting enemies.",
+                "icon" : "assets/icons/abilityIcons/hydroid3.webp",
+                "video" : "assets/extracted_mp4/HydroidPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/hydroid3PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "Tap to spawn watery tentacles from all nearby surfaces to wreak havoc. Charge to increase the number of tentacles and spawn area. Use while in Undertow to have the tentacles emerge from the pool.",
+                "icon" : "assets/icons/abilityIcons/hydroid4.webp",
+                "video" : "assets/extracted_mp4/HydroidPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/hydroid4PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" : 100,
+            "shields" : 125,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 20,
+        "prime" : false,
+        "name" : "Inaros",
+        "gender" : "",
+        "description" : "",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons.webp",
+            "background" : "assets/backgrounds/Full.webp"
+        },
+        "releaseDate" : "--",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : ""
+            },
+
+            "first" : 
+            {
+              "name" : "",
+              "desc" : "",
+              "icon" : "assets/icons/abilityIcons/1.webp",
+              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "",
+               "desc" : "",
+               "icon" : "assets/icons/abilityIcons/2.webp",
+               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/3.webp",
+                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/4.webp",
+                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : "",
+            "health" : "",
+            "shields" : "",
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 21,
+        "prime" : false,
+        "name" : "Ivara",
+        "gender" : "",
+        "description" : "",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons.webp",
+            "background" : "assets/backgrounds/Full.webp"
+        },
+        "releaseDate" : "--",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : ""
+            },
+
+            "first" : 
+            {
+              "name" : "",
+              "desc" : "",
+              "icon" : "assets/icons/abilityIcons/1.webp",
+              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "",
+               "desc" : "",
+               "icon" : "assets/icons/abilityIcons/2.webp",
+               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/3.webp",
+                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/4.webp",
+                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : "",
+            "health" : "",
+            "shields" : "",
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 22,
+        "prime" : false,
+        "name" : "Khora",
+        "gender" : "",
+        "description" : "",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons.webp",
+            "background" : "assets/backgrounds/Full.webp"
+        },
+        "releaseDate" : "--",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : ""
+            },
+
+            "first" : 
+            {
+              "name" : "",
+              "desc" : "",
+              "icon" : "assets/icons/abilityIcons/1.webp",
+              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "",
+               "desc" : "",
+               "icon" : "assets/icons/abilityIcons/2.webp",
+               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/3.webp",
+                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/4.webp",
+                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : "",
+            "health" : "",
+            "shields" : "",
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 23,
+        "prime" : false,
+        "name" : "Lavos",
+        "gender" : "",
+        "description" : "",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons.webp",
+            "background" : "assets/backgrounds/Full.webp"
+        },
+        "releaseDate" : "--",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : ""
+            },
+
+            "first" : 
+            {
+              "name" : "",
+              "desc" : "",
+              "icon" : "assets/icons/abilityIcons/1.webp",
+              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "",
+               "desc" : "",
+               "icon" : "assets/icons/abilityIcons/2.webp",
+               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/3.webp",
+                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "",
+                "icon" : "assets/icons/abilityIcons/4.webp",
+                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : "",
+            "health" : "",
+            "shields" : "",
+            "energy" : 100
+        }
     }
 ]

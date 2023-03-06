@@ -93,7 +93,7 @@ function prikazi(niz){
     frames.forEach(frame => {
         if(frame.id == id){
             $.ajax({
-                type: 'POST',
+                type: 'GET',
                 url: 'warframe.php',
                 data: { 
                     ime: frame.name,

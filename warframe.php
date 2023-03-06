@@ -1,41 +1,41 @@
 <?php
-$name = $_POST['ime'];
-$desc = $_POST['description'];
-$armor = $_POST['armor'];
-$energy = $_POST['energy'];
-$shields = $_POST['shields'];
-$health = $_POST['health'];
+$name = $_GET['ime'];
+$desc = $_GET['description'];
+$armor = $_GET['armor'];
+$energy = $_GET['energy'];
+$shields = $_GET['shields'];
+$health = $_GET['health'];
 
-$passive = $_POST['passive'];
+$passive = $_GET['passive'];
 
-$first = $_POST['firstName'];
-$firstIcon = $_POST['firstIcon'];
-$firstDesc = $_POST['firstDesc'];
-$firstVideo = $_POST['firstVideo'];
-$firstVideoPH = $_POST['firstVideoPH'];
-
-
-$second = $_POST['secondName'];
-$secondIcon = $_POST['secondIcon'];
-$secondDesc = $_POST['secondDesc'];
-$secondVideo = $_POST['secondVideo'];
-$secondVideoPH = $_POST['secondVideoPH'];
+$first = $_GET['firstName'];
+$firstIcon = $_GET['firstIcon'];
+$firstDesc = $_GET['firstDesc'];
+$firstVideo = $_GET['firstVideo'];
+$firstVideoPH = $_GET['firstVideoPH'];
 
 
-$third = $_POST['thirdName'];
-$thirdIcon = $_POST['thirdIcon'];
-$thirdDesc = $_POST['thirdDesc'];
-$thirdVideo = $_POST['thirdVideo'];
-$thirdVideoPH = $_POST['thirdVideoPH'];
+$second = $_GET['secondName'];
+$secondIcon = $_GET['secondIcon'];
+$secondDesc = $_GET['secondDesc'];
+$secondVideo = $_GET['secondVideo'];
+$secondVideoPH = $_GET['secondVideoPH'];
 
 
-$fourth = $_POST['fourthName'];
-$fourthIcon = $_POST['fourthIcon'];
-$fourthDesc = $_POST['fourthDesc'];
-$fourthVideo = $_POST['fourthVideo'];
-$fourthVideoPH = $_POST['fourthVideoPH'];
+$third = $_GET['thirdName'];
+$thirdIcon = $_GET['thirdIcon'];
+$thirdDesc = $_GET['thirdDesc'];
+$thirdVideo = $_GET['thirdVideo'];
+$thirdVideoPH = $_GET['thirdVideoPH'];
 
-$background = $_POST['background'];
+
+$fourth = $_GET['fourthName'];
+$fourthIcon = $_GET['fourthIcon'];
+$fourthDesc = $_GET['fourthDesc'];
+$fourthVideo = $_GET['fourthVideo'];
+$fourthVideoPH = $_GET['fourthVideoPH'];
+
+$background = $_GET['background'];
 
 //  echo( "<video autoplay loop width='280' height='200'>
 //  <source src='$video' type='video/mp4'>
