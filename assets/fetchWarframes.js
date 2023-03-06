@@ -133,7 +133,7 @@ function prikazi(niz){
                      },
                 success: function(response) {
                     localStorage.setItem('warframeData',response);
-                    location.href = 'warframe.html';
+                    location.href = 'https://oor0sh.github.io/infoFrame/warframe.html';
                 }
             });
         }

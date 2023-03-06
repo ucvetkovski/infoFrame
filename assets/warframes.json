@@ -922,7 +922,7 @@
                "name" : "Coil Horizon",
                "desc" : "Throw forward a Gyratory Sphere that will implode after a few seconds or can be manually triggered.",
                "icon" : "assets/icons/abilityIcons/gyre2.webp",
-               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "video" : "assets/extracted_mp4/GyrePower2_s.mp4",
                "videoPH" : "assets/extracted_mp4/gyre2PH.webp"
             },
             
@@ -949,6 +949,126 @@
             "health" : 100,
             "shields" : 175,
             "energy" : 160
+        }
+    },
+    {
+        "id" : 17,
+        "prime" : false,
+        "name" : "Harrow",
+        "gender" : "M",
+        "description" : "This is Harrow, the monastic, the ritualist. Harrow is suffragan to the Void. Will you believe, Tenno?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Harrow.webp",
+            "background" : "assets/backgrounds/HarrowFull.webp"
+        },
+        "releaseDate" : "2017-06-28",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Harrow possesses 200% Overshields capacity, granting him a maximum of 2,400 Overshields, and spawns into missions with 100% Energy filled."
+            },
+
+            "first" : 
+            {
+              "name" : "Condemn",
+              "desc" : "Cast a wave of energy that chains them where they stand. Each enemy held reinforces Harrow’s shields. ",
+              "icon" : "assets/icons/abilityIcons/harrow1.webp",
+              "video" : "assets/extracted_mp4/HarrowPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Penance",
+               "desc" : "Sacrifice shields to boost reload, and fire rate while converting damage inflicted on enemies into health for Harrow and nearby allies.",
+               "icon" : "assets/icons/abilityIcons/harrow2.webp",
+               "video" : "assets/extracted_mp4/HarrowPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Thurible",
+                "desc" : "Channel Harrow’s energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
+                "icon" : "assets/icons/abilityIcons/harrow3.webp",
+                "video" : "assets/extracted_mp4/HarrowPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Covenant",
+                "desc" : "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+                "icon" : "assets/icons/abilityIcons/harrow4.webp",
+                "video" : "assets/extracted_mp4/HarrowPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 18,
+        "prime" : false,
+        "name" : "Hildryn",
+        "gender" : "F",
+        "description" : "Drawing from her shields like a battery, her defensive and offensive utility are unparalleled. This is Hildryn, the domina of armament.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Hildryn.webp",
+            "background" : "assets/backgrounds/HildrynFull.webp"
+        },
+        "releaseDate" : "2019-03-07",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Hildryn utilizes her advanced Shielding systems to power all of her abilities. Although she has no Energy capacity, her shields boast additional passive benefits and defensive capabilities."
+            },
+
+            "first" : 
+            {
+              "name" : "Balefire",
+              "desc" : "Charge and launch devastating bolts of fire.",
+              "icon" : "assets/icons/abilityIcons/hildryn1.webp",
+              "video" : "assets/extracted_mp4/HildrynPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/hildryn1PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Pillage",
+               "desc" : "Pillage a percentage of Shields and Armor of nearby enemies to replenish Hildryn's own Shields and Overshields.",
+               "icon" : "assets/icons/abilityIcons/hildryn2.webp",
+               "video" : "assets/extracted_mp4/HildrynPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Haven",
+                "desc" : "Create a shield aura around allies. Enemies that approach shielded allies will take damage.",
+                "icon" : "assets/icons/abilityIcons/hildryn3.webp",
+                "video" : "assets/extracted_mp4/HildrynPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Aegis Storm",
+                "desc" : "Take the skies and rain Balefire rockets down on the enemy. Nearby enemies are blasted into the air where they will create an Energy Orb every few seconds. When shields run out the enemies are smashed into the ground.",
+                "icon" : "assets/icons/abilityIcons/hildryn4.webp",
+                "video" : "assets/extracted_mp4/HildrynPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 75,
+            "shields" : 450,
+            "energy" : 0
         }
     }
 ]
