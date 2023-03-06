@@ -109,21 +109,25 @@ function prikazi(niz){
                     firstIcon: frame.abilities.first.icon,
                     firstDesc :frame.abilities.first.desc,
                     firstVideo : frame.abilities.first.video,
+                    firstVideoPH : frame.abilities.first.videoPH,
 
                     secondName: frame.abilities.second.name,
                     secondIcon: frame.abilities.second.icon,
                     secondDesc :frame.abilities.second.desc,
                     secondVideo : frame.abilities.second.video,
+                    secondVideoPH : frame.abilities.second.videoPH,
 
                     thirdName: frame.abilities.third.name,
                     thirdIcon: frame.abilities.third.icon,
                     thirdDesc : frame.abilities.third.desc,
                     thirdVideo : frame.abilities.third.video,
+                    thirdVideoPH : frame.abilities.third.videoPH,
 
                     fourthName: frame.abilities.fourth.name,
                     fourthIcon: frame.abilities.fourth.icon,
                     fourthDesc : frame.abilities.fourth.desc,
                     fourthVideo : frame.abilities.fourth.video,
+                    fourthVideoPH : frame.abilities.fourth.videoPH,
 
                     background : frame.image.background
                      },

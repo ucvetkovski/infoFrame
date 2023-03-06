@@ -12,24 +12,29 @@ $first = $_POST['firstName'];
 $firstIcon = $_POST['firstIcon'];
 $firstDesc = $_POST['firstDesc'];
 $firstVideo = $_POST['firstVideo'];
+$firstVideoPH = $_POST['firstVideoPH'];
 
 
 $second = $_POST['secondName'];
 $secondIcon = $_POST['secondIcon'];
 $secondDesc = $_POST['secondDesc'];
 $secondVideo = $_POST['secondVideo'];
+$secondVideoPH = $_POST['secondVideoPH'];
 
 
 $third = $_POST['thirdName'];
 $thirdIcon = $_POST['thirdIcon'];
 $thirdDesc = $_POST['thirdDesc'];
 $thirdVideo = $_POST['thirdVideo'];
+$thirdVideoPH = $_POST['thirdVideoPH'];
 
 
 $fourth = $_POST['fourthName'];
 $fourthIcon = $_POST['fourthIcon'];
 $fourthDesc = $_POST['fourthDesc'];
 $fourthVideo = $_POST['fourthVideo'];
+$fourthVideoPH = $_POST['fourthVideoPH'];
+
 $background = $_POST['background'];
 
 //  echo( "<video autoplay loop width='280' height='200'>
@@ -69,7 +74,7 @@ echo ("
                 <source src='$firstVideo' type='video/mp4'>
                     </video>");}
         else{  
-            echo("<img src='assets/extracted_mp4/atlasPH.webp' alt='nema slike'/>");
+            echo("<img src='$firstVideoPH' alt='nema slike'/>");
         }
         echo("
          <div class='card-body'>
@@ -90,7 +95,7 @@ echo ("
 
             }
             else{
-                echo("<img src='assets/extracted_mp4/atlasPH.webp' alt='nema slike'/>");
+                echo("<img src='$secondVideoPH' alt='nema slike'/>");
             }
             echo("
              <div class='card-body'>
@@ -111,7 +116,7 @@ echo ("
 
             }
             else{
-                echo("<img src='assets/extracted_mp4/atlasPH.webp' alt='nema slike'/>");
+                echo("<img src='$thirdVideoPH' alt='nema slike'/>");
             }
             echo("
              <div class='card-body'>
@@ -132,7 +137,7 @@ echo ("
 
             }
             else{
-                echo("<img src='assets/extracted_mp4/atlasPH.webp' alt='nema slike'/>");
+                echo("<img src='$fourthVideoPH' alt='nema slike'/>");
             }
             echo("
              <div class='card-body'>

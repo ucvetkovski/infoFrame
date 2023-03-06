@@ -20,13 +20,15 @@
             {   "name" : "Shuriken",
                 "desc" : "Launches a spinning blade of pain, dealing high damage and impaling enemies to walls.",
                 "icon" : "assets/icons/abilityIcons/ash1.webp",
-                "video" : "assets/extracted_mp4/AshPower1_s.mp4"
+                "video" : "assets/extracted_mp4/AshPower1_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             "second" : 
             {   "name" : "Smoke Screen",
                 "desc" : "Drops a smoke bomb that stuns enemies and obscures their vision, rendering Ash invisible for a short time.",
                 "icon" : "assets/icons/abilityIcons/ash2.webp",
-                "video" : "assets/extracted_mp4/AshPower2_s.mp4"
+                "video" : "assets/extracted_mp4/AshPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             
             },
             "third" : 
@@ -34,13 +36,15 @@
                 "name" : "Teleport",
                 "desc" : "Ash teleports towards the target, bringing him into melee range and making enemies vulnerable to finishers.",
                 "icon" : "assets/icons/abilityIcons/ash3.webp",
-                "video" : "assets/extracted_mp4/AshPower3_s.mp4"
+                "video" : "assets/extracted_mp4/AshPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             "fourth" : 
             {   "name" : "Bladestorm",
                 "desc" : "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport.",
                 "icon" : "assets/icons/abilityIcons/ash4.webp",
-                "video" : "assets/extracted_mp4/AshPower4_s.mp4"
+                "video" : "assets/extracted_mp4/AshPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -75,28 +79,32 @@
                 "name" : "Landslide",
                 "desc" : "Bash enemies with an exploding sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor.",
                 "icon" : "assets/icons/abilityIcons/atlas1.webp",
-                "video" : "assets/extracted_mp4/AtlasPower1_s.webp"
+                "video" : "assets/extracted_mp4/AtlasPower1_s.webp",
+                "videoPH" : "assets/extracted_mp4/atlas1PH.webp"
             },
             
             "second" : {           
                 "name" : "Tectonics",
                 "desc" : "Summon a rock-wall, activate again to send the rocks crashing towards the enemy.",
                 "icon" : "assets/icons/abilityIcons/atlas2.webp",
-                "video" : "assets/extracted_mp4/AtlasPower2_s.mp4"
+                "video" : "assets/extracted_mp4/AtlasPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas2PH.webp"
             },
 
             "third" : {
                 "name" : "Petrify",
                 "desc" : "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas.",
                 "icon" : "assets/icons/abilityIcons/atlas3.webp",
-                "video" : "assets/extracted_mp4/AtlasPower3_s.mp4"
+                "video" : "assets/extracted_mp4/AtlasPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas3PH.webp"
             },
 
             "fourth" : {
                 "name" : "Rumblers",
                 "desc" : "Summon two elemental stone brawlers to the melee. Summoning petrifies enemies in close proximity to Atlas. When finished, Rumblers collapse into a pile of healing Rubble.",
                 "icon" : "assets/icons/abilityIcons/atlas4.webp",
-                "video" : "assets/extracted_mp4/AtlasPower4_s.mp4"
+                "video" : "assets/extracted_mp4/AtlasPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas4PH.webp"
             }
 
         },
@@ -130,7 +138,8 @@
               "name" : "Sonic Boom",
               "desc" : "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
               "icon" : "assets/icons/abilityIcons/banshee1.webp",
-              "video" : "assets/extracted_mp4/BansheePower1_s.mp4"
+              "video" : "assets/extracted_mp4/BansheePower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -138,7 +147,8 @@
                "name" : "Sonar",
                "desc" : "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
                "icon" : "assets/icons/abilityIcons/banshee2.webp",
-               "video" : "assets/extracted_mp4/BansheePower2_s.mp4"
+               "video" : "assets/extracted_mp4/BansheePower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -146,7 +156,8 @@
                 "name" : "Silence",
                 "desc" : "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
                 "icon" : "assets/icons/abilityIcons/banshee3.webp",
-                "video" : "assets/extracted_mp4/BansheePower3_s.mp4"
+                "video" : "assets/extracted_mp4/BansheePower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -154,7 +165,8 @@
                 "name" : "Sound Quake",
                 "desc" : "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
                 "icon" : "assets/icons/abilityIcons/banshee4.webp",
-                "video" : "assets/extracted_mp4/BansheePower4_s.mp4"
+                "video" : "assets/extracted_mp4/BansheePower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -184,13 +196,15 @@
             {   "name" : "Elude",
                 "desc" : "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
                 "icon" : "assets/icons/abilityIcons/baruuk1.webp",
-                "video" : "assets/extracted_mp4/BaruukPower1_s.mp4"
+                "video" : "assets/extracted_mp4/BaruukPower1_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             "second" : 
             {   "name" : "Lull",
                 "desc" : "A calming wave slows enemies until they fall into a slumber. Enemies woken by damage will be confused and disoriented. Short-term amnesia means all waking enemies forget anything that happened before the lull.",
                 "icon" : "assets/icons/abilityIcons/baruuk2.webp",
-                "video" : "assets/extracted_mp4/BaruukPower2_s.mp4"
+                "video" : "assets/extracted_mp4/BaruukPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             
             },
             "third" : 
@@ -198,13 +212,15 @@
                 "name" : "Desolate Hands",
                 "desc" : "Summon a bevy of orbiting daggers to seek out enemy guns, destroying them with a small explosion. Combine with Elude to double the range.",
                 "icon" : "assets/icons/abilityIcons/barruk3.webp",
-                "video" : "assets/extracted_mp4/BaruukPower3_s.mp4"
+                "video" : "assets/extracted_mp4/BaruukPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             "fourth" : 
             {   "name" : "Serene Storm",
                 "desc" : "With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint.",
                 "icon" : "assets/icons/abilityIcons/baruuk4.webp",
-                "video" : "assets/extracted_mp4/BaruukPower4_s.mp4"
+                "video" : "assets/extracted_mp4/BaruukPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -239,28 +255,32 @@
                 "name" : "Razor Gyre",
                 "desc" : "Become a spinning vortex of death. Hold to accelerate the maelstrom, increasing damage or target an enemy by tapping to dash toward them. Hitting enemies inflicted with Sentient Wrath creates a destructive blast",
                 "icon" : "assets/icons/abilityIcons/caliban1.webp",
-                "video" : "assets/extracted_mp4/CalibanPower1_s.webp"
+                "video" : "assets/extracted_mp4/CalibanPower1_s.webp",
+                "videoPH" : "assets/extracted_mp4/caliban1PH.webp"
             },
             
             "second" : {           
                 "name" : "Sentient Wrath",
                 "desc" : "Smash the ground sending out a radial wave of destruction. Those not killed by the initial blast are helplessly lifted into the air, where they take amplified damage for a short time.",
                 "icon" : "assets/icons/abilityIcons/caliban2.webp",
-                "video" : "assets/extracted_mp4/CalibanPower2_s.mp4"
+                "video" : "assets/extracted_mp4/CalibanPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/caliban2PH.webp"
             },
 
             "third" : {
                 "name" : "Lethal Progeny",
                 "desc" : "Call on Caliban's Sentient aspect to produce up three Conculyst comrades to fight by his side, and repair his shields.",
                 "icon" : "assets/icons/abilityIcons/caliban3.webp",
-                "video" : "assets/extracted_mp4/CalibanPower3_s.mp4"
+                "video" : "assets/extracted_mp4/CalibanPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/caliban3PH.webp"
             },
 
             "fourth" : {
                 "name" : "Fusion Strike",
                 "desc" : "Converge three streams of raw energy upon a single point, causing a massive reactive blast. The fallout from the blast will strip the armor and shields from all enemies that touch it.",
                 "icon" : "assets/icons/abilityIcons/caliban4.webp",
-                "video" : "assets/extracted_mp4/CalibanPower4_s.mp4"
+                "video" : "assets/extracted_mp4/CalibanPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/caliban4PH.webp"
             }
 
         },
@@ -293,7 +313,8 @@
               "name" : "Spectral Scream",
               "desc" : "Exhale a deep breath of elemental destruction. Chroma's energy color determines the element.",
               "icon" : "assets/icons/abilityIcons/chroma1.webp",
-              "video" : "assets/extracted_mp4/ChromaPower1_s.mp4"
+              "video" : "assets/extracted_mp4/ChromaPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -301,7 +322,8 @@
                "name" : "Elemental Ward",
                "desc" : "Depending on Chroma's elemental alignment, an offensive area-of-effect is created. Chroma and his nearby allies are imbued with defensive energy.",
                "icon" : "assets/icons/abilityIcons/chroma2.webp",
-               "video" : "assets/extracted_mp4/ChromaPower2_s.mp4"
+               "video" : "assets/extracted_mp4/ChromaPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -309,7 +331,8 @@
                 "name" : "Vex Armor",
                 "desc" : "When shields are hit, Chroma's armor grows stronger, when health takes a hit, weapon damage increases. Active for a limited time, maximum increases correspond to rank.",
                 "icon" : "assets/icons/abilityIcons/chroma3.webp",
-                "video" : "assets/extracted_mp4/ChromaPower3_s.mp4"
+                "video" : "assets/extracted_mp4/ChromaPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -317,7 +340,8 @@
                 "name" : "Effigy",
                 "desc" : "Chroma turns his pelt into a massive sentry that strengthens nearby allies and engulfs enemies in elemental attacks.",
                 "icon" : "assets/icons/abilityIcons/chroma4.webp",
-                "video" : "assets/extracted_mp4/ChromaPower4_s.mp4"
+                "video" : "assets/extracted_mp4/ChromaPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -349,7 +373,8 @@
               "name" : "Fractured Blast",
               "desc" : "Slash and stagger enemies with a crystal blast that inflicts Bleed. Enemies afflicted with this Status Effect have an increase chance of dropping Health and Energy Orbs.",
               "icon" : "assets/icons/abilityIcons/citrine1.webp",
-              "video" : "assets/extracted_mp4/CitrinePower1_s.mp4"
+              "video" : "assets/extracted_mp4/CitrinePower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -357,7 +382,8 @@
                "name" : "Preserving Shell",
                "desc" : "Citrine guards herself and nearby allies with a crystalline shell that gradually decays. Kills and assists increase the defensive power of the shell.",
                "icon" : "assets/icons/abilityIcons/citrine2.webp",
-               "video" : "assets/extracted_mp4/CitrinePower2_s.mp4"
+               "video" : "assets/extracted_mp4/CitrinePower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -365,7 +391,8 @@
                 "name" : "Prismatic Gem",
                 "desc" : "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
                 "icon" : "assets/icons/abilityIcons/citrine3.webp",
-                "video" : "assets/extracted_mp4/CitrinePower3_s.mp4"
+                "video" : "assets/extracted_mp4/CitrinePower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -373,7 +400,8 @@
                 "name" : "Crystallize",
                 "desc" : "Citrine summons crystal fractals. The fractals rush forward, seeking enemies. Enemies touched by the fractals are paralyzed crystalline growths. Hit the growths to deal Critical Damage. ",
                 "icon" : "assets/icons/abilityIcons/citrine4.webp",
-                "video" : "assets/extracted_mp4/CitrinePower4_s.mp4"
+                "video" : "assets/extracted_mp4/CitrinePower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -405,7 +433,8 @@
               "name" : "Fireball",
               "desc" : "Charge and release a fiery projectile that ignites enemies on contact.",
               "icon" : "assets/icons/abilityIcons/ember1.webp",
-              "video" : "assets/extracted_mp4/EmberPower1_s.mp4"
+              "video" : "assets/extracted_mp4/EmberPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -413,7 +442,8 @@
                "name" : "Immolation",
                "desc" : "Protect Ember with flame armor that burns stronger over time, consuming energy once its meter is at full strength. Cast again to extinguish the flame.",
                "icon" : "assets/icons/abilityIcons/ember2.webp",
-               "video" : "assets/extracted_mp4/EmberPower2_s.mp4"
+               "video" : "assets/extracted_mp4/EmberPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -421,7 +451,8 @@
                 "name" : "Fire Blast",
                 "desc" : "Slam the ground to create a wave of incinerating plasma that knocks back enemies and strips their armor.",
                 "icon" : "assets/icons/abilityIcons/ember3.webp",
-                "video" : "assets/extracted_mp4/EmberPower3_s.mp4"
+                "video" : "assets/extracted_mp4/EmberPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -429,7 +460,8 @@
                 "name" : "Inferno",
                 "desc" : "Command a flaming comet to crash down in front of ember, engulfing enemies with a fire that can spread through their ranks.",
                 "icon" : "assets/icons/abilityIcons/ember4.webp",
-                "video" : "assets/extracted_mp4/EmberPower4_s.mp4"
+                "video" : "assets/extracted_mp4/EmberPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -461,7 +493,8 @@
               "name" : "Metamorphosis",
               "desc" : "Switch forms, temporarily gaining bonus shields and armor in Night-Form, or bonus damage and speed in Day-Form. ",
               "icon" : "assets/icons/abilityIcons/equinox1.webp",
-              "video" : "assets/extracted_mp4/EquinoxPower1_s.mp4"
+              "video" : "assets/extracted_mp4/EquinoxPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -469,7 +502,8 @@
                "name" : "Rest & Rage",
                "desc" : "In Night Form targets are put to sleep. In Day Form targets become more vulnerable to damage. ",
                "icon" : "assets/icons/abilityIcons/equinox2.webp",
-               "video" : "assets/extracted_mp4/EquinoxPower2_s.mp4"
+               "video" : "assets/extracted_mp4/EquinoxPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -477,7 +511,8 @@
                 "name" : "Pacify & Provoke",
                 "desc" : "In Night Form reduces damage inflicted by nearby enemies. In Day Form increases Ability Strength of nearby allies. ",
                 "icon" : "assets/icons/abilityIcons/equinox3.webp",
-                "video" : "assets/extracted_mp4/EquinoxPower3_s.mp4"
+                "video" : "assets/extracted_mp4/EquinoxPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -485,7 +520,8 @@
                 "name" : "Mend & Maim",
                 "desc" : "In Night Form, allies are healed with each nearby enemy killed. In Day Form, nearby enemies are bled and then subjected to a wave of slashing force. ",
                 "icon" : "assets/icons/abilityIcons/equinox4.webp",
-                "video" : "assets/extracted_mp4/EquinoxPower4_s.mp4"
+                "video" : "assets/extracted_mp4/EquinoxPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -517,7 +553,8 @@
               "name" : "Slash Dash",
               "desc" : "Dash between enemies while slashing with the Exalted Blade.",
               "icon" : "assets/icons/abilityIcons/excalibur1.webp",
-              "video" : "assets/extracted_mp4/ExcaliburUmbraPower1_s.mp4"
+              "video" : "assets/extracted_mp4/ExcaliburUmbraPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "second" : 
@@ -525,7 +562,8 @@
                "name" : "Radial Blind",
                "desc" : "Emits a bright flash of light, blinding all enemies in a small radius for several seconds.",
                "icon" : "assets/icons/abilityIcons/excalibur2.webp",
-               "video" : "assets/extracted_mp4/ExcaliburUmbraPower2_s.mp4"
+               "video" : "assets/extracted_mp4/ExcaliburUmbraPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
             
             "third" : 
@@ -533,7 +571,8 @@
                 "name" : "Radial Javelin",
                 "desc" : "Launches javelins towards enemies, dealing high damage and impaling them to walls.",
                 "icon" : "assets/icons/abilityIcons/excalibur3.webp",
-                "video" : "assets/extracted_mp4/ExcaliburUmbraPower3_s.mp4"
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
 
             "fourth" : 
@@ -541,7 +580,8 @@
                 "name" : "Exalted Blade",
                 "desc" : "Summon a sword of pure light and immense power.",
                 "icon" : "assets/icons/abilityIcons/excalibur4.webp",
-                "video" : "assets/extracted_mp4/ExcaliburUmbraPower4_s.mp4"
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             }
         },
         "stats" : {
@@ -549,6 +589,366 @@
             "health" : 100,
             "shields" : 100,
             "energy" : 100 
+        }
+    },
+    {
+        "id" : 11,
+        "prime" : false,
+        "name" : "Frost",
+        "gender" : "M",
+        "description" : "This is Frost, colder and deadlier than space itself. Frost can protect or punish, the decision is yours.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Frost.webp",
+            "background" : "assets/backgrounds/FrostFull.webp"
+        },
+        "releaseDate" : "2013-01-29",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Any melee assailant that strikes Frost has a 10% chance to be temporarily frozen for 20 seconds on impact."
+            },
+
+            "first" : 
+            {
+              "name" : "Freeze",
+              "desc" : "A frigid energy blast that freezes targets in their tracks.",
+              "icon" : "assets/icons/abilityIcons/frost1.webp",
+              "video" : "assets/extracted_mp4/FrostPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Ice Wave",
+               "desc" : "Sends a wave of razor sharp, crystallized ice toward an enemy, dealing heavy damage.",
+               "icon" : "assets/icons/abilityIcons/frost2.webp",
+               "video" : "assets/extracted_mp4/FrostPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Snow Globe",
+                "desc" : "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
+                "icon" : "assets/icons/abilityIcons/frost3.webp",
+                "video" : "assets/extracted_mp4/FrostPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Avalanche",
+                "desc" : "Summons a treacherous landslide of ice that instantly freezes and shatters all enemies in its radius.",
+                "icon" : "assets/icons/abilityIcons/frost4.webp",
+                "video" : "assets/extracted_mp4/FrostPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 12,
+        "prime" : false,
+        "name" : "Gara",
+        "gender" : "F",
+        "description" : "This is Gara, the unbreakable warrior. Manipulator of glass, she fractures the resolve of her enemies. The shattered remains of her enemies are all that Gara leaves behind. Tread lightly.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Gara.webp",
+            "background" : "assets/backgrounds/GaraFull.webp"
+        },
+        "releaseDate" : "2017-10-12",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "While standing in light, Gara's glass body has a chance to blind enemies within 12 meters for 10 seconds, exposing them to Melee Finisher attacks. "
+            },
+
+            "first" : 
+            {
+              "name" : "Shattered Lash",
+              "desc" : "Lash out with stream of shattered glass, or hold for an arcing strike.",
+              "icon" : "assets/icons/abilityIcons/gara1.webp",
+              "video" : "assets/extracted_mp4/GaraPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Splinter Storm",
+               "desc" : "Gara's armor splinters into a maelstrom of shattered glass that slices enemies and impairs their weapons. Allies who contact the cloud are fortified against damage.",
+               "icon" : "assets/icons/abilityIcons/gara2.webp",
+               "video" : "assets/extracted_mp4/GaraPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Spectrorage",
+                "desc" : "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
+                "icon" : "assets/icons/abilityIcons/gara3.webp",
+                "video" : "assets/extracted_mp4/GaraPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Mass Vitrify",
+                "desc" : "Create an expanding ring of molten glass that slowly crystallizes enemies who enter. When the expansion is complete, the ring hardens to block weapons fire. The ring draws extra strength from the health and shields of crystallized enemies. Use Shattered Lash to smash the ring and send razor-sharp glass flying outward.",
+                "icon" : "assets/icons/abilityIcons/gara4.webp",
+                "video" : "assets/extracted_mp4/GaraPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 13,
+        "prime" : false,
+        "name" : "Garuda",
+        "gender" : "F",
+        "description" : "This is Garuda, the gore queen. Cleansed by the blood of her enemies, she draws strength from vulnerability.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Garuda.webp",
+            "background" : "assets/backgrounds/GarudaFull.webp"
+        },
+        "releaseDate" : "2018-11-08",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "The more Garuda kills the more vicious her attacks become; Garuda gains up to 100% additional damage bonus for her abilities and weapons for each kill or assisted kill.  When no melee weapon is selected in the Arsenal loadout, Garuda Talons become available in the Arsenal screen as an exclusive melee weapon that can be modified separately and equipped for combat during missions."
+            },
+
+            "first" : 
+            {
+              "name" : "Dread Mirror",
+              "desc" : "Rip the life force from an enemy and use it as a shield that captures damage. Charge to channel the captured damage into an explosive projectile.",
+              "icon" : "assets/icons/abilityIcons/garuda1.webp",
+              "video" : "assets/extracted_mp4/GarudaPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Blood Altar",
+               "desc" : "Impale an enemy on an altar of talons and siphon health for Garuda and her allies.",
+               "icon" : "assets/icons/abilityIcons/garuda2.webp",
+               "video" : "assets/extracted_mp4/GarudaPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Bloodletting",
+                "desc" : "Garuda sacrifices her health to generate energy.",
+                "icon" : "assets/icons/abilityIcons/garuda3.webp",
+                "video" : "assets/extracted_mp4/GarudaPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Seeking Talons",
+                "desc" : "Charge to expand the targeting area, release to send Garuda’s talons careening toward each target in area. Surviving enemies are prone to bleeding.",
+                "icon" : "assets/icons/abilityIcons/garuda4.webp",
+                "video" : "assets/extracted_mp4/GarudaPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 120
+        }
+    },   
+    {
+        "id" : 14,
+        "prime" : false,
+        "name" : "Gauss",
+        "gender" : "M",
+        "description" : "Charging his abilities with every step, he's streamlined for speed. This is Gauss, the runner, the rapid. If the battle seems out of control, Tenno, you're not going fast enough.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Gauss.webp",
+            "background" : "assets/backgrounds/GaussFull.webp"
+        },
+        "releaseDate" : "--",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "To achieve supersonic speed, Gauss draws upon both his Energy reserves and his state-of-the-art electrokinetic battery to fuel his abilities. Gauss has access to 80% of the battery in his default state; activating Redline grants access to 100% of the battery. The battery, displayed as a gauge meter above his ability icons, acts as a secondary resource that charges or drains depending on the ability he uses."
+            },
+
+            "first" : 
+            {
+              "name" : "Mach Rush",
+              "desc" : "Burst into a hyper-sprint bowling over enemies and charging the battery. Crashing into solid objects generates a powerful shockwave. Hold to rush continuously.",
+              "icon" : "assets/icons/abilityIcons/gauss1.webp",
+              "video" : "assets/extracted_mp4/GaussPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Kinetic Plating",
+               "desc" : "Generate armor plating that converts a portion of absorbed Kinetic Damage (Physical, Heat, Cold, and Blast) into Energy. Also protects Gauss from being staggered or knocked down. Damage Resistance is relative to the battery level.",
+               "icon" : "assets/icons/abilityIcons/gauss2.webp",
+               "video" : "assets/extracted_mp4/GaussPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Thermal Sunder",
+                "desc" : "Siphon kinetic energy from the area, charging the battery and inflicting Cold Status on nearby enemies. Hold reverses the process, draining the battery and inflicting Heat Status on nearby enemies.",
+                "icon" : "assets/icons/abilityIcons/gauss3.webp",
+                "video" : "assets/extracted_mp4/GaussPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Redline",
+                "desc" : "Push Gauss' battery beyond the redline, supercharging his Abilities and setting Fire Rate, Attack Speed, Reload Speed, and Holster Rate into overdrive. When past the redline, bolts of arcing electricity dance periodically from Gauss, exploding en masse when the ability is deactivated.",
+                "icon" : "assets/icons/abilityIcons/gauss4.webp",
+                "video" : "assets/extracted_mp4/GaussPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 15,
+        "prime" : false,
+        "name" : "Grendel",
+        "gender" : "M",
+        "description" : "Feasting on enemies like his own personal buffet, his hunger for battle is primal. This is Grendel, the devourer, the insatiable. Dinner is best served with a side of mayhem. Bon appétit, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Grendel.webp",
+            "background" : "assets/backgrounds/GrendelFull.webp"
+        },
+        "releaseDate" : "2019-10-31",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Devouring his prey whole, Grendel slowly digests the enemies he swallows via Feast. Each enemy still alive in Grendel's belly passively grants him 250 Armor, to a maximum of 1,250 bonus armor at the 5 enemy cap."
+            },
+
+            "first" : 
+            {
+              "name" : "Feast",
+              "desc" : "Swallow an enemy whole and store it in Grendel’s gut. Hold to vomit out stored enemies covering them in toxic bile.",
+              "icon" : "assets/icons/abilityIcons/grendel1.webp",
+              "video" : "assets/extracted_mp4/GrendelPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel1PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Nourish",
+               "desc" : "Regenerate health as Grendel absorbs nourishment from enemies in his gut. While he digests, enemies that attack or are attacked by Grendel suffer Viral Damage and energy sources provide more energy. These buffs extend to squad mates.",
+               "icon" : "assets/icons/abilityIcons/grendel2.webp",
+               "video" : "assets/extracted_mp4/GrendelPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Pulverize",
+                "desc" : "Grendel curls into a ball. He heals over time as he rolls, knocking over anyone in his path. Jumping slams Grendel into the ground and generates a damaging shockwave.",
+                "icon" : "assets/icons/abilityIcons/grendel3.webp",
+                "video" : "assets/extracted_mp4/GrendelPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel3PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Regurgitate",
+                "desc" : "Violently puke out a bile soaked enemy from Grendel’s gut, turning the consumed into a toxic projectile.",
+                "icon" : "assets/icons/abilityIcons/grendel4.webp",
+                "video" : "assets/extracted_mp4/GrendelPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel4PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 350,
+            "health" : 350,
+            "shields" : 25,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 16,
+        "prime" : false,
+        "name" : "Gyre",
+        "gender" : "F",
+        "description" : "Graceful in every step with clockwork precision, her mechanized pirouette captivates the audience in electrifying shock and awe. Execute and electrocute elegantly as Gyre, the dancing spark.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Gyre.webp",
+            "background" : "assets/backgrounds/Gyre.webp"
+        },
+        "releaseDate" : "2022-04-27",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Gyre's abilities gain a flat 10% Critical Chance per active Electricity status proc affecting an individual enemy to deal 2.0x Critical Damage against that enemy."
+            },
+
+            "first" : 
+            {
+              "name" : "Arcsphere",
+              "desc" : "Launch a Gyratory Sphere that will deal high damage on impact and periodically deal electrical shocks to nearby enemies. Hit multiple enemies at once with the initial launch to enhance damage.",
+              "icon" : "assets/icons/abilityIcons/gyre1.webp",
+              "video" : "assets/extracted_mp4/GyrePower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/gyre1PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Coil Horizon",
+               "desc" : "Throw forward a Gyratory Sphere that will implode after a few seconds or can be manually triggered.",
+               "icon" : "assets/icons/abilityIcons/gyre2.webp",
+               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/gyre2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Cathode Grace",
+                "desc" : "Gain a brief burst of increased Critical Chance and Energy Regen, with each kill extending duration of Cathode Grace. Casting is on a cooldown.",
+                "icon" : "assets/icons/abilityIcons/gyre3.webp",
+                "video" : "assets/extracted_mp4/GyrePower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/gyre3PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Rotorswell",
+                "desc" : "Gyre’s mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies.",
+                "icon" : "assets/icons/abilityIcons/gyre4.webp",
+                "video" : "assets/extracted_mp4/GyrePower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/gyre4PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 175,
+            "energy" : 160
         }
     }
 ]
