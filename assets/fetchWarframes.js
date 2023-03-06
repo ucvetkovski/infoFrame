@@ -94,7 +94,7 @@ function prikazi(niz){
         if(frame.id == id){
             $.ajax({
                 type: 'GET',
-                url: 'warframe.php',
+                url: 'https://oor0sh.github.io/infoFrame/warframe.php',
                 data: { 
                     ime: frame.name,
                     description: frame.description,
@@ -133,7 +133,7 @@ function prikazi(niz){
                      },
                 success: function(response) {
                     localStorage.setItem('warframeData',response);
-                    location.href = 'https://oor0sh.github.io/infoFrame/warframe.php';
+                    location.href = 'https://oor0sh.github.io/infoFrame/warframe.html';
                 }
             });
         }
