@@ -17,32 +17,57 @@ $.ajax({
 
 //#region SORT
 
-function sortWarframes(niz){
-    let sortType = document.getElementById("warframeSort");
-    if(sortType.value == "nameAsc"){
-        return niz.sort((a,b) => a.name > b.name ? 1 : -1);
+
+//#region SEARCH BAR
+$("#searchBar").keyup(changeWarframes);
+
+function searchWarframes(niz){
+    let searchValue = document.getElementById("searchBar").value;
+    return niz.filter(a => a.name.toUpperCase().match(searchValue.toUpperCase()));
+}
+
+function changeWarframes(){
+    if(sortType.value == -1){
+    prikazi(showWarframes(searchWarframes(frames)));
     }
-    else if(sortType.value == "nameDesc"){
-        return niz.sort((a,b) => a.name < b.name ? 1 : -1);
-    }
-    else if(sortType.value == "releaseDateAsc"){
-        return niz.sort((a,b) => new Date(a.releaseDate) - new Date(b.releaseDate));
-    }
-    else if(sortType.value == "releaseDateDesc"){
-        return niz.sort((a,b) => new Date(b.releaseDate) - new Date(a.releaseDate));
-    }
-    else if(sortType.value == "genderMF"){
-        return niz.sort((a,b) => a.gender < b.gender ? 1 : -1);
-    }
-    else if(sortType.value == "genderFM"){
-        return niz.sort((a,b) => a.gender > b.gender? 1 : -1);
+    else{
+    prikazi(showWarframes(sortWarframes(searchWarframes(frames))));
     }
 }
 
-function sortChange(){
-    prikazi(sortWarframes(frames));
-    prikazi(showWarframes(frames));
+//#endregion
+
+
+//#region SORT FUNCTIONS
+var sortType = document.getElementById("warframeSort");
+function sortWarframes(niz){
+
+    if(sortType.value == "nameAsc"){
+        return niz.sort((a,b) => a.name > b.name ? 1 : -1);
+    }
+    if(sortType.value == "nameDesc"){
+        return niz.sort((a,b) => a.name < b.name ? 1 : -1);
+    }
+    if(sortType.value == "releaseDateAsc"){
+        return niz.sort((a,b) => new Date(a.releaseDate) - new Date(b.releaseDate));
+    }
+    if(sortType.value == "releaseDateDesc"){
+        return niz.sort((a,b) => new Date(b.releaseDate) - new Date(a.releaseDate));
+    }
+    if(sortType.value == "genderMF"){
+        return niz.sort((a,b) => a.gender < b.gender ? 1 : -1);
+    }
+    if(sortType.value == "genderFM"){
+        return niz.sort((a,b) => a.gender > b.gender ? 1 : -1);
+    }
 }
+
+//#endregion
+
+function sortChange(){
+    prikazi(showWarframes(sortWarframes(searchWarframes(frames))));
+}
+
 $("#warframeSort").change(sortChange);
 
 
@@ -61,10 +86,15 @@ function showWarframes(niz){
     }
 }
 }
-function orderChange(){
-    prikazi(showWarframes(frames));
+function variantChange(){
+    if(sortType.value == -1){
+    prikazi(showWarframes((searchWarframes(frames))));
+    }
+    else{
+        prikazi(showWarframes(sortWarframes(searchWarframes(frames))));
+    }
 }
-$(".dugmad").change(orderChange);
+$(".dugmad").change(variantChange);
 
 
 //#endregion
@@ -72,7 +102,7 @@ $(".dugmad").change(orderChange);
 function prikazi(niz){
     let content = "";
     niz.forEach(frame => {
-        content += `<div id="${frame.id}" class="card m-3 warframe" style="width:160px;">
+        content += `<div id="${frame.id}" class="card m-3 warframe" style="width:150px;">
         <img class="card-img-top" src="${frame.image.thumb}" alt="Card image">
         <div class="card-body">
           <div class="wfTitleCorrect">
@@ -85,9 +115,11 @@ function prikazi(niz){
     })
 }
 
-    $(".warframe").click(function(){
-        pretraga(this.id);
-    });
+$(".warframe").on('click', function(){
+    pretraga(this.id);
+});
+
+
 
     function pretraga(id){
     frames.forEach(frame => {

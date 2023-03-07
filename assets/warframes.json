@@ -113,8 +113,7 @@
             "health" : 100,
             "shields" : 100,
             "energy" : 150
-        },
-        "bgVideo" : "assets/backgroundVideos/atlas.webm"
+        }
     },
     {
         "id" : 3,
@@ -175,7 +174,8 @@
             "shields" : 100,
             "energy" : 150
         }
-    },    {
+    }, 
+    {
         "id" : 4,
         "prime" : false,
         "name" : "Baruuk",
@@ -211,7 +211,7 @@
             {   
                 "name" : "Desolate Hands",
                 "desc" : "Summon a bevy of orbiting daggers to seek out enemy guns, destroying them with a small explosion. Combine with Elude to double the range.",
-                "icon" : "assets/icons/abilityIcons/barruk3.webp",
+                "icon" : "assets/icons/abilityIcons/baruuk3.webp",
                 "video" : "assets/extracted_mp4/BaruukPower3_s.mp4",
                 "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
             },
@@ -781,7 +781,7 @@
             "thumb" : "assets/icons/warframeIcons/Gauss.webp",
             "background" : "assets/backgrounds/GaussFull.webp"
         },
-        "releaseDate" : "--",
+        "releaseDate" : "2019-08-29",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -1135,59 +1135,59 @@
         "id" : 20,
         "prime" : false,
         "name" : "Inaros",
-        "gender" : "",
-        "description" : "",
+        "gender" : "M",
+        "description" : "This is Inaros, the savior, king of the desert. Whether denizens of the sky or the earth, Tenno, the fear of Inaros is within.",
         "image" : {
-            "thumb" : "assets/icons/warframeIcons.webp",
-            "background" : "assets/backgrounds/Full.webp"
+            "thumb" : "assets/icons/warframeIcons/Inaros.webp",
+            "background" : "assets/backgrounds/InarosFull.webp"
         },
-        "releaseDate" : "--",
+        "releaseDate" : "2016-03-04",
         "abilities" : {
             "passive" : {
                 "icon" : "",
-                "description" : ""
+                "description" : "Resurrect the undying king of the desert with the death of his foes. On fatal injury and entering Bleedout, Inaros enters an immobile Sarcophagus. Within his tomb, target an enemy or ally on the aiming reticle (default LMB ) to release a beam that continuously inflicts 75 True damage per tick and siphon hitpoints from them, gradually filling his revive meter to allow Inaros to rise again. Killing enemies with melee Finishers restores 20% of Inaros' maximum Health."
             },
 
             "first" : 
             {
-              "name" : "",
-              "desc" : "",
-              "icon" : "assets/icons/abilityIcons/1.webp",
-              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "name" : "Desiccation",
+              "desc" : "Blast enemies with a wave of cursed sand that blinds them and steals their health. ",
+              "icon" : "assets/icons/abilityIcons/inaros1.webp",
+              "video" : "assets/extracted_mp4/InarosPower1_s.mp4",
               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "second" : 
             {
-               "name" : "",
-               "desc" : "",
-               "icon" : "assets/icons/abilityIcons/2.webp",
-               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "name" : "Devour",
+               "desc" : "Hold power to trap target in quicksand and draw them in for devouring; this steals health and ultimately creates a friendly Sand Shadow.",
+               "icon" : "assets/icons/abilityIcons/inaros2.webp",
+               "video" : "assets/extracted_mp4/InarosPower2_s.mp4",
                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
             
             "third" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/3.webp",
-                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "name" : "Sandstorm",
+                "desc" : "Become a whirling spiral of sand that sends enemies flying and devours those trapped in quicksand.",
+                "icon" : "assets/icons/abilityIcons/inaros3.webp",
+                "video" : "assets/extracted_mp4/InarosPower3_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "fourth" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/4.webp",
-                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "name" : "Scarab Swarm",
+                "desc" : "Charge to transform health into hardened scarab armor. Discharge to blast enemies with a scarab swarm; survivors have their health drained and bestowed on allies.",
+                "icon" : "assets/icons/abilityIcons/inaros4.webp",
+                "video" : "assets/extracted_mp4/InarosPower4_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             }
         },
         "stats" : {
-            "armor" : "",
-            "health" : "",
-            "shields" : "",
+            "armor" : 225,
+            "health" : 500,
+            "shields" : 0,
             "energy" : 100
         }
     },
@@ -1195,13 +1195,13 @@
         "id" : 21,
         "prime" : false,
         "name" : "Ivara",
-        "gender" : "",
-        "description" : "",
+        "gender" : "F",
+        "description" : "This is Ivara, the huntress, the thief. Don't roam around the forest looking for a fight, Tenno. Ivara is always on guard.",
         "image" : {
-            "thumb" : "assets/icons/warframeIcons.webp",
-            "background" : "assets/backgrounds/Full.webp"
+            "thumb" : "assets/icons/warframeIcons/Ivara.webp",
+            "background" : "assets/backgrounds/IvaraFull.webp"
         },
-        "releaseDate" : "--",
+        "releaseDate" : "2015-12-03",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -1210,118 +1210,2633 @@
 
             "first" : 
             {
-              "name" : "",
-              "desc" : "",
-              "icon" : "assets/icons/abilityIcons/1.webp",
-              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "name" : "Quiver",
+              "desc" : "Cycle through and shoot one of four tactical arrows: Cloak, Dashwire, Noise and Sleep.",
+              "icon" : "assets/icons/abilityIcons/ivara1.webp",
+              "video" : "assets/extracted_mp4/IvaraPower1_s.mp4",
               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "second" : 
             {
-               "name" : "",
-               "desc" : "",
-               "icon" : "assets/icons/abilityIcons/2.webp",
-               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "name" : "Navigator",
+               "desc" : "Assume control of a projectile and guide it to the target.",
+               "icon" : "assets/icons/abilityIcons/ivara2.webp",
+               "video" : "assets/extracted_mp4/IvaraPower2_s.mp4",
                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
             
             "third" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/3.webp",
-                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "name" : "Prowl",
+                "desc" : "Become invisible and steal loot from unsuspecting enemies or take out prey with deadly headshots.",
+                "icon" : "assets/icons/abilityIcons/ivara3.webp",
+                "video" : "assets/extracted_mp4/IvaraPower3_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "fourth" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/4.webp",
-                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "name" : "Artemis Bow",
+                "desc" : "Summon a mighty bow and unleash a volley of devastating arrows.",
+                "icon" : "assets/icons/abilityIcons/ivara4.webp",
+                "video" : "assets/extracted_mp4/IvaraPower4_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             }
         },
         "stats" : {
-            "armor" : "",
-            "health" : "",
-            "shields" : "",
-            "energy" : 100
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 100,
+            "energy" : 175
         }
     },
     {
         "id" : 22,
         "prime" : false,
         "name" : "Khora",
-        "gender" : "",
-        "description" : "",
+        "gender" : "F",
+        "description" : "This is Khora, with bladed precision, she is a mistress of entrapment. Don't get caught on the wrong end of a whipcrack of Khora's steel. It may be the last thing you hear.",
         "image" : {
-            "thumb" : "assets/icons/warframeIcons.webp",
-            "background" : "assets/backgrounds/Full.webp"
+            "thumb" : "assets/icons/warframeIcons/Khora.webp",
+            "background" : "assets/backgrounds/KhoraFull.webp"
         },
-        "releaseDate" : "--",
+        "releaseDate" : "2018-04-20",
         "abilities" : {
             "passive" : {
                 "icon" : "",
-                "description" : ""
+                "description" : "Khora's ferocious Kavat, Venari, fights alongside her with steadfast zeal. Venari is an exclusive Companion for the Khora Warframe, integrated as her signature passive ability. Venari will spawn beside Khora when the player first enters a mission, as a permanent companion that lasts until killed."
             },
 
             "first" : 
             {
-              "name" : "",
-              "desc" : "",
-              "icon" : "assets/icons/abilityIcons/1.webp",
-              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "name" : "Whipclaw",
+              "desc" : "Send enemies reeling with a deafening whipcrack.",
+              "icon" : "assets/icons/abilityIcons/khora1.webp",
+              "video" : "assets/extracted_mp4/KhoraPower1_s.mp4",
               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "second" : 
             {
-               "name" : "",
-               "desc" : "",
-               "icon" : "assets/icons/abilityIcons/2.webp",
-               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "name" : "Ensnare",
+               "desc" : "Bind a hapless target in living metal, entangling others who stray too close. Whipclaw will refresh the trap allowing it to capture more enemies.",
+               "icon" : "assets/icons/abilityIcons/khora2.webp",
+               "video" : "assets/extracted_mp4/KhoraPower2_s.mp4",
                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
             
             "third" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/3.webp",
-                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "name" : "Venari",
+                "desc" : "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+                "icon" : "assets/icons/abilityIcons/khora3.webp",
+                "video" : "assets/extracted_mp4/KhoraPower3_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "fourth" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/4.webp",
-                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "name" : "Strangledome",
+                "desc" : "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
+                "icon" : "assets/icons/abilityIcons/khora4.webp",
+                "video" : "assets/extracted_mp4/KhoraPower4_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             }
         },
         "stats" : {
-            "armor" : "",
-            "health" : "",
-            "shields" : "",
-            "energy" : 100
+            "armor" : 275,
+            "health" : 125,
+            "shields" : 100,
+            "energy" : 125
         }
     },
     {
         "id" : 23,
         "prime" : false,
         "name" : "Lavos",
-        "gender" : "",
-        "description" : "",
+        "gender" : "M",
+        "description" : "Manipulating the laws of the physical realm, his prowess permeates the battlefield. This is Lavos, the transmuter, the elemental craftsman. Lavos harnesses the secret of invention, Tenno. Experimentation is the beauty of science.",
         "image" : {
-            "thumb" : "assets/icons/warframeIcons.webp",
-            "background" : "assets/backgrounds/Full.webp"
+            "thumb" : "assets/icons/warframeIcons/Lavos.webp",
+            "background" : "assets/backgrounds/Lavos.webp"
         },
-        "releaseDate" : "--",
+        "releaseDate" : "2020-12-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Purifying himself from all ailments, Lavos cleanses all active negative Status Effects and gains status immunity for 10 seconds upon collecting an Energy or Universal Orb. Lavos can only collect a single Energy or Universal Orb every 5 seconds. Lavos has no energy capacity and his abilities do not use any resource to activate. Instead, each of his abilities are free to cast with a cooldown in between uses. The Ability Efficiency stat will instead affect the cooldown reduction effect from Transmutation Probe."
+            },
+
+            "first" : 
+            {
+              "name" : "Ophidian Bite",
+              "desc" : "Lash out with a toxic serpentine strike, consuming the target to heal Lavos. Hold to imbue all abilities with Toxin." ,
+              "icon" : "assets/icons/abilityIcons/lavos1.webp",
+              "video" : "assets/extracted_mp4/LavosPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Vial Rush",
+               "desc" : "Dash forward, crashing through enemies and leaving an icy trail of broken vials. Hold to imbue the next ability cast with Cold.",
+               "icon" : "assets/icons/abilityIcons/lavos2.webp",
+               "video" : "assets/extracted_mp4/LavosPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Transmutation Probe",
+                "desc" : "Launch a probe that converts Health and Energy Orbs into Universal Orbs that provide both, and ammo pickups into Universal Ammo Pickups. The probe shocks enemies in close proximity. Each electrocuted foe reduces other ability cooldowns by one second. Hold to imbue the next ability cast with Electricity.",
+                "icon" : "assets/icons/abilityIcons/lavos3.webp",
+                "video" : "assets/extracted_mp4/LavosPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Catalyze",
+                "desc" : "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy. Hold to imbue the next ability cast with Heat.",
+                "icon" : "assets/icons/abilityIcons/lavos4.webp",
+                "video" : "assets/extracted_mp4/LavosPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 450,
+            "health" : 200,
+            "shields" : 100,
+            "energy" : 0
+        }
+    },
+    {
+        "id" : 24,
+        "prime" : false,
+        "name" : "Limbo",
+        "gender" : "M",
+        "description" : "This is Limbo, master of the Rift. In a land of both shadow and substance, Limbo is both nowhere and everywhere.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Limbo.webp",
+            "background" : "assets/backgrounds/LimboFull.webp"
+        },
+        "releaseDate" : "2014-10-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : " Limbo has access to the Rift plane (Rift for short), an alternate dimension to the normal environment, or material plane. By performing a Roll, a Sidespring, or a Backspring, Limbo slides into and out of the Rift at will. This is better known as Rift Walk. Several of Limbo's abilities impose the Rift upon the world around him, affecting himself, the environment, enemies, and even allies."
+            },
+
+            "first" : 
+            {
+              "name" : "Banish",
+              "desc" : "Casts a wave of Rift energy that damages hostiles while pushing enemies and allies out of Limbo’s current plane of existence.",
+              "icon" : "assets/icons/abilityIcons/limbo1.webp",
+              "video" : "assets/extracted_mp4/LimboPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Stasis",
+               "desc" : "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+               "icon" : "assets/icons/abilityIcons/limbo2.webp",
+               "video" : "assets/extracted_mp4/LimboPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Rift Surge",
+                "desc" : "Surges nearby Rift-bound enemies with Rift energy. When killed the Rift Surge is transferred to a nearby enemy outside the rift. Surged enemies that leave the Rift perform a radial Banish.",
+                "icon" : "assets/icons/abilityIcons/limbo3.webp",
+                "video" : "assets/extracted_mp4/LimboPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Cataclysm",
+                "desc" : "A violent blast of void energy tears open a pocket of rift plane which can sustain itself for a short period before collapsing in another lethal blast.",
+                "icon" : "assets/icons/abilityIcons/limbo4.webp",
+                "video" : "assets/extracted_mp4/LimboPower3_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 25,
+        "prime" : false,
+        "name" : "Loki",
+        "gender" : "M",
+        "description" : "This is Loki, the trickster, the deceiver. Whether you prefer to go into battle alone or with a team, Tenno, Loki will adapt to any style.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Loki.webp",
+            "background" : "assets/backgrounds/LokiFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Loki's Wall Latch duration lasts 10 times longer than normal, up to a maximum of 60 seconds."
+            },
+
+            "first" : 
+            {
+              "name" : "Decoy",
+              "desc" : "Loki deploys a holographic copy of himself, drawing enemy fire.",
+              "icon" : "assets/icons/abilityIcons/loki1.webp",
+              "video" : "assets/extracted_mp4/LokiPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Invisibility",
+               "desc" : "Loki camouflages himself, becoming invisible to enemies.",
+               "icon" : "assets/icons/abilityIcons/loki2.webp",
+               "video" : "assets/extracted_mp4/LokiPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Switch Teleport",
+                "desc" : "Loki instantaneously swaps positions with a target, confusing the enemy. ",
+                "icon" : "assets/icons/abilityIcons/loki3.webp",
+                "video" : "assets/extracted_mp4/LokiPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Radial Disarm",
+                "desc" : "Lets forth a wave of energy, disrupting the projectile weapons of enemies in range and forcing them to revert to melee combat.",
+                "icon" : "assets/icons/abilityIcons/loki4.webp",
+               "video" : "assets/extracted_mp4/LokiPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 26,
+        "prime" : false,
+        "name" : "Mag",
+        "gender" : "F",
+        "description" : "This is Mag, a force to be reckoned with. Mag is a team player, Tenno, and a worthy addition to any squad.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Mag.webp",
+            "background" : "assets/backgrounds/MagFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mag automatically Vacuums Pickups that are within 8 meters towards her."
+            },
+
+            "first" : 
+            {
+              "name" : "Pull",
+              "desc" : "Magnetic force pulls enemies toward you, stunning them and bringing them into melee range.",
+              "icon" : "assets/icons/abilityIcons/mag1.webp",
+              "video" : "assets/extracted_mp4/MagPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Magnetize",
+               "desc" : "(TAP) Encloses a target in a magnetic field, ensnaring nearby enemies and dealing damage over time. Bullets and shards created from Polarize increase this damage. (HOLD) Creates a magnetic field around a target, ensnaring nearby enemies and dealing damage over time. The field reacts to bullets and shards created from Polarize to increase the damage.",
+               "icon" : "assets/icons/abilityIcons/mag2.webp",
+               "video" : "assets/extracted_mp4/MagPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Polarize",
+                "desc" : "Emit an energy pulse that depletes enemy shields and armor, creating shards which become deadly when mixed with Magnetize. Shields of allies touched by the pulse are restored.",
+                "icon" : "assets/icons/abilityIcons/mag3.webp",
+                "video" : "assets/extracted_mp4/MagPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Crush",
+                "desc" : "Magnetizes the bones of nearby enemies, causing them to collapse upon themselves.",
+                "icon" : "assets/icons/abilityIcons/mag4.webp",
+               "video" : "assets/extracted_mp4/MagPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 150,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 27,
+        "prime" : false,
+        "name" : "Mesa",
+        "gender" : "F",
+        "description" : "This is Mesa, the vagabond, the outcast. Do you feel lucky, Tenno? Mesa's got the fastest guns in the stars.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Mesa.webp",
+            "background" : "assets/backgrounds/MesaFull.webp"
+        },
+        "releaseDate" : "2014-11-27",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mesa has improved proficiency with secondary weapons, and gains a health bonus at the expense of not having a melee weapon equipped. The following are passive bonuses available to Mesa: +15% fire rate with dual wielded sidearms, +25% reload speed for one handed sidearms, +50 health when no melee weapon is equipped."
+            },
+
+            "first" : 
+            {
+              "name" : "Ballistic Battery",
+              "desc" : "When activated, this power stores damage caused by guns. When triggered again, that damage is channeled through the next gunshot.",
+              "icon" : "assets/icons/abilityIcons/mesa1.webp",
+              "video" : "assets/extracted_mp4/MesaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Shooting Gallery",
+               "desc" : "Gives an ally extra damage while jamming the guns of nearby enemies. This power shifts between team members.",
+               "icon" : "assets/icons/abilityIcons/mesa2.webp",
+               "video" : "assets/extracted_mp4/MesaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Shatter Shield",
+                "desc" : "Envelops Mesa in a barrier of energy, reflecting back incoming bullet damage.",
+                "icon" : "assets/icons/abilityIcons/mesa3.webp",
+                "video" : "assets/extracted_mp4/MesaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Peacemaker",
+                "desc" : "With intense focus, Mesa draws her Regulator pistols, shooting down her foes in rapid succession.",
+                "icon" : "assets/icons/abilityIcons/mesa4.webp",
+               "video" : "assets/extracted_mp4/MesaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 125,
+            "shields" : 75,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 28,
+        "prime" : false,
+        "name" : "Mirage",
+        "gender" : "F",
+        "description" : "This is Mirage, a sly conjurer. Do you believe in magic, Tenno? Mirage's deceiving influence on the battlefield might make you.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Mirage.webp",
+            "background" : "assets/backgrounds/MirageFull.webp"
+        },
+        "releaseDate" : "2014-07-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mirage has an increased proficiency when performing several Maneuvers. Sliding lasts 85% longer, +50% faster Maneuver speed."
+            },
+
+            "first" : 
+            {
+              "name" : "Hall of Mirrors",
+              "desc" : "Mirage creates an entourage of doppelgangers to confuse and distract the enemy.",
+              "icon" : "assets/icons/abilityIcons/mirage1.webp",
+              "video" : "assets/extracted_mp4/MiragePower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Sleight of Hand",
+               "desc" : "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
+               "icon" : "assets/icons/abilityIcons/mirage2.webp",
+               "video" : "assets/extracted_mp4/MiragePower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Eclipse",
+                "desc" : "Standing in light, Mirage deals heavy damage, while the shadows make Mirage difficult to track and even harder to hurt.",
+                "icon" : "assets/icons/abilityIcons/mirage3.webp",
+                "video" : "assets/extracted_mp4/MiragePower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Prism",
+                "desc" : "Fires an energy prism that shoots lasers in all directions. Activating again detonates the prism, blinding nearby foes.",
+                "icon" : "assets/icons/abilityIcons/mirage4.webp",
+               "video" : "assets/extracted_mp4/MiragePower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 80,
+            "shields" : 80,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 29,
+        "prime" : false,
+        "name" : "Nekros",
+        "gender" : "M",
+        "description" : "This is Nekros, manipulator of souls. Nekros possesses the battlefield, Tenno. Death is his playground.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Nekros.webp",
+            "background" : "assets/backgrounds/NekrosFull.webp"
+        },
+        "releaseDate" : "2013-09-13",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "A master of death, Nekros regenerates 5 points of Health any time an enemy dies within 10 meters of him. His passive also can heal Companions."
+            },
+
+            "first" : 
+            {
+              "name" : "Soul Punch",
+              "desc" : "A blow so powerful, it turns the enemy's very soul into a deadly projectile, damaging all in its path.",
+              "icon" : "assets/icons/abilityIcons/nekros1.webp",
+              "video" : "assets/extracted_mp4/NekrosPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Terrify",
+               "desc" : "Casts fear into the hearts of nearby enemies, causing them to run away in terror.",
+               "icon" : "assets/icons/abilityIcons/nekros2.webp",
+               "video" : "assets/extracted_mp4/NekrosPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Desecrate",
+                "desc" : "Forces fallen enemies around you to drop additional loot.",
+                "icon" : "assets/icons/abilityIcons/nekros3.webp",
+                "video" : "assets/extracted_mp4/NekrosPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Shadows of the Dead",
+                "desc" : "Summons shadow versions of vanquished enemies to fight alongside you for a short period of time.",
+                "icon" : "assets/icons/abilityIcons/nekros4.webp",
+               "video" : "assets/extracted_mp4/NekrosPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 90,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 30,
+        "prime" : false,
+        "name" : "Nezha",
+        "gender" : "M",
+        "description" : "This is Nezha, the protector, the quick. Feel the heat, Tenno. Nezha is a burning thing, and he makes a fiery ring.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Nezha.webp",
+            "background" : "assets/backgrounds/NezhaFull.webp"
+        },
+        "releaseDate" : "2015-12-16",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Nezha slides 60% faster and goes 35% farther."
+            },
+
+            "first" : 
+            {
+              "name" : "Fire Walker",
+              "desc" : "Blaze a trail of flames, scorching enemies and cleansing allies.",
+              "icon" : "assets/icons/abilityIcons/nezha1.webp",
+              "video" : "assets/extracted_mp4/NezhaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Blazing Chakram",
+               "desc" : "Hurl a flaming ring that burns enemies and causes them to emit a healing blast on death. Reactivate to instantly travel to the ring's location.",
+               "icon" : "assets/icons/abilityIcons/nezha2.webp",
+               "video" : "assets/extracted_mp4/NezhaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Warding Halo",
+                "desc" : "Create a protective ring of fire that also stuns and damage enemies who get too close.",
+                "icon" : "assets/icons/abilityIcons/nezha3.webp",
+                "video" : "assets/extracted_mp4/NezhaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Divine Spears",
+                "desc" : "Impale nearby enemies on spears that erupt from the ground.",
+                "icon" : "assets/icons/abilityIcons/nezha4.webp",
+               "video" : "assets/extracted_mp4/NezhaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 190,
+            "health" : 125,
+            "shields" : 50,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 31,
+        "prime" : false,
+        "name" : "Nidus",
+        "gender" : "M",
+        "description" : "This is Nidus, the adaptive, the scourge.Nidus is a deadly plague for which there is no cure. You must control the strange disease.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Nidus.webp",
+            "background" : "assets/backgrounds/NidusFull.webp"
+        },
+        "releaseDate" : "2016-12-22",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "The Infestation dwelling within Nidus mutates rapidly when used against his foes, fueling his abilities and yielding various symbiotic benefits."
+            },
+
+            "first" : 
+            {
+              "name" : "Virulence",
+              "desc" : "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
+              "icon" : "assets/icons/abilityIcons/nidus1.webp",
+              "video" : "assets/extracted_mp4/NidusPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Larva",
+               "desc" : "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.",
+               "icon" : "assets/icons/abilityIcons/nidus2.webp",
+               "video" : "assets/extracted_mp4/NidusPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Parasitic Link",
+                "desc" : "Bind to a target with a parasitic link. For allies, both the host and Nidus gain increased Ability Strength. Linked enemies take the damage inflicted on Nidus.",
+                "icon" : "assets/icons/abilityIcons/nidus3.webp",
+                "video" : "assets/extracted_mp4/NidusPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Ravenous",
+                "desc" : "Gluttonous maggots swarm nearby enemies, feasting until they burst with Infestation. The maggots benefit from Mutation and each enemy consumed adds to the Mutation stack.",
+                "icon" : "assets/icons/abilityIcons/nidus4.webp",
+               "video" : "assets/extracted_mp4/NidusPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 150,
+            "shields" : 0,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 32,
+        "prime" : false,
+        "name" : "Nova",
+        "gender" : "F",
+        "description" : "This is Nova, wildly unpredictable. Nova's presence on the battlefield is complex and deadly. Handle with care, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Nova.webp",
+            "background" : "assets/backgrounds/NovaFull.webp"
+        },
+        "releaseDate" : "2013-07-13",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Whenever Nova is knocked down, she emits a neutron burst which knocks down and damages enemies in a 6 meter radius and deals 250 Blast damage."
+            },
+
+            "first" : 
+            {
+              "name" : "Null Star",
+              "desc" : "Creates anti-matter particles that orbit Nova and seek nearby targets.",
+              "icon" : "assets/icons/abilityIcons/nova1.webp",
+              "video" : "assets/extracted_mp4/NovaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Antimatter Drop",
+               "desc" : "Launches a contained particle of antimatter that will detonate upon collision.",
+               "icon" : "assets/icons/abilityIcons/nova2.webp",
+               "video" : "assets/extracted_mp4/NovaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Worm Hole",
+                "desc" : "Creates a wormhole allowing instantaneous travel.",
+                "icon" : "assets/icons/abilityIcons/nova3.webp",
+                "video" : "assets/extracted_mp4/NovaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Molecular Prime",
+                "desc" : "Primes all enemies in a radius with anti-matter. ",
+                "icon" : "assets/icons/abilityIcons/nova4.webp",
+               "video" : "assets/extracted_mp4/NovaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 33,
+        "prime" : false,
+        "name" : "Nyx",
+        "gender" : "F",
+        "description" : "This is Nyx, manipulator of minds. On her own or with a group, Nyx can turn the tide of battle in her favor.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Nyx.webp",
+            "background" : "assets/backgrounds/NyxFull.webp"
+        },
+        "releaseDate" : "2013-01-29",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Enemies are 20% less accurate when targeting Nyx (except while Absorb is active)."
+            },
+
+            "first" : 
+            {
+              "name" : "Mind Control",
+              "desc" : "Nyx invades the psyche of a target, confusing enemies and making them fight for the Tenno cause.",
+              "icon" : "assets/icons/abilityIcons/nyx1.webp",
+              "video" : "assets/extracted_mp4/NyxPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Psychic Bolts",
+               "desc" : "Nyx launches a cluster of force bolts at enemies, using telekinesis to adjust flight paths and seek nearby targets.",
+               "icon" : "assets/icons/abilityIcons/nyx2.webp",
+               "video" : "assets/extracted_mp4/NyxPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Chaos",
+                "desc" : "With a powerful psychic blast, Nyx causes mass hysteria on the battlefield by confusing all enemies to attack random factions.",
+                "icon" : "assets/icons/abilityIcons/nyx3.webp",
+                "video" : "assets/extracted_mp4/NyxPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Absorb",
+                "desc" : "Nyx absorbs all incoming damage and channels that collected energy into an explosive radial discharge. Nyx's Weapon damage is buffed based on incoming absorbed damage when the Ability ends.",
+                "icon" : "assets/icons/abilityIcons/nyx4.webp",
+               "video" : "assets/extracted_mp4/NyxPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" :100 ,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 34,
+        "prime" : false,
+        "name" : "Oberon",
+        "gender" : "M",
+        "description" : "This is Oberon, the mystic, the willful. Oberon is an adept and honorable warrior, Tenno. Are you?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Oberon.webp",
+            "background" : "assets/backgrounds/OberonFull.webp"
+        },
+        "releaseDate" : "2013-12-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Creatures of nature rejuvenate in Oberon's presence, causing allied Kubrows, Kavats, Predasites, and Vulpaphylas to receive +25% Health, Shield and Armor links. Oberon's own Kubrow, Kavat, Predasite, or Vulpaphyla also receives 1 instant revive per mission."
+            },
+
+            "first" : 
+            {
+              "name" : "Smite",
+              "desc" : "Focuses deadly energy within a target and then projects it outwards, damaging both the target and surrounding enemies.",
+              "icon" : "assets/icons/abilityIcons/oberon1.webp",
+              "video" : "assets/extracted_mp4/OberonPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Hallowed Ground",
+               "desc" : "Sanctifies the ground before Oberon with righteous fire, inflicting damage to any enemy that stands in the flames.",
+               "icon" : "assets/icons/abilityIcons/oberon2.webp",
+               "video" : "assets/extracted_mp4/OberonPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Renewal",
+                "desc" : "Healing waves of energy flow outward from Oberon to his allies, regenerating health over time.",
+                "icon" : "assets/icons/abilityIcons/oberon3.webp",
+                "video" : "assets/extracted_mp4/OberonPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Reckoning",
+                "desc" : "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Sphere.",
+                "icon" : "assets/icons/abilityIcons/oberon4.webp",
+               "video" : "assets/extracted_mp4/OberonPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 125,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 35,
+        "prime" : false,
+        "name" : "Octavia",
+        "gender" : "F",
+        "description" : "This is Octavia, the melodic, the maestro. If music be the food of death... play on, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Octavia.webp",
+            "background" : "assets/backgrounds/OctaviaFull.webp"
+        },
+        "releaseDate" : "2017-03-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Octavia creates musical masterpieces from the Mandachord affixed to her arms that empowers her abilities. Casting any ability will inspire Octavia and nearby allies with her music, granting the Inspiration buff that replenishes 1 energy per second for 30 seconds. Allies within 15 meters will receive the Inspiration buff."
+            },
+
+            "first" : 
+            {
+              "name" : "Mallet",
+              "desc" : "Rhythmically beats damage into nearby enemies and draws their fire. Damage inflicted on the Mallet increases its lethality.",
+              "icon" : "assets/icons/abilityIcons/octavia1.webp",
+              "video" : "assets/extracted_mp4/OctaviaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Resonator",
+               "desc" : "Launches a rollerball that charms foes to follow it. Combines with the Mallet to create a roving ball of sonic destruction.",
+               "icon" : "assets/icons/abilityIcons/octavia2.webp",
+               "video" : "assets/extracted_mp4/OctaviaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Metronome",
+                "desc" : "Grants buffs to those who consistently perform actions in time to Octavia’s music. Timed jumps offer the Vivace speed buff. Crouching on the beat grants cloaking with the Nocturne buff. Firing rhythmically bestows Opera multishot buff. Timed melee swings give the Forte damage buff.",
+                "icon" : "assets/icons/abilityIcons/octavia3.webp",
+                "video" : "assets/extracted_mp4/OctaviaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Amp",
+                "desc" : "Draws power from the decibel level of sound in the area and uses it to amplify a damage buff for Octavia and her allies. It also doubles the damage and range of nearby Mallets.",
+                "icon" : "assets/icons/abilityIcons/octavia4.webp",
+               "video" : "assets/extracted_mp4/OctaviaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 36,
+        "prime" : false,
+        "name" : "Protea",
+        "gender" : "F",
+        "description" : "Armed for deadly encounters, she is tactical and timely. This is Protea, the protector, the enforcer.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Protea.webp",
+            "background" : "assets/backgrounds/ProteaFull.webp"
+        },
+        "releaseDate" : "2020-06-11",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "After casting three abilities, Protea empowers her next ability cast with an additive 100% Ability Strength bonus."
+            },
+
+            "first" : 
+            {
+              "name" : "Grenade Fan",
+              "desc" : "Throw out 3 grenades in an arc. (TAP) Creates a slashing, staggering swirl of shrapnel. (HOLD) Protea reconfigures 3 Grenades to work as overcharging shield generators, protecting her, her allies and companions. When Shields break a Satellite is destroyed to extend the period of invulnerability.",
+              "icon" : "assets/icons/abilityIcons/protea1.webp",
+              "video" : "assets/extracted_mp4/ProteaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Blaze Artillery",
+               "desc" : "Deploys an artillery unit to blast plasma charges at enemies it faces. Each enemy hit increases the power of subsequent plasma attacks.",
+               "icon" : "assets/icons/abilityIcons/protea2.webp",
+               "video" : "assets/extracted_mp4/ProteaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Dispensary",
+                "desc" : "Deploys a device that generates 3 pickups after a short delay: empowered health orb, universal ammo pack and energy orb.",
+                "icon" : "assets/icons/abilityIcons/protea3.webp",
+                "video" : "assets/extracted_mp4/ProteaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Temporal Anchor",
+                "desc" : "Drops a Temporal Anchor which, after a short duration, Protea rewinds to triggering a temporal implosion. Implosion damage increases based on damage dealt between anchor drop and rewind. Everything lost or expended in that time is returned. Dying while Anchor is active rewinds Protea to the anchor, saving her. Protea is knocked down and the anchor vanishes.",
+                "icon" : "assets/icons/abilityIcons/protea4.webp",
+               "video" : "assets/extracted_mp4/ProteaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 37,
+        "prime" : false,
+        "name" : "Revenant",
+        "gender" : "M",
+        "description" : "This is Revenant, the returned - the condemned. Harnessing the essence of Eidolon and warrior alike, he mystifies and obliterates his foes. Revenant serves last rites for the souls he leaves on fire, without a plea for mercy.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Revenant.webp",
+            "background" : "assets/backgrounds/RevenantFull.webp"
+        },
+        "releaseDate" : "2018-08-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Harnessing the essence of Eidolons, Revenant is immune to the Magnetic night waters of the Plains of Eidolon. Additionally, when his Shield depletes, Revenant emits a 100 damage radial Blast that knocks down enemies within 7.5m. There is a max 75% Damage Falloff at the edge of the blast's radius."
+            },
+
+            "first" : 
+            {
+              "name" : "Enthrall",
+              "desc" : "Convert a target into a zealous thrall. Thralls turn on their allies and enthrall through damage. On death, they disintegrate into a damaging pillar of energy. The thrall horde remains under Revenant’s spell until this Ability runs out.",
+              "icon" : "assets/icons/abilityIcons/revenant1.webp",
+              "video" : "assets/extracted_mp4/RevenantPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Mesmer Skin",
+               "desc" : "Become enveloped in Sentient energy, which redirects damage and stuns all those who dare attack. Stunned enemies can be Enthralled at no energy cost.",
+               "icon" : "assets/icons/abilityIcons/revenant2.webp",
+               "video" : "assets/extracted_mp4/RevenantPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Reave",
+                "desc" : "Dash through enemies as a wall of Sentient energy, leeching shields and health from any encountered, enhanced for thralls.",
+                "icon" : "assets/icons/abilityIcons/revenant3.webp",
+                "video" : "assets/extracted_mp4/RevenantPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Danse Macabre",
+                "desc" : "Erupt with a multitude of Eidolon energy beams and sweep a circle of death around Revenant. The beams will modify their Damage Type to target select defenses, while incoming damage is redirected back into the beams. Hold fire to boost Status Effects and Damage, at the cost of increased energy consumption. Thralls killed by this leave overshield pickups.",
+                "icon" : "assets/icons/abilityIcons/revenant4.webp",
+               "video" : "assets/extracted_mp4/RevenantPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 225,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 38,
+        "prime" : false,
+        "name" : "Rhino",
+        "gender" : "M",
+        "description" : "This is Rhino, an immovable force and highly resilient. Rhino can survive alone or become the cornerstone of any squad, Tenno. The choice is yours.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Rhino.webp",
+            "background" : "assets/backgrounds/RhinoFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "If Rhino falls far enough to incur a Hard Landing, the ground impact will discharge a shockwave that deals Impact damage in a 6 meter area of effect and knocking down nearby enemies."
+            },
+
+            "first" : 
+            {
+              "name" : "Rhino Charge",
+              "desc" : "Rhino charges towards a target, clobbering any in his path and goring his victim.",
+              "icon" : "assets/icons/abilityIcons/rhino1.webp",
+              "video" : "assets/extracted_mp4/RhinoPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Iron Skin",
+               "desc" : "Rhino hardens his skin, insulating himself from all damage.",
+               "icon" : "assets/icons/abilityIcons/rhino2.webp",
+               "video" : "assets/extracted_mp4/RhinoPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Roar",
+                "desc" : "Grants all nearby Warframes increased damage for a short duration.",
+                "icon" : "assets/icons/abilityIcons/rhino3.webp",
+                "video" : "assets/extracted_mp4/RhinoPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Rhino Stomp",
+                "desc" : "Rhino stomps with force sufficient to disrupt time, tumbling enemies around him in stasis.",
+                "icon" : "assets/icons/abilityIcons/rhino4.webp",
+               "video" : "assets/extracted_mp4/RhinoPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 39,
+        "prime" : false,
+        "name" : "Saryn",
+        "gender" : "F",
+        "description" : "This is Saryn, elusive and deadly. Saryn is a deadly force on the battlefield. Get down with the sickness, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Saryn.webp",
+            "background" : "assets/backgrounds/SarynFull.webp"
+        },
+        "releaseDate" : "2013-03-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Status Effects inflicted by Saryn's weapons and abilities last 25% longer."
+            },
+
+            "first" : 
+            {
+              "name" : "Spores",
+              "desc" : "Inflict a target with a pox of DmgCorrosiveSmall64.pngCorrosive spores. Spread spores to nearby enemies by destroying them or killing their host. The longer the Spore spreads, its damage will increase.",
+              "icon" : "assets/icons/abilityIcons/saryn1.webp",
+              "video" : "assets/extracted_mp4/SarynPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Molt",
+               "desc" : "Shedding her skin like a snake, Saryn leaves a decoy behind to draw fire from enemies.",
+               "icon" : "assets/icons/abilityIcons/saryn2.webp",
+               "video" : "assets/extracted_mp4/SarynPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Toxic Lash",
+                "desc" : "While active, attacks deal additional Toxin damage; this effect is doubled for melee strikes. Instantly burst spores when attacking afflicted enemies.",
+                "icon" : "assets/icons/abilityIcons/saryn3.webp",
+                "video" : "assets/extracted_mp4/SarynPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Miasma",
+                "desc" : "Releases a poisonous miasma that deals Viral damage to enemies in range. Foes afflicted by spores are more susceptible to the mist.",
+                "icon" : "assets/icons/abilityIcons/saryn4.webp",
+               "video" : "assets/extracted_mp4/SarynPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" :125 ,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 40,
+        "prime" : false,
+        "name" : "Sevagoth",
+        "gender" : "M",
+        "description" : "He is the reason to fear the darkness, where his ethereal presence shakes loose the mortal coil. This is Sevagoth, the reaper, the specter of death. Do not seek death, Tenno, for Sevagoth may find you. Will you live to tell his tale?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Sevagoth.webp",
+            "background" : "assets/backgrounds/SevagothFull.webp"
+        },
+        "releaseDate" : "2021-04-13",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Intertwined forever in life and death, Sevagoth and his Shadow exhibit numerous unique properties and interactions."
+            },
+
+            "first" : 
+            {
+              "name" : "Reap",
+              "desc" : "Sevagoth’s Shadow flies outward ravaging enemies in his path. Survivors are damaged by Death’s Harvest over time. The souls of the dead fill the Death Well.",
+              "icon" : "assets/icons/abilityIcons/sevagoth1.webp",
+              "video" : "assets/extracted_mp4/SevagothPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Sow",
+               "desc" : "Plant a death seed in nearby targets to drain their lifeforce. Reap what has been sown to detonate afflicted enemies, dealing a percentage of their health as radial damage. The souls of the dead fill the Death Well.",
+               "icon" : "assets/icons/abilityIcons/sevagoth2.webp",
+               "video" : "assets/extracted_mp4/SevagothPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Gloom",
+                "desc" : "Summon a radial pulse wave that ensnares and slows enemies, siphoning their lifeforce for the Death Well. Allies within the wave steal health with each attack.",
+                "icon" : "assets/icons/abilityIcons/sevagoth3.webp",
+                "video" : "assets/extracted_mp4/SevagothPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Exalted Shadow",
+                "desc" : "When the Death Well fills to above 75%, Sevagoth’s Shadow form is ready to be released. Tear the enemy asunder with a collection of Melee-focused Abilities.",
+                "icon" : "assets/icons/abilityIcons/sevagoth4.webp",
+               "video" : "assets/extracted_mp4/SevagothPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 90,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 41,
+        "prime" : false,
+        "name" : "Styanax",
+        "gender" : "M",
+        "description" : "Embody the valiant pride of ancient champions past, brandishing shield and spear zealously honed by ageless strife. Relive the legendary mythos of Styanax, the indomitable peltast.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Styanax.webp",
+            "background" : "assets/backgrounds/Styanax.webp"
+        },
+        "releaseDate" : "2022-09-07",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Styanax's weapon Critical Chance bonus increases by 1% per 40 Shield points, based on his current total including Overshields. Passive bonus is doubled on Speargun primary Weapons."
+            },
+
+            "first" : 
+            {
+              "name" : "Axios Javelin",
+              "desc" : "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage.",
+              "icon" : "assets/icons/abilityIcons/styanax1.webp",
+              "video" : "assets/extracted_mp4/StyanaxPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Tharros Strike",
+               "desc" : "Summon Tharros, the shield of Styanax. Swing Tharros to repel enemies and reduce their shields and armor. Styanax regenerates health for every enemy struck.",
+               "icon" : "assets/icons/abilityIcons/styanax2.webp",
+               "video" : "assets/extracted_mp4/StyanaxPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Rally Point",
+                "desc" : "Draw enemy attention to Styanax. His resolve uplifts nearby allies, regenerating the squad’s energy over time. Styanax and his allies also regenerate shields for every kill assist they contribute.",
+                "icon" : "assets/icons/abilityIcons/styanax3.webp",
+                "video" : "assets/extracted_mp4/StyanaxPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Final Stand",
+                "desc" : "Exude might and valor. Rise into the air and throw a barrage of Axios Javelins. The javelins deal damage to nearby enemies wherever they land. Direct hits to enemies deal greater damage.",
+                "icon" : "assets/icons/abilityIcons/styanax4.webp",
+               "video" : "assets/extracted_mp4/StyanaxPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 250,
+            "health" : 100,
+            "shields" : 250,
+            "energy" : 150 
+        }
+    },
+    {
+        "id" : 42,
+        "prime" : false,
+        "name" : "Titania",
+        "gender" : "F",
+        "description" : "This is Titania, the pixie, the unseen. Titania is a deadly and mischievous addition to any squad, but don't take my word for it Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Titania.webp",
+            "background" : "assets/backgrounds/TitaniaFull.webp"
+        },
+        "releaseDate" : "2016-08-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Frolicking and fluttering about, Titania passively possesses +25% Bullet Jump and Rolling distance. Casting her abilities rejuvenates Titania and her allies within 15 meters, granting them the Upsurge buff which regenerates 4 Health points per second for 20 seconds."
+            },
+
+            "first" : 
+            {
+              "name" : "Spellbind",
+              "desc" : "Enemies fumble their weapons as they tumble into the air. Nearby allies become immune to Status Effects.",
+              "icon" : "assets/icons/abilityIcons/titania1.webp",
+              "video" : "assets/extracted_mp4/TitaniaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Tribute",
+               "desc" : "Cycle through and extract one of the four Buffs when cast on an enemy. Thorns reduces incoming damage. Dust degrades enemy accuracy. Full Moon increases companion damage. Entangle slows enemies within range.",
+               "icon" : "assets/icons/abilityIcons/titania2.webp",
+               "video" : "assets/extracted_mp4/TitaniaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Lantern",
+                "desc" : "Create a swarm of razorflies that transform an enemy into an irresistible floating beacon, attracting witless comrades and finally exploding.",
+                "icon" : "assets/icons/abilityIcons/titania3.webp",
+                "video" : "assets/extracted_mp4/TitaniaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Razorwing",
+                "desc" : "Shrink down and take flight, while razorflies attack nearby enemies.",
+                "icon" : "assets/icons/abilityIcons/titania4.webp",
+               "video" : "assets/extracted_mp4/TitaniaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 43,
+        "prime" : false,
+        "name" : "Trinity",
+        "gender" : "F",
+        "description" : "This is Trinity, the healer, the equalizer. Trinity is a must for any high-stakes mission. She'll save your life, Tenno",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Trinity.webp",
+            "background" : "assets/backgrounds/TrinityFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Revive fallen allies 25% faster and from 50% farther away."
+            },
+
+            "first" : 
+            {
+              "name" : "Well of Life",
+              "desc" : "Create a well of life on an enemy. Allies will gain health when damaging the target.",
+              "icon" : "assets/icons/abilityIcons/trinity1.webp",
+              "video" : "assets/extracted_mp4/TrinityPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Energy Vampire",
+               "desc" : "Allies will gain energy over time when enemies are marked with Energy Vampire.",
+               "icon" : "assets/icons/abilityIcons/trinity2.webp",
+               "video" : "assets/extracted_mp4/TrinityPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Link",
+                "desc" : "Any damage taken while Link is active will be channeled to a nearby enemy.",
+                "icon" : "assets/icons/abilityIcons/trinity3.webp",
+                "video" : "assets/extracted_mp4/TrinityPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Blessing",
+                "desc" : "Restore the health and shields of allies within Trinity's Affinity aura while giving them some damage immunity.",
+                "icon" : "assets/icons/abilityIcons/trinity4.webp",
+               "video" : "assets/extracted_mp4/TrinityPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 44,
+        "prime" : false,
+        "name" : "Valkyr",
+        "gender" : "F",
+        "description" : "This is Valkyr, the tormented, the experiment. Valkyr was crafted from torment, Tenno. Take control of her rage.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Valkyr.webp",
+            "background" : "assets/backgrounds/ValkyrFull.webp"
+        },
+        "releaseDate" : "2013-11-20",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Valkyr is nimble, able to recover from knockdown 50% faster and is immune to Hard Landings, landing with no touchdown delay."
+            },
+
+            "first" : 
+            {
+              "name" : "Rip Line",
+              "desc" : "Valkyr hurls forth a hook. If it hits an enemy, she pulls them to her. If it hits terrain, she pulls herself to the hook's location.",
+              "icon" : "assets/icons/abilityIcons/valkyr1.webp",
+              "video" : "assets/extracted_mp4/ValkyrPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Warcry",
+               "desc" : "Valkyr lets out a rallying cry that bolsters her allies melee speed while slowing down nearby enemies.",
+               "icon" : "assets/icons/abilityIcons/valkyr2.webp",
+               "video" : "assets/extracted_mp4/ValkyrPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Paralysis",
+                "desc" : "Valkyr unleashes her shields, stunning and damaging enemies around her.",
+                "icon" : "assets/icons/abilityIcons/valkyr3.webp",
+                "video" : "assets/extracted_mp4/ValkyrPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Hysteria",
+                "desc" : "Valkyr is imbued with energy and becomes a ball of vicious rage, capable of unleashing a torrent of deadly claw attacks on unsuspecting foes.",
+                "icon" : "assets/icons/abilityIcons/valkyr4.webp",
+               "video" : "assets/extracted_mp4/ValkyrPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 600,
+            "health" : 100,
+            "shields" : 50,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 45,
+        "prime" : false,
+        "name" : "Vauban",
+        "gender" : "M",
+        "description" : "This is Vauban, focused and methodical. Vauban willingly sacrificed his own safety in the name of mayhem. Use him wisely, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Vauban.webp",
+            "background" : "assets/backgrounds/VaubanFull.webp"
+        },
+        "releaseDate" : "2013-05-17",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "An inventor by nature, the process of creation necessitates demolition and deconstruction. Vauban inflicts 25% extra damage with his weapons and abilities, against enemies that are incapacitated and unable to move."
+            },
+
+            "first" : 
+            {
+              "name" : "Tesla Nervos",
+              "desc" : "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing electricity to anything in the immediate area.",
+              "icon" : "assets/icons/abilityIcons/vauban1.webp",
+              "video" : "assets/extracted_mp4/VaubanPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Minelayer",
+               "desc" : "Cycle through four deployable mines: Tether Coil, Flechette Orb, Vector Pad and Overdriver.",
+               "icon" : "assets/icons/abilityIcons/vauban2.webp",
+               "video" : "assets/extracted_mp4/VaubanPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Photon Strike",
+                "desc" : "Drop a targeting beacon that calls in a devastating laser artillery strike.",
+                "icon" : "assets/icons/abilityIcons/vauban3.webp",
+                "video" : "assets/extracted_mp4/VaubanPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Bastille",
+                "desc" : "Erect a containment field to capture enemies and suspended them in stasis, stripping their armor. Hold to collapse all Bastilles into a single damaging vortex.",
+                "icon" : "assets/icons/abilityIcons/vauban4.webp",
+               "video" : "assets/extracted_mp4/VaubanPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 46,
+        "prime" : false,
+        "name" : "Volt",
+        "gender" : "M",
+        "description" : "This is Volt, a versatile warrior. Volt's arsenal is powerful and electrifying. Handle with care, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Volt.webp",
+            "background" : "assets/backgrounds/VoltFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Traveling along the ground between Volt's attacks (by walking, running, or sliding) will build up static energy, adding bonus Electricity damage toward Volt's next weapon attack or ability cast."
+            },
+
+            "first" : 
+            {
+              "name" : "Shock",
+              "desc" : "Launches a shocking projectile. It stuns and deals high damage to a single target and chains damage to nearby enemies.",
+              "icon" : "assets/icons/abilityIcons/volt1.webp",
+              "video" : "assets/extracted_mp4/VoltPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Speed",
+               "desc" : "Volt energizes his body and nearby Warframes, giving them increased speed and dexterity for a short time.",
+               "icon" : "assets/icons/abilityIcons/volt2.webp",
+               "video" : "assets/extracted_mp4/VoltPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Electric Shield",
+                "desc" : "Volt deploys an obstacle of energy, providing cover in any situation.",
+                "icon" : "assets/icons/abilityIcons/volt3.webp",
+                "video" : "assets/extracted_mp4/VoltPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Discharge",
+                "desc" : "Paralyze nearby hostiles with a damaging electric charge, this also shocks approaching enemies.",
+                "icon" : "assets/icons/abilityIcons/volt4.webp",
+               "video" : "assets/extracted_mp4/VoltPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 47,
+        "prime" : false,
+        "name" : "Voruna",
+        "gender" : "F",
+        "description" : "Beware the telltale bloodcurdling howl when the primeval hunt begins anew. Nightfall engulfs the hallowed moonlit shrine, where sacred beasts of claw and fang prowl. Heed the wolven queen, Voruna, here she decrees her midnight feast.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Voruna.webp",
+            "background" : "assets/backgrounds/Voruna.webp"
+        },
+        "releaseDate" : "2022-11-30",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Like a blood moon striding across the starlit night, Voruna never hunts alone. Safeguarded by her four loyal wolves, she may freely invoke their protective passives anytime during a mission."
+            },
+
+            "first" : 
+            {
+              "name" : "Shroud of Dynar",
+              "desc" : "(TAP) Dynar shrouds Voruna with invisibility and accelerates her speed. Invisibility ends when Voruna attacks. For a short time, melee attacks have increased Critical Damage and Status Chance and inflict Bleed. Melee kill an enemy during this time to extend the buff. (HOLD) Dynar guards Voruna, increasing her Parkour Velocity.",
+              "icon" : "assets/icons/abilityIcons/voruna1.webp",
+              "video" : "assets/extracted_mp4/VorunaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Fangs of Raksh",
+               "desc" : "(TAP) Raksh's fangs tear into your enemies. 5 random Status Effects are applied at 10 Stacks each on an enemy. On target's death, spread the Status Effects to other nearby enemies. (HOLD) Raksh guards Voruna with Status Effect resistance.",
+               "icon" : "assets/icons/abilityIcons/voruna2.webp",
+               "video" : "assets/extracted_mp4/VorunaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Lycath's Hunt",
+                "desc" : "(TAP) Lycath hunts to sustain the pack. There is a chance for enemies killed by melee attacks to drop health orbs and enemies killed by headshots to supply energy orbs. Increase the duration of Lycath's hunt by killing enemies affected by 5 or more Status Effects. (HOLD) Lycath guards Voruna with increased Heavy Attack efficiency.",
+                "icon" : "assets/icons/abilityIcons/voruna3.webp",
+                "video" : "assets/extracted_mp4/VorunaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Ulfrun's Descent",
+                "desc" : "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna’s remaining charges. (HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place.",
+                "icon" : "assets/icons/abilityIcons/voruna4.webp",
+               "video" : "assets/extracted_mp4/VorunaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 190,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 49,
+        "prime" : false,
+        "name" : "Wisp",
+        "gender" : "F",
+        "description" : "Invisible in the air and swift on the ground, she moves like the wind. This is Wisp. Summoner of the ethereal. Her grace is only balanced by her destruction. Do not get lost in its wake, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Wisp.webp",
+            "background" : "assets/backgrounds/WispFull.webp"
+        },
+        "releaseDate" : "2019-05-22",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Wisp weaves between dimensions whilst she is airborne, gaining a cloak that renders her and her Companions completely invisible to enemies until she lands or fires a weapon. Wisp's cloak will reactivate briefly after the player stops firing provided they are still airborne."
+            },
+
+            "first" : 
+            {
+              "name" : "Reservoirs",
+              "desc" : "Choose and summon a Reservoir filled with Motes that attach to and aid Wisp and her allies. Haste Mote grants increased movement and attack speed. Vitality Mote increases maximum health and heals over time. Shock Mote stuns nearby enemies.",
+              "icon" : "assets/icons/abilityIcons/wisp1.webp",
+              "video" : "assets/extracted_mp4/WispPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Wil-O-Wisp",
+               "desc" : "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release.",
+               "icon" : "assets/icons/abilityIcons/wisp2.webp",
+               "video" : "assets/extracted_mp4/WispPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Breach Surge",
+                "desc" : "Open a dimensional breach to overwhelm nearby enemies and cause them to release aggressive Surge sparks when damaged. Wisp may also target a Reservoir to teleport to it and double the range of the surge.",
+                "icon" : "assets/icons/abilityIcons/wisp3.webp",
+                "video" : "assets/extracted_mp4/WispPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Sol Gate",
+                "desc" : "Open a portal to the sun to irradiate enemies with a devastating beam of pure solar plasma.",
+                "icon" : "assets/icons/abilityIcons/wisp4.webp",
+               "video" : "assets/extracted_mp4/WispPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 200
+        }
+    },
+    {
+        "id" : 50,
+        "prime" : false,
+        "name" : "Wukong",
+        "gender" : "M",
+        "description" : "This is Wukong, the enduring, the swift. Everybody's got something to hide, Tenno. Except Wukong.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Wukong.webp",
+            "background" : "assets/backgrounds/WukongFull.webp"
+        },
+        "releaseDate" : "2015-11-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Wukong has learned five techniques to avoid death whenever he takes fatal damage. Wukong will be randomly allowed 3 of these techniques per mission to avoid death 3 times. Each technique will make Wukong avoid entering bleedout upon taking fatal damage, invulnerable for 2 seconds, restore 50% health, and provide a unique buff."
+            },
+
+            "first" : 
+            {
+              "name" : "Celestial Twin",
+              "desc" : "Shedding part of himself, Wukong creates a twin to fight by his side. Attack at range and the twin will melee, pull a blade and the twin will lay down covering fire. Use again to command the twin to attack a target with increased damage.",
+              "icon" : "assets/icons/abilityIcons/wukong1.webp",
+              "video" : "assets/extracted_mp4/WukongPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Cloud Walker",
+               "desc" : "Evaporate into a cloud of mist and float through the battlefield, dazing any enemy encountered, while healing Wukong and his twin.",
+               "icon" : "assets/icons/abilityIcons/wukong2.webp",
+               "video" : "assets/extracted_mp4/WukongPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Defy",
+                "desc" : "Wukong and his twin become invulnerable and defy enemies to attack. All damage is captured, stored, and dealt back in a single furious strike of Wukong's staff. Bonus Armor is then granted relative to the damage captured.",
+                "icon" : "assets/icons/abilityIcons/wukong3.webp",
+                "video" : "assets/extracted_mp4/WukongPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Primal Fury",
+                "desc" : "Summon the Iron Staff and unleash fury.",
+                "icon" : "assets/icons/abilityIcons/wukong4.webp",
+               "video" : "assets/extracted_mp4/WukongPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 250,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 120
+        }
+    },
+    {
+        "id" : 51,
+        "prime" : false,
+        "name" : "Xaku",
+        "gender" : "M",
+        "description" : "Forged from the remnants of lost Warframes, they channel the spirits of the Void. This is Xaku, the fragmented, the restored. In the concert of mayhem, Xaku is a law unto themselves, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Xaku.webp",
+            "background" : "assets/backgrounds/XakuFull.webp"
+        },
+        "releaseDate" : "2020-08-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Shifting their pieces unpredictably, Xaku has a 25% Dodge chance to harmlessly phase through incoming enemy weapon attacks, while protected by a 25% Damage Reduction against area of effect damage. Passive dodge chance and area damage reduction both raise to 75% while The Vast Untime is activated."
+            },
+
+            "first" : 
+            {
+              "name" : "Xata's Whisper",
+              "desc" : "Wield Void damage for all attacks from equipped weapons when activated.",
+              "icon" : "assets/icons/abilityIcons/xaku1.webp",
+              "video" : "assets/extracted_mp4/XakuPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Grasp of Lohk",
+               "desc" : "Void Tendrils steal weapons from nearby enemies to use as your own floating, auto-targeting armament.",
+               "icon" : "assets/icons/abilityIcons/xaku2.webp",
+               "video" : "assets/extracted_mp4/XakuPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "The Lost",
+                "desc" : "Cycle through and cast one of the three abilities originating from the Warframes that make up Xaku: Accuse, Gaze, and Deny.",
+                "icon" : "assets/icons/abilityIcons/xaku3.webp",
+                "video" : "assets/extracted_mp4/XakuPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "The Vast Untime",
+                "desc" : "Temporarily shed the outer pieces of Xaku in a destructive blast, then stalk the battlefield in a new, swifter skeletal form. Enemies damaged by the body shrapnel are rendered weaker to Void damage.",
+                "icon" : "assets/icons/abilityIcons/xaku4.webp",
+               "video" : "assets/extracted_mp4/XakuPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 137,
+            "health" : 97,
+            "shields" : 89,
+            "energy" : 153
+        }
+    },
+    {
+        "id" : 52,
+        "prime" : false,
+        "name" : "Yareli",
+        "gender" : "F",
+        "description" : "She is the one to give hope to the hopeless, defeating her enemies with her aquatic grace. This is Yareli, the selfless, the wave rider. Yareli fights for those who need it most, and strikes fear into those who oppress. Do you dream of water, Tenno?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Yareli.webp",
+            "background" : "assets/backgrounds/YareliFull.webp"
+        },
+        "releaseDate" : "2021-07-06",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Everflowing with the seas, whenever Yareli moves for at least 1.5 seconds, she gains the Critical Flow buff that increases Critical Chance on her secondary Weapon by 200%. Critical Flow lasts until Yareli stops moving for 1 second."
+            },
+
+            "first" : 
+            {
+              "name" : "Sea Snares",
+              "desc" : "Form three water globules that seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.",
+              "icon" : "assets/icons/abilityIcons/yareli1.webp",
+              "video" : "assets/extracted_mp4/YareliPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Merulina",
+               "desc" : "Summon Merulina, a rideable creature of the waves, and the inspiration for K-Driving. Merulina protects Yareli by absorbing a large portion of incoming damage.",
+               "icon" : "assets/icons/abilityIcons/yareli2.webp",
+               "video" : "assets/extracted_mp4/YareliPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Aquablades",
+                "desc" : "Tear through foes with a trio of orbiting aquatic blades.",
+                "icon" : "assets/icons/abilityIcons/yareli3.webp",
+                "video" : "assets/extracted_mp4/YareliPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Riptide",
+                "desc" : "Drag enemies into a crushing maelstrom and then blow them away in a watery burst. Each enemy trapped in the vortex increases the burst's Damage.",
+                "icon" : "assets/icons/abilityIcons/yareli4.webp",
+               "video" : "assets/extracted_mp4/YareliPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 200
+        }
+    },
+    {
+        "id" : 53,
+        "prime" : false,
+        "name" : "Zephyr",
+        "gender" : "F",
+        "description" : "This is Zephyr, light, yet deceivingly lethal. Zephyr brings graceful destruction to the battlefield. Look up, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/Zephyr.webp",
+            "background" : "assets/backgrounds/ZephyrFull.webp"
+        },
+        "releaseDate" : "2014-02-05",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Zephyr moves faster and falls slower while airborne. Also gain 150% Critical Hit chance with weapons while airborne."
+            },
+
+            "first" : 
+            {
+              "name" : "Tail Wind",
+              "desc" : "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
+              "icon" : "assets/icons/abilityIcons/zephyr1.webp",
+              "video" : "assets/extracted_mp4/ZephyrPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Airburst",
+               "desc" : "Launch a burst of massively dense air. Hold to send enemies flying, tap to pull them toward the burst. Damage increases per enemy hit.",
+               "icon" : "assets/icons/abilityIcons/zephyr2.webp",
+               "video" : "assets/extracted_mp4/ZephyrPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Turbulence",
+                "desc" : "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
+                "icon" : "assets/icons/abilityIcons/zephyr3.webp",
+                "video" : "assets/extracted_mp4/ZephyrPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Tornado",
+                "desc" : "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental damage type they absorb the most. Shoot enemies engulfed in Tornadoes to do additional damage.",
+                "icon" : "assets/icons/abilityIcons/zephyr4.webp",
+               "video" : "assets/extracted_mp4/ZephyrPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 150,
+            "shields" : 150,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 101,
+        "prime" : true,
+        "name" : "Ash Prime",
+        "gender" : "M",
+        "description" : "Distraction and subterfuge become lethal weapons with Ash Prime. Featuring altered mod polarities for greater customization.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/AshPrime.webp",
+            "background" : "assets/backgrounds/AshPrimeFull.webp"
+        },
+        "releaseDate" : "2015-07-07",
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Slash procs inflicted by Ash's weapons and abilities deal 25% more damage and last 50% longer. "
+            },
+            "first" : 
+            {   "name" : "Shuriken",
+                "desc" : "Launches a spinning blade of pain, dealing high damage and impaling enemies to walls.",
+                "icon" : "assets/icons/abilityIcons/ash1.webp",
+                "video" : "assets/extracted_mp4/AshPower1_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            "second" : 
+            {   "name" : "Smoke Screen",
+                "desc" : "Drops a smoke bomb that stuns enemies and obscures their vision, rendering Ash invisible for a short time.",
+                "icon" : "assets/icons/abilityIcons/ash2.webp",
+                "video" : "assets/extracted_mp4/AshPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            
+            },
+            "third" : 
+            {   
+                "name" : "Teleport",
+                "desc" : "Ash teleports towards the target, bringing him into melee range and making enemies vulnerable to finishers.",
+                "icon" : "assets/icons/abilityIcons/ash3.webp",
+                "video" : "assets/extracted_mp4/AshPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            "fourth" : 
+            {   "name" : "Bladestorm",
+                "desc" : "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport.",
+                "icon" : "assets/icons/abilityIcons/ash4.webp",
+                "video" : "assets/extracted_mp4/AshPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 150,
+            "shields" : 125,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 102,
+        "prime" : true,
+        "name" : "Atlas Prime",
+        "gender" : "M",
+        "description" : "In bygone ages, mountains were said to house warriors. In this age, the mountain has become the warrior.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/AtlasPrime.webp",
+            "background" : "assets/backgrounds/AtlasPrimeFull.webp"
+        },
+
+        "releaseDate" : "2015-10-01",
+
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Wielding explosive power and incredible stamina, Atlas strengthens his insurmountable durability through battle. Strong as the mountain, Atlas is immune to Knockdown while in contact with the ground. Rubble is a pickup item unique to Atlas that drops from petrified enemies and Rumblers on death. Rubble restores Health to Atlas if he is injured; if Atlas is at full health, Rubble instead grants additional Armor that decays over time. "
+            },
+
+            "first" :
+            {
+                "name" : "Landslide",
+                "desc" : "Bash enemies with an exploding sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor.",
+                "icon" : "assets/icons/abilityIcons/atlas1.webp",
+                "video" : "assets/extracted_mp4/AtlasPower1_s.webp",
+                "videoPH" : "assets/extracted_mp4/atlas1PH.webp"
+            },
+            
+            "second" : {           
+                "name" : "Tectonics",
+                "desc" : "Summon a rock-wall, activate again to send the rocks crashing towards the enemy.",
+                "icon" : "assets/icons/abilityIcons/atlas2.webp",
+                "video" : "assets/extracted_mp4/AtlasPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas2PH.webp"
+            },
+
+            "third" : {
+                "name" : "Petrify",
+                "desc" : "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas.",
+                "icon" : "assets/icons/abilityIcons/atlas3.webp",
+                "video" : "assets/extracted_mp4/AtlasPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas3PH.webp"
+            },
+
+            "fourth" : {
+                "name" : "Rumblers",
+                "desc" : "Summon two elemental stone brawlers to the melee. Summoning petrifies enemies in close proximity to Atlas. When finished, Rumblers collapse into a pile of healing Rubble.",
+                "icon" : "assets/icons/abilityIcons/atlas4.webp",
+                "video" : "assets/extracted_mp4/AtlasPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/atlas4PH.webp"
+            }
+
+        },
+        "stats" : {
+            "armor" : 450,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+    "id" : 103,
+    "prime" : true,
+    "name" : "Banshee Prime",
+    "gender" : "F",
+    "description" : "This is Banshee, stealthy and ranged. No one puts Banshee in a corner, Tenno. The element of surprise is in her favor.",
+    "image" : {
+        "thumb" : "assets/icons/warframeIcons/BansheePrime.webp",
+        "background" : "assets/backgrounds/BansheePrimeFull.webp"
+    },
+    "releaseDate" : "2013-03-18",
+    "abilities" : {
+        "passive" : {
+            "icon" : "",
+            "description" : "All of Banshee's equipped weapons, including Gunblades, and weapons equipped on Sentinels should they be present, are treated as silent."
+        },
+
+        "first" : 
+        {
+          "name" : "Sonic Boom",
+          "desc" : "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
+          "icon" : "assets/icons/abilityIcons/banshee1.webp",
+          "video" : "assets/extracted_mp4/BansheePower1_s.mp4",
+          "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+        },
+
+        "second" : 
+        {
+           "name" : "Sonar",
+           "desc" : "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+           "icon" : "assets/icons/abilityIcons/banshee2.webp",
+           "video" : "assets/extracted_mp4/BansheePower2_s.mp4",
+           "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+        },
+        
+        "third" : 
+        {
+            "name" : "Silence",
+            "desc" : "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
+            "icon" : "assets/icons/abilityIcons/banshee3.webp",
+            "video" : "assets/extracted_mp4/BansheePower3_s.mp4",
+            "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+        },
+
+        "fourth" : 
+        {
+            "name" : "Sound Quake",
+            "desc" : "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
+            "icon" : "assets/icons/abilityIcons/banshee4.webp",
+            "video" : "assets/extracted_mp4/BansheePower4_s.mp4",
+            "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+        }
+    },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 104,
+        "prime" : true,
+        "name" : "Baruuk Prime",
+        "gender" : "M",
+        "description" : "This is Baruuk, the reluctant warrior. Following the path that winds between peace and hate, he maintains restraint before unleashing the storm within.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/BaruukPrime.webp",
+            "background" : "assets/backgrounds/BaruukPrime.webp"
+        },
+        "releaseDate" : "2018-12-18",
+        "abilities" : {
+
+            "passive" : {
+                "icon" : "",
+                "description" : "Baruuk's tolerance for violence wanes as his hand is forced by his foes. Restraint is a resource unique to Baruuk that provides up to 50% Damage Reduction when the meter is completely depleted."
+            },
+            "first" : 
+            {   "name" : "Elude",
+                "desc" : "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
+                "icon" : "assets/icons/abilityIcons/baruuk1.webp",
+                "video" : "assets/extracted_mp4/BaruukPower1_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            "second" : 
+            {   "name" : "Lull",
+                "desc" : "A calming wave slows enemies until they fall into a slumber. Enemies woken by damage will be confused and disoriented. Short-term amnesia means all waking enemies forget anything that happened before the lull.",
+                "icon" : "assets/icons/abilityIcons/baruuk2.webp",
+                "video" : "assets/extracted_mp4/BaruukPower2_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            
+            },
+            "third" : 
+            {   
+                "name" : "Desolate Hands",
+                "desc" : "Summon a bevy of orbiting daggers to seek out enemy guns, destroying them with a small explosion. Combine with Elude to double the range.",
+                "icon" : "assets/icons/abilityIcons/baruuk3.webp",
+                "video" : "assets/extracted_mp4/BaruukPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            "fourth" : 
+            {   "name" : "Serene Storm",
+                "desc" : "With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint.",
+                "icon" : "assets/icons/abilityIcons/baruuk4.webp",
+                "video" : "assets/extracted_mp4/BaruukPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 75,
+            "shields" : 100,
+            "energy" : 200
+        }
+    },
+    {
+        "id" : 106,
+        "prime" : true,
+        "name" : "Chroma Prime",
+        "gender" : "M",
+        "description" : "This is Chroma, an ancient legend, master of the elements. When all the land is in ruins, Tenno, only Chroma will remain.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/ChromaPrime.webp",
+            "background" : "assets/backgrounds/ChromaPrimeFull.webp"
+        },
+        "releaseDate" : "2015-03-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Chroma possesses an extra midair jump and bullet jump. Wings matching Chroma's energy colors will form during these maneuvers. Chroma can alter his abilities to match any basic (uncombined) elemental attribute of the player's choice. Customizing Chroma's primary emission color determines what abilities he starts with."
+            },
+
+            "first" : 
+            {
+              "name" : "Spectral Scream",
+              "desc" : "Exhale a deep breath of elemental destruction. Chroma's energy color determines the element.",
+              "icon" : "assets/icons/abilityIcons/chroma1.webp",
+              "video" : "assets/extracted_mp4/ChromaPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Elemental Ward",
+               "desc" : "Depending on Chroma's elemental alignment, an offensive area-of-effect is created. Chroma and his nearby allies are imbued with defensive energy.",
+               "icon" : "assets/icons/abilityIcons/chroma2.webp",
+               "video" : "assets/extracted_mp4/ChromaPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Vex Armor",
+                "desc" : "When shields are hit, Chroma's armor grows stronger, when health takes a hit, weapon damage increases. Active for a limited time, maximum increases correspond to rank.",
+                "icon" : "assets/icons/abilityIcons/chroma3.webp",
+                "video" : "assets/extracted_mp4/ChromaPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Effigy",
+                "desc" : "Chroma turns his pelt into a massive sentry that strengthens nearby allies and engulfs enemies in elemental attacks.",
+                "icon" : "assets/icons/abilityIcons/chroma4.webp",
+                "video" : "assets/extracted_mp4/ChromaPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 350,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 108,
+        "prime" : true,
+        "name" : "Ember Prime",
+        "gender" : "F",
+        "description" : "This is Ember, destructive and deadly. Ember's presence on the battlefield is devastating. Mind the heat, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/EmberPrime.webp",
+            "background" : "assets/backgrounds/EmberPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Reveling in the heat of combat, Ember gains 5% extra Ability Strength for every enemy burning with an active Heat status effect within a 50 meters radius. "
+            },
+
+            "first" : 
+            {
+              "name" : "Fireball",
+              "desc" : "Charge and release a fiery projectile that ignites enemies on contact.",
+              "icon" : "assets/icons/abilityIcons/ember1.webp",
+              "video" : "assets/extracted_mp4/EmberPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Immolation",
+               "desc" : "Protect Ember with flame armor that burns stronger over time, consuming energy once its meter is at full strength. Cast again to extinguish the flame.",
+               "icon" : "assets/icons/abilityIcons/ember2.webp",
+               "video" : "assets/extracted_mp4/EmberPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Fire Blast",
+                "desc" : "Slam the ground to create a wave of incinerating plasma that knocks back enemies and strips their armor.",
+                "icon" : "assets/icons/abilityIcons/ember3.webp",
+                "video" : "assets/extracted_mp4/EmberPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Inferno",
+                "desc" : "Command a flaming comet to crash down in front of ember, engulfing enemies with a fire that can spread through their ranks.",
+                "icon" : "assets/icons/abilityIcons/ember4.webp",
+                "video" : "assets/extracted_mp4/EmberPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 109,
+        "prime" : true,
+        "name" : "Equinox Prime",
+        "gender" : "F",
+        "description" : "This is Equinox, a deadly duality. A true Tenno must master the divide between night and day. Do you have what it takes?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/EquinoxPrime.webp",
+            "background" : "assets/backgrounds/EquinoxPrimeFull.webp"
+        },
+        "releaseDate" : "2015-07-31",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "When Equinox collects Health Orbs or Energy Orbs, 10% of the restored amount is converted into additional Energy and Health respectively. Equinox can shift between two forms to alter her abilities: the offensive-focused Day-Form or the defensive/supportive-focused Night-Form. Customizing Equinox's primary emission color determines what form she starts with."
+            },
+
+            "first" : 
+            {
+              "name" : "Metamorphosis",
+              "desc" : "Switch forms, temporarily gaining bonus shields and armor in Night-Form, or bonus damage and speed in Day-Form. ",
+              "icon" : "assets/icons/abilityIcons/equinox1.webp",
+              "video" : "assets/extracted_mp4/EquinoxPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Rest & Rage",
+               "desc" : "In Night Form targets are put to sleep. In Day Form targets become more vulnerable to damage. ",
+               "icon" : "assets/icons/abilityIcons/equinox2.webp",
+               "video" : "assets/extracted_mp4/EquinoxPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Pacify & Provoke",
+                "desc" : "In Night Form reduces damage inflicted by nearby enemies. In Day Form increases Ability Strength of nearby allies. ",
+                "icon" : "assets/icons/abilityIcons/equinox3.webp",
+                "video" : "assets/extracted_mp4/EquinoxPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Mend & Maim",
+                "desc" : "In Night Form, allies are healed with each nearby enemy killed. In Day Form, nearby enemies are bled and then subjected to a wave of slashing force. ",
+                "icon" : "assets/icons/abilityIcons/equinox4.webp",
+                "video" : "assets/extracted_mp4/EquinoxPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 110,
+        "prime" : true,
+        "name" : "Excalibur Prime",
+        "gender" : "M",
+        "description" : "This is Excalibur, a master of gun and blade. No matter your style, Tenno, Excalibur is a formidable choice.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/ExcaliburPrime.webp",
+            "background" : "assets/backgrounds/ExcaliburPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Excalibur has improved mastery in the Tenno art of the blade, receiving +10% Attack Speed and +10% damage bonuses for melee attacks while wielding the following weapons: Swords, Dual swords, Nikanas, Rapiers, Exalted Blade."
+            },
+
+            "first" : 
+            {
+              "name" : "Slash Dash",
+              "desc" : "Dash between enemies while slashing with the Exalted Blade.",
+              "icon" : "assets/icons/abilityIcons/excalibur1.webp",
+              "video" : "assets/extracted_mp4/ExcaliburUmbraPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Radial Blind",
+               "desc" : "Emits a bright flash of light, blinding all enemies in a small radius for several seconds.",
+               "icon" : "assets/icons/abilityIcons/excalibur2.webp",
+               "video" : "assets/extracted_mp4/ExcaliburUmbraPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Radial Javelin",
+                "desc" : "Launches javelins towards enemies, dealing high damage and impaling them to walls.",
+                "icon" : "assets/icons/abilityIcons/excalibur3.webp",
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Exalted Blade",
+                "desc" : "Summon a sword of pure light and immense power.",
+                "icon" : "assets/icons/abilityIcons/excalibur4.webp",
+                "video" : "assets/extracted_mp4/ExcaliburUmbraPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" :225 ,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 111,
+        "prime" : true,
+        "name" : "Frost Prime",
+        "gender" : "M",
+        "description" : "This is Frost, colder and deadlier than space itself. Frost can protect or punish, the decision is yours.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/FrostPrime.webp",
+            "background" : "assets/backgrounds/FrostPrimeFull.webp"
+        },
+        "releaseDate" : "2013-01-29",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Any melee assailant that strikes Frost has a 10% chance to be temporarily frozen for 20 seconds on impact."
+            },
+
+            "first" : 
+            {
+              "name" : "Freeze",
+              "desc" : "A frigid energy blast that freezes targets in their tracks.",
+              "icon" : "assets/icons/abilityIcons/frost1.webp",
+              "video" : "assets/extracted_mp4/FrostPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Ice Wave",
+               "desc" : "Sends a wave of razor sharp, crystallized ice toward an enemy, dealing heavy damage.",
+               "icon" : "assets/icons/abilityIcons/frost2.webp",
+               "video" : "assets/extracted_mp4/FrostPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Snow Globe",
+                "desc" : "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
+                "icon" : "assets/icons/abilityIcons/frost3.webp",
+                "video" : "assets/extracted_mp4/FrostPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Avalanche",
+                "desc" : "Summons a treacherous landslide of ice that instantly freezes and shatters all enemies in its radius.",
+                "icon" : "assets/icons/abilityIcons/frost4.webp",
+                "video" : "assets/extracted_mp4/FrostPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 112,
+        "prime" : true,
+        "name" : "Gara Prime",
+        "gender" : "F",
+        "description" : "This is Gara, the unbreakable warrior. Manipulator of glass, she fractures the resolve of her enemies. The shattered remains of her enemies are all that Gara leaves behind. Tread lightly.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/GaraPrime.webp",
+            "background" : "assets/backgrounds/GaraPrimeFull.webp"
+        },
+        "releaseDate" : "2017-10-12",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "While standing in light, Gara's glass body has a chance to blind enemies within 12 meters for 10 seconds, exposing them to Melee Finisher attacks. "
+            },
+
+            "first" : 
+            {
+              "name" : "Shattered Lash",
+              "desc" : "Lash out with stream of shattered glass, or hold for an arcing strike.",
+              "icon" : "assets/icons/abilityIcons/gara1.webp",
+              "video" : "assets/extracted_mp4/GaraPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Splinter Storm",
+               "desc" : "Gara's armor splinters into a maelstrom of shattered glass that slices enemies and impairs their weapons. Allies who contact the cloud are fortified against damage.",
+               "icon" : "assets/icons/abilityIcons/gara2.webp",
+               "video" : "assets/extracted_mp4/GaraPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Spectrorage",
+                "desc" : "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
+                "icon" : "assets/icons/abilityIcons/gara3.webp",
+                "video" : "assets/extracted_mp4/GaraPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Mass Vitrify",
+                "desc" : "Create an expanding ring of molten glass that slowly crystallizes enemies who enter. When the expansion is complete, the ring hardens to block weapons fire. The ring draws extra strength from the health and shields of crystallized enemies. Use Shattered Lash to smash the ring and send razor-sharp glass flying outward.",
+                "icon" : "assets/icons/abilityIcons/gara4.webp",
+                "video" : "assets/extracted_mp4/GaraPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 113,
+        "prime" : true,
+        "name" : "Garuda Prime",
+        "gender" : "F",
+        "description" : "This is Garuda, the gore queen. Cleansed by the blood of her enemies, she draws strength from vulnerability.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/GarudaPrime.webp",
+            "background" : "assets/backgrounds/GarudaPrimeFull.webp"
+        },
+        "releaseDate" : "2018-11-08",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "The more Garuda kills the more vicious her attacks become; Garuda gains up to 100% additional damage bonus for her abilities and weapons for each kill or assisted kill.  When no melee weapon is selected in the Arsenal loadout, Garuda Talons become available in the Arsenal screen as an exclusive melee weapon that can be modified separately and equipped for combat during missions."
+            },
+
+            "first" : 
+            {
+              "name" : "Dread Mirror",
+              "desc" : "Rip the life force from an enemy and use it as a shield that captures damage. Charge to channel the captured damage into an explosive projectile.",
+              "icon" : "assets/icons/abilityIcons/garuda1.webp",
+              "video" : "assets/extracted_mp4/GarudaPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Blood Altar",
+               "desc" : "Impale an enemy on an altar of talons and siphon health for Garuda and her allies.",
+               "icon" : "assets/icons/abilityIcons/garuda2.webp",
+               "video" : "assets/extracted_mp4/GarudaPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "Bloodletting",
+                "desc" : "Garuda sacrifices her health to generate energy.",
+                "icon" : "assets/icons/abilityIcons/garuda3.webp",
+                "video" : "assets/extracted_mp4/GarudaPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Seeking Talons",
+                "desc" : "Charge to expand the targeting area, release to send Garuda’s talons careening toward each target in area. Surviving enemies are prone to bleeding.",
+                "icon" : "assets/icons/abilityIcons/garuda4.webp",
+                "video" : "assets/extracted_mp4/GarudaPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/grendel2PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 120
+        }
+    },
+    {
+        "id" : 117,
+        "prime" : true,
+        "name" : "Harrow Prime",
+        "gender" : "M",
+        "description" : "This is Harrow, the monastic, the ritualist. Harrow is suffragan to the Void. Will you believe, Tenno?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/HarrowPrime.webp",
+            "background" : "assets/backgrounds/HarrowPrimeFull.webp"
+        },
+        "releaseDate" : "2017-06-28",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Harrow possesses 200% Overshields capacity, granting him a maximum of 2,400 Overshields, and spawns into missions with 100% Energy filled."
+            },
+
+            "first" : 
+            {
+              "name" : "Condemn",
+              "desc" : "Cast a wave of energy that chains them where they stand. Each enemy held reinforces Harrow’s shields. ",
+              "icon" : "assets/icons/abilityIcons/harrow1.webp",
+              "video" : "assets/extracted_mp4/HarrowPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Penance",
+               "desc" : "Sacrifice shields to boost reload, and fire rate while converting damage inflicted on enemies into health for Harrow and nearby allies.",
+               "icon" : "assets/icons/abilityIcons/harrow2.webp",
+               "video" : "assets/extracted_mp4/HarrowPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Thurible",
+                "desc" : "Channel Harrow’s energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
+                "icon" : "assets/icons/abilityIcons/harrow3.webp",
+                "video" : "assets/extracted_mp4/HarrowPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Covenant",
+                "desc" : "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+                "icon" : "assets/icons/abilityIcons/harrow4.webp",
+                "video" : "assets/extracted_mp4/HarrowPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100 
+        }
+    },
+    {
+        "id" : 119,
+        "prime" : true,
+        "name" : "Hydroid Prime",
+        "gender" : "M",
+        "description" : "This is Hydroid, a deadly marauder from the deep. Whether the seas or the stars, Tenno, Hydroid takes a foreboding command of the battlefield.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/HydroidPrime.webp",
+            "background" : "assets/backgrounds/HydroidPrimeFull.webp"
+        },
+        "releaseDate" : "2014-04-09",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Hydroid's melee slam attacks have a 50% chance to spawn a tentacle that lasts for 15 seconds. The tentacle senses nearby enemies within 5 meters to grab and thrash them, dealing 200 True damage per second bypassing shields and armor; captured enemies are released upon death or tentacle expiring. Up to 3 tentacles spawned by this passive may exist at once."
+            },
+
+            "first" : 
+            {
+              "name" : "Tempest Barrage",
+              "desc" : "Target an area and call down a barrage of liquid fury. Charge this attack to increase the lethality of the onslaught.",
+              "icon" : "assets/icons/abilityIcons/hydroid1.webp",
+              "video" : "assets/extracted_mp4/HydroidPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/hydroid1PH.webp"
+            },
+
+            "second" : 
+            {
+               "name" : "Tidal Surge",
+               "desc" : "Crash through enemies in a ferocious wall of water.",
+               "icon" : "assets/icons/abilityIcons/hydroid2.webp",
+               "video" : "assets/extracted_mp4/HydroidPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/hydroid2PH.webp"
+            },
+            
+            "third" : 
+            {
+                "name" : "",
+                "desc" : "Become a water trap and drown unsuspecting enemies.",
+                "icon" : "assets/icons/abilityIcons/hydroid3.webp",
+                "video" : "assets/extracted_mp4/HydroidPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/hydroid3PH.webp"
+            },
+
+            "fourth" : 
+            {
+                "name" : "",
+                "desc" : "Tap to spawn watery tentacles from all nearby surfaces to wreak havoc. Charge to increase the number of tentacles and spawn area. Use while in Undertow to have the tentacles emerge from the pool.",
+                "icon" : "assets/icons/abilityIcons/hydroid4.webp",
+                "video" : "assets/extracted_mp4/HydroidPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/hydroid4PH.webp"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" : 100,
+            "shields" : 125,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 120,
+        "prime" : true,
+        "name" : "Inaros Prime",
+        "gender" : "M",
+        "description" : "This is Inaros, the savior, king of the desert. Whether denizens of the sky or the earth, Tenno, the fear of Inaros is within.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/InarosPrime.webp",
+            "background" : "assets/backgrounds/InarosPrime.webp"
+        },
+        "releaseDate" : "2016-03-04",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Resurrect the undying king of the desert with the death of his foes. On fatal injury and entering Bleedout, Inaros enters an immobile Sarcophagus. Within his tomb, target an enemy or ally on the aiming reticle (default LMB ) to release a beam that continuously inflicts 75 True damage per tick and siphon hitpoints from them, gradually filling his revive meter to allow Inaros to rise again. Killing enemies with melee Finishers restores 20% of Inaros' maximum Health."
+            },
+
+            "first" : 
+            {
+              "name" : "Desiccation",
+              "desc" : "Blast enemies with a wave of cursed sand that blinds them and steals their health. ",
+              "icon" : "assets/icons/abilityIcons/inaros1.webp",
+              "video" : "assets/extracted_mp4/InarosPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Devour",
+               "desc" : "Hold power to trap target in quicksand and draw them in for devouring; this steals health and ultimately creates a friendly Sand Shadow.",
+               "icon" : "assets/icons/abilityIcons/inaros2.webp",
+               "video" : "assets/extracted_mp4/InarosPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Sandstorm",
+                "desc" : "Become a whirling spiral of sand that sends enemies flying and devours those trapped in quicksand.",
+                "icon" : "assets/icons/abilityIcons/inaros3.webp",
+                "video" : "assets/extracted_mp4/InarosPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Scarab Swarm",
+                "desc" : "Charge to transform health into hardened scarab armor. Discharge to blast enemies with a scarab swarm; survivors have their health drained and bestowed on allies.",
+                "icon" : "assets/icons/abilityIcons/inaros4.webp",
+                "video" : "assets/extracted_mp4/InarosPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" : 500,
+            "shields" : 0,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 121,
+        "prime" : true,
+        "name" : "Ivara Prime",
+        "gender" : "F",
+        "description" : "This is Ivara, the huntress, the thief. Don't roam around the forest looking for a fight, Tenno. Ivara is always on guard.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/IvaraPrime.webp",
+            "background" : "assets/backgrounds/IvaraPrimeFull.webp"
+        },
+        "releaseDate" : "2015-12-03",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -1330,44 +3845,1336 @@
 
             "first" : 
             {
-              "name" : "",
-              "desc" : "",
-              "icon" : "assets/icons/abilityIcons/1.webp",
-              "video" : "assets/extracted_mp4/Power1_s.mp4",
+              "name" : "Quiver",
+              "desc" : "Cycle through and shoot one of four tactical arrows: Cloak, Dashwire, Noise and Sleep.",
+              "icon" : "assets/icons/abilityIcons/ivara1.webp",
+              "video" : "assets/extracted_mp4/IvaraPower1_s.mp4",
               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "second" : 
             {
-               "name" : "",
-               "desc" : "",
-               "icon" : "assets/icons/abilityIcons/2.webp",
-               "video" : "assets/extracted_mp4/Power2_s.mp4",
+               "name" : "Navigator",
+               "desc" : "Assume control of a projectile and guide it to the target.",
+               "icon" : "assets/icons/abilityIcons/ivara2.webp",
+               "video" : "assets/extracted_mp4/IvaraPower2_s.mp4",
                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
             
             "third" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/3.webp",
-                "video" : "assets/extracted_mp4/Power3_s.mp4",
+                "name" : "Prowl",
+                "desc" : "Become invisible and steal loot from unsuspecting enemies or take out prey with deadly headshots.",
+                "icon" : "assets/icons/abilityIcons/ivara3.webp",
+                "video" : "assets/extracted_mp4/IvaraPower3_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             },
 
             "fourth" : 
             {
-                "name" : "",
-                "desc" : "",
-                "icon" : "assets/icons/abilityIcons/4.webp",
-                "video" : "assets/extracted_mp4/Power4_s.mp4",
+                "name" : "Artemis Bow",
+                "desc" : "Summon a mighty bow and unleash a volley of devastating arrows.",
+                "icon" : "assets/icons/abilityIcons/ivara4.webp",
+                "video" : "assets/extracted_mp4/IvaraPower4_s.mp4",
                 "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
             }
         },
         "stats" : {
-            "armor" : "",
-            "health" : "",
-            "shields" : "",
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 100,
+            "energy" : 175
+        }
+    },
+    {
+        "id" : 122,
+        "prime" : true,
+        "name" : "Khora Prime",
+        "gender" : "F",
+        "description" : "This is Khora, with bladed precision, she is a mistress of entrapment. Don't get caught on the wrong end of a whipcrack of Khora's steel. It may be the last thing you hear.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/KhoraPrime.webp",
+            "background" : "assets/backgrounds/KhoraPrime.webp"
+        },
+        "releaseDate" : "2018-04-20",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Khora's ferocious Kavat, Venari, fights alongside her with steadfast zeal. Venari is an exclusive Companion for the Khora Warframe, integrated as her signature passive ability. Venari will spawn beside Khora when the player first enters a mission, as a permanent companion that lasts until killed."
+            },
+
+            "first" : 
+            {
+              "name" : "Whipclaw",
+              "desc" : "Send enemies reeling with a deafening whipcrack.",
+              "icon" : "assets/icons/abilityIcons/khora1.webp",
+              "video" : "assets/extracted_mp4/KhoraPower1_s.mp4",
+              "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Ensnare",
+               "desc" : "Bind a hapless target in living metal, entangling others who stray too close. Whipclaw will refresh the trap allowing it to capture more enemies.",
+               "icon" : "assets/icons/abilityIcons/khora2.webp",
+               "video" : "assets/extracted_mp4/KhoraPower2_s.mp4",
+               "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Venari",
+                "desc" : "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+                "icon" : "assets/icons/abilityIcons/khora3.webp",
+                "video" : "assets/extracted_mp4/KhoraPower3_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Strangledome",
+                "desc" : "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
+                "icon" : "assets/icons/abilityIcons/khora4.webp",
+                "video" : "assets/extracted_mp4/KhoraPower4_s.mp4",
+                "videoPH" : "assets/extracted_mp4/Power2_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 275,
+            "health" : 125,
+            "shields" : 100,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 124,
+        "prime" : true,
+        "name" : "Limbo",
+        "gender" : "M",
+        "description" : "This is Limbo, master of the Rift. In a land of both shadow and substance, Limbo is both nowhere and everywhere.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/LimboPrime.webp",
+            "background" : "assets/backgrounds/LimboPrimeFull.webp"
+        },
+        "releaseDate" : "2014-10-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : " Limbo has access to the Rift plane (Rift for short), an alternate dimension to the normal environment, or material plane. By performing a Roll, a Sidespring, or a Backspring, Limbo slides into and out of the Rift at will. This is better known as Rift Walk. Several of Limbo's abilities impose the Rift upon the world around him, affecting himself, the environment, enemies, and even allies."
+            },
+
+            "first" : 
+            {
+              "name" : "Banish",
+              "desc" : "Casts a wave of Rift energy that damages hostiles while pushing enemies and allies out of Limbo’s current plane of existence.",
+              "icon" : "assets/icons/abilityIcons/limbo1.webp",
+              "video" : "assets/extracted_mp4/LimboPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Stasis",
+               "desc" : "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+               "icon" : "assets/icons/abilityIcons/limbo2.webp",
+               "video" : "assets/extracted_mp4/LimboPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Rift Surge",
+                "desc" : "Surges nearby Rift-bound enemies with Rift energy. When killed the Rift Surge is transferred to a nearby enemy outside the rift. Surged enemies that leave the Rift perform a radial Banish.",
+                "icon" : "assets/icons/abilityIcons/limbo3.webp",
+                "video" : "assets/extracted_mp4/LimboPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Cataclysm",
+                "desc" : "A violent blast of void energy tears open a pocket of rift plane which can sustain itself for a short period before collapsing in another lethal blast.",
+                "icon" : "assets/icons/abilityIcons/limbo4.webp",
+                "video" : "assets/extracted_mp4/LimboPower3_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 125,
+        "prime" : true,
+        "name" : "Loki Prime",
+        "gender" : "M",
+        "description" : "This is Loki, the trickster, the deceiver. Whether you prefer to go into battle alone or with a team, Tenno, Loki will adapt to any style.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/LokiPrime.webp",
+            "background" : "assets/backgrounds/LokiPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Loki's Wall Latch duration lasts 10 times longer than normal, up to a maximum of 60 seconds."
+            },
+
+            "first" : 
+            {
+              "name" : "Decoy",
+              "desc" : "Loki deploys a holographic copy of himself, drawing enemy fire.",
+              "icon" : "assets/icons/abilityIcons/loki1.webp",
+              "video" : "assets/extracted_mp4/LokiPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Invisibility",
+               "desc" : "Loki camouflages himself, becoming invisible to enemies.",
+               "icon" : "assets/icons/abilityIcons/loki2.webp",
+               "video" : "assets/extracted_mp4/LokiPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Switch Teleport",
+                "desc" : "Loki instantaneously swaps positions with a target, confusing the enemy. ",
+                "icon" : "assets/icons/abilityIcons/loki3.webp",
+                "video" : "assets/extracted_mp4/LokiPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Radial Disarm",
+                "desc" : "Lets forth a wave of energy, disrupting the projectile weapons of enemies in range and forcing them to revert to melee combat.",
+                "icon" : "assets/icons/abilityIcons/loki4.webp",
+               "video" : "assets/extracted_mp4/LokiPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 126,
+        "prime" : true,
+        "name" : "Mag Prime",
+        "gender" : "F",
+        "description" : "This is Mag, a force to be reckoned with. Mag is a team player, Tenno, and a worthy addition to any squad.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/MagPrime.webp",
+            "background" : "assets/backgrounds/MagPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mag automatically Vacuums Pickups that are within 8 meters towards her."
+            },
+
+            "first" : 
+            {
+              "name" : "Pull",
+              "desc" : "Magnetic force pulls enemies toward you, stunning them and bringing them into melee range.",
+              "icon" : "assets/icons/abilityIcons/mag1.webp",
+              "video" : "assets/extracted_mp4/MagPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Magnetize",
+               "desc" : "(TAP) Encloses a target in a magnetic field, ensnaring nearby enemies and dealing damage over time. Bullets and shards created from Polarize increase this damage. (HOLD) Creates a magnetic field around a target, ensnaring nearby enemies and dealing damage over time. The field reacts to bullets and shards created from Polarize to increase the damage.",
+               "icon" : "assets/icons/abilityIcons/mag2.webp",
+               "video" : "assets/extracted_mp4/MagPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Polarize",
+                "desc" : "Emit an energy pulse that depletes enemy shields and armor, creating shards which become deadly when mixed with Magnetize. Shields of allies touched by the pulse are restored.",
+                "icon" : "assets/icons/abilityIcons/mag3.webp",
+                "video" : "assets/extracted_mp4/MagPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Crush",
+                "desc" : "Magnetizes the bones of nearby enemies, causing them to collapse upon themselves.",
+                "icon" : "assets/icons/abilityIcons/mag4.webp",
+               "video" : "assets/extracted_mp4/MagPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 75,
+            "shields" : 150,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 127,
+        "prime" : true,
+        "name" : "Mesa Prime",
+        "gender" : "F",
+        "description" : "This is Mesa, the vagabond, the outcast. Do you feel lucky, Tenno? Mesa's got the fastest guns in the stars.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/MesaPrime.webp",
+            "background" : "assets/backgrounds/MesaPrimeFull.webp"
+        },
+        "releaseDate" : "2014-11-27",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mesa has improved proficiency with secondary weapons, and gains a health bonus at the expense of not having a melee weapon equipped. The following are passive bonuses available to Mesa: +15% fire rate with dual wielded sidearms, +25% reload speed for one handed sidearms, +50 health when no melee weapon is equipped."
+            },
+
+            "first" : 
+            {
+              "name" : "Ballistic Battery",
+              "desc" : "When activated, this power stores damage caused by guns. When triggered again, that damage is channeled through the next gunshot.",
+              "icon" : "assets/icons/abilityIcons/mesa1.webp",
+              "video" : "assets/extracted_mp4/MesaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Shooting Gallery",
+               "desc" : "Gives an ally extra damage while jamming the guns of nearby enemies. This power shifts between team members.",
+               "icon" : "assets/icons/abilityIcons/mesa2.webp",
+               "video" : "assets/extracted_mp4/MesaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Shatter Shield",
+                "desc" : "Envelops Mesa in a barrier of energy, reflecting back incoming bullet damage.",
+                "icon" : "assets/icons/abilityIcons/mesa3.webp",
+                "video" : "assets/extracted_mp4/MesaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Peacemaker",
+                "desc" : "With intense focus, Mesa draws her Regulator pistols, shooting down her foes in rapid succession.",
+                "icon" : "assets/icons/abilityIcons/mesa4.webp",
+               "video" : "assets/extracted_mp4/MesaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 125,
+            "shields" : 75,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 128,
+        "prime" : true,
+        "name" : "Mirage Prime",
+        "gender" : "F",
+        "description" : "This is Mirage, a sly conjurer. Do you believe in magic, Tenno? Mirage's deceiving influence on the battlefield might make you.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/MiragePrime.webp",
+            "background" : "assets/backgrounds/MiragePrimeFull.webp"
+        },
+        "releaseDate" : "2014-07-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Mirage has an increased proficiency when performing several Maneuvers. Sliding lasts 85% longer, +50% faster Maneuver speed."
+            },
+
+            "first" : 
+            {
+              "name" : "Hall of Mirrors",
+              "desc" : "Mirage creates an entourage of doppelgangers to confuse and distract the enemy.",
+              "icon" : "assets/icons/abilityIcons/mirage1.webp",
+              "video" : "assets/extracted_mp4/MiragePower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Sleight of Hand",
+               "desc" : "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
+               "icon" : "assets/icons/abilityIcons/mirage2.webp",
+               "video" : "assets/extracted_mp4/MiragePower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Eclipse",
+                "desc" : "Standing in light, Mirage deals heavy damage, while the shadows make Mirage difficult to track and even harder to hurt.",
+                "icon" : "assets/icons/abilityIcons/mirage3.webp",
+                "video" : "assets/extracted_mp4/MiragePower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Prism",
+                "desc" : "Fires an energy prism that shoots lasers in all directions. Activating again detonates the prism, blinding nearby foes.",
+                "icon" : "assets/icons/abilityIcons/mirage4.webp",
+               "video" : "assets/extracted_mp4/MiragePower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 80,
+            "shields" : 80,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 129,
+        "prime" : true,
+        "name" : "Nekros Prime",
+        "gender" : "M",
+        "description" : "This is Nekros, manipulator of souls. Nekros possesses the battlefield, Tenno. Death is his playground.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/NekrosPrime.webp",
+            "background" : "assets/backgrounds/NekrosPrimeFull.webp"
+        },
+        "releaseDate" : "2013-09-13",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "A master of death, Nekros regenerates 5 points of Health any time an enemy dies within 10 meters of him. His passive also can heal Companions."
+            },
+
+            "first" : 
+            {
+              "name" : "Soul Punch",
+              "desc" : "A blow so powerful, it turns the enemy's very soul into a deadly projectile, damaging all in its path.",
+              "icon" : "assets/icons/abilityIcons/nekros1.webp",
+              "video" : "assets/extracted_mp4/NekrosPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Terrify",
+               "desc" : "Casts fear into the hearts of nearby enemies, causing them to run away in terror.",
+               "icon" : "assets/icons/abilityIcons/nekros2.webp",
+               "video" : "assets/extracted_mp4/NekrosPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Desecrate",
+                "desc" : "Forces fallen enemies around you to drop additional loot.",
+                "icon" : "assets/icons/abilityIcons/nekros3.webp",
+                "video" : "assets/extracted_mp4/NekrosPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Shadows of the Dead",
+                "desc" : "Summons shadow versions of vanquished enemies to fight alongside you for a short period of time.",
+                "icon" : "assets/icons/abilityIcons/nekros4.webp",
+               "video" : "assets/extracted_mp4/NekrosPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 90,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 130,
+        "prime" : true,
+        "name" : "Nezha Prime",
+        "gender" : "M",
+        "description" : "This is Nezha, the protector, the quick. Feel the heat, Tenno. Nezha is a burning thing, and he makes a fiery ring.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/NezhaPrime.webp",
+            "background" : "assets/backgrounds/NezhaPrime.webp"
+        },
+        "releaseDate" : "2015-12-16",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Nezha slides 60% faster and goes 35% farther."
+            },
+
+            "first" : 
+            {
+              "name" : "Fire Walker",
+              "desc" : "Blaze a trail of flames, scorching enemies and cleansing allies.",
+              "icon" : "assets/icons/abilityIcons/nezha1.webp",
+              "video" : "assets/extracted_mp4/NezhaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Blazing Chakram",
+               "desc" : "Hurl a flaming ring that burns enemies and causes them to emit a healing blast on death. Reactivate to instantly travel to the ring's location.",
+               "icon" : "assets/icons/abilityIcons/nezha2.webp",
+               "video" : "assets/extracted_mp4/NezhaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Warding Halo",
+                "desc" : "Create a protective ring of fire that also stuns and damage enemies who get too close.",
+                "icon" : "assets/icons/abilityIcons/nezha3.webp",
+                "video" : "assets/extracted_mp4/NezhaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Divine Spears",
+                "desc" : "Impale nearby enemies on spears that erupt from the ground.",
+                "icon" : "assets/icons/abilityIcons/nezha4.webp",
+               "video" : "assets/extracted_mp4/NezhaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 190,
+            "health" : 125,
+            "shields" : 50,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 131,
+        "prime" : true,
+        "name" : "Nidus Prime",
+        "gender" : "M",
+        "description" : "This is Nidus, the adaptive, the scourge.Nidus is a deadly plague for which there is no cure. You must control the strange disease.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/NidusPrime.webp",
+            "background" : "assets/backgrounds/NidusPrimeFull.webp"
+        },
+        "releaseDate" : "2016-12-22",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "The Infestation dwelling within Nidus mutates rapidly when used against his foes, fueling his abilities and yielding various symbiotic benefits."
+            },
+
+            "first" : 
+            {
+              "name" : "Virulence",
+              "desc" : "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
+              "icon" : "assets/icons/abilityIcons/nidus1.webp",
+              "video" : "assets/extracted_mp4/NidusPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Larva",
+               "desc" : "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.",
+               "icon" : "assets/icons/abilityIcons/nidus2.webp",
+               "video" : "assets/extracted_mp4/NidusPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Parasitic Link",
+                "desc" : "Bind to a target with a parasitic link. For allies, both the host and Nidus gain increased Ability Strength. Linked enemies take the damage inflicted on Nidus.",
+                "icon" : "assets/icons/abilityIcons/nidus3.webp",
+                "video" : "assets/extracted_mp4/NidusPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Ravenous",
+                "desc" : "Gluttonous maggots swarm nearby enemies, feasting until they burst with Infestation. The maggots benefit from Mutation and each enemy consumed adds to the Mutation stack.",
+                "icon" : "assets/icons/abilityIcons/nidus4.webp",
+               "video" : "assets/extracted_mp4/NidusPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 300,
+            "health" : 150,
+            "shields" : 0,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 132,
+        "prime" : true,
+        "name" : "Nova Prime",
+        "gender" : "F",
+        "description" : "This is Nova, wildly unpredictable. Nova's presence on the battlefield is complex and deadly. Handle with care, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/NovaPrime.webp",
+            "background" : "assets/backgrounds/NovaPrimeFull.webp"
+        },
+        "releaseDate" : "2013-07-13",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Whenever Nova is knocked down, she emits a neutron burst which knocks down and damages enemies in a 6 meter radius and deals 250 Blast damage."
+            },
+
+            "first" : 
+            {
+              "name" : "Null Star",
+              "desc" : "Creates anti-matter particles that orbit Nova and seek nearby targets.",
+              "icon" : "assets/icons/abilityIcons/nova1.webp",
+              "video" : "assets/extracted_mp4/NovaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Antimatter Drop",
+               "desc" : "Launches a contained particle of antimatter that will detonate upon collision.",
+               "icon" : "assets/icons/abilityIcons/nova2.webp",
+               "video" : "assets/extracted_mp4/NovaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Worm Hole",
+                "desc" : "Creates a wormhole allowing instantaneous travel.",
+                "icon" : "assets/icons/abilityIcons/nova3.webp",
+                "video" : "assets/extracted_mp4/NovaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Molecular Prime",
+                "desc" : "Primes all enemies in a radius with anti-matter. ",
+                "icon" : "assets/icons/abilityIcons/nova4.webp",
+               "video" : "assets/extracted_mp4/NovaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 133,
+        "prime" : true,
+        "name" : "Nyx Prime",
+        "gender" : "F",
+        "description" : "This is Nyx, manipulator of minds. On her own or with a group, Nyx can turn the tide of battle in her favor.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/NyxPrime.webp",
+            "background" : "assets/backgrounds/NyxPrimeFull.webp"
+        },
+        "releaseDate" : "2013-01-29",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Enemies are 20% less accurate when targeting Nyx (except while Absorb is active)."
+            },
+
+            "first" : 
+            {
+              "name" : "Mind Control",
+              "desc" : "Nyx invades the psyche of a target, confusing enemies and making them fight for the Tenno cause.",
+              "icon" : "assets/icons/abilityIcons/nyx1.webp",
+              "video" : "assets/extracted_mp4/NyxPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Psychic Bolts",
+               "desc" : "Nyx launches a cluster of force bolts at enemies, using telekinesis to adjust flight paths and seek nearby targets.",
+               "icon" : "assets/icons/abilityIcons/nyx2.webp",
+               "video" : "assets/extracted_mp4/NyxPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Chaos",
+                "desc" : "With a powerful psychic blast, Nyx causes mass hysteria on the battlefield by confusing all enemies to attack random factions.",
+                "icon" : "assets/icons/abilityIcons/nyx3.webp",
+                "video" : "assets/extracted_mp4/NyxPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Absorb",
+                "desc" : "Nyx absorbs all incoming damage and channels that collected energy into an explosive radial discharge. Nyx's Weapon damage is buffed based on incoming absorbed damage when the Ability ends.",
+                "icon" : "assets/icons/abilityIcons/nyx4.webp",
+               "video" : "assets/extracted_mp4/NyxPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" :100 ,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 134,
+        "prime" : true,
+        "name" : "Oberon Prime",
+        "gender" : "M",
+        "description" : "This is Oberon, the mystic, the willful. Oberon is an adept and honorable warrior, Tenno. Are you?",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/OberonPrime.webp",
+            "background" : "assets/backgrounds/OberonPrimeFull.webp"
+        },
+        "releaseDate" : "2013-12-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Creatures of nature rejuvenate in Oberon's presence, causing allied Kubrows, Kavats, Predasites, and Vulpaphylas to receive +25% Health, Shield and Armor links. Oberon's own Kubrow, Kavat, Predasite, or Vulpaphyla also receives 1 instant revive per mission."
+            },
+
+            "first" : 
+            {
+              "name" : "Smite",
+              "desc" : "Focuses deadly energy within a target and then projects it outwards, damaging both the target and surrounding enemies.",
+              "icon" : "assets/icons/abilityIcons/oberon1.webp",
+              "video" : "assets/extracted_mp4/OberonPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Hallowed Ground",
+               "desc" : "Sanctifies the ground before Oberon with righteous fire, inflicting damage to any enemy that stands in the flames.",
+               "icon" : "assets/icons/abilityIcons/oberon2.webp",
+               "video" : "assets/extracted_mp4/OberonPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Renewal",
+                "desc" : "Healing waves of energy flow outward from Oberon to his allies, regenerating health over time.",
+                "icon" : "assets/icons/abilityIcons/oberon3.webp",
+                "video" : "assets/extracted_mp4/OberonPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Reckoning",
+                "desc" : "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Sphere.",
+                "icon" : "assets/icons/abilityIcons/oberon4.webp",
+               "video" : "assets/extracted_mp4/OberonPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 175,
+            "health" : 125,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 135,
+        "prime" : true,
+        "name" : "Octavia Prime",
+        "gender" : "F",
+        "description" : "This is Octavia, the melodic, the maestro. If music be the food of death... play on, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/OctaviaPrime.webp",
+            "background" : "assets/backgrounds/OctaviaPrimeFull.webp"
+        },
+        "releaseDate" : "2017-03-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Octavia creates musical masterpieces from the Mandachord affixed to her arms that empowers her abilities. Casting any ability will inspire Octavia and nearby allies with her music, granting the Inspiration buff that replenishes 1 energy per second for 30 seconds. Allies within 15 meters will receive the Inspiration buff."
+            },
+
+            "first" : 
+            {
+              "name" : "Mallet",
+              "desc" : "Rhythmically beats damage into nearby enemies and draws their fire. Damage inflicted on the Mallet increases its lethality.",
+              "icon" : "assets/icons/abilityIcons/octavia1.webp",
+              "video" : "assets/extracted_mp4/OctaviaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Resonator",
+               "desc" : "Launches a rollerball that charms foes to follow it. Combines with the Mallet to create a roving ball of sonic destruction.",
+               "icon" : "assets/icons/abilityIcons/octavia2.webp",
+               "video" : "assets/extracted_mp4/OctaviaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Metronome",
+                "desc" : "Grants buffs to those who consistently perform actions in time to Octavia’s music. Timed jumps offer the Vivace speed buff. Crouching on the beat grants cloaking with the Nocturne buff. Firing rhythmically bestows Opera multishot buff. Timed melee swings give the Forte damage buff.",
+                "icon" : "assets/icons/abilityIcons/octavia3.webp",
+                "video" : "assets/extracted_mp4/OctaviaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Amp",
+                "desc" : "Draws power from the decibel level of sound in the area and uses it to amplify a damage buff for Octavia and her allies. It also doubles the damage and range of nearby Mallets.",
+                "icon" : "assets/icons/abilityIcons/octavia4.webp",
+               "video" : "assets/extracted_mp4/OctaviaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 137,
+        "prime" : true,
+        "name" : "Revenant Prime",
+        "gender" : "M",
+        "description" : "This is Revenant, the returned - the condemned. Harnessing the essence of Eidolon and warrior alike, he mystifies and obliterates his foes. Revenant serves last rites for the souls he leaves on fire, without a plea for mercy.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/RevenantPrime.webp",
+            "background" : "assets/backgrounds/RevenantPrime.webp"
+        },
+        "releaseDate" : "2018-08-24",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Harnessing the essence of Eidolons, Revenant is immune to the Magnetic night waters of the Plains of Eidolon. Additionally, when his Shield depletes, Revenant emits a 100 damage radial Blast that knocks down enemies within 7.5m. There is a max 75% Damage Falloff at the edge of the blast's radius."
+            },
+
+            "first" : 
+            {
+              "name" : "Enthrall",
+              "desc" : "Convert a target into a zealous thrall. Thralls turn on their allies and enthrall through damage. On death, they disintegrate into a damaging pillar of energy. The thrall horde remains under Revenant’s spell until this Ability runs out.",
+              "icon" : "assets/icons/abilityIcons/revenant1.webp",
+              "video" : "assets/extracted_mp4/RevenantPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Mesmer Skin",
+               "desc" : "Become enveloped in Sentient energy, which redirects damage and stuns all those who dare attack. Stunned enemies can be Enthralled at no energy cost.",
+               "icon" : "assets/icons/abilityIcons/revenant2.webp",
+               "video" : "assets/extracted_mp4/RevenantPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Reave",
+                "desc" : "Dash through enemies as a wall of Sentient energy, leeching shields and health from any encountered, enhanced for thralls.",
+                "icon" : "assets/icons/abilityIcons/revenant3.webp",
+                "video" : "assets/extracted_mp4/RevenantPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Danse Macabre",
+                "desc" : "Erupt with a multitude of Eidolon energy beams and sweep a circle of death around Revenant. The beams will modify their Damage Type to target select defenses, while incoming damage is redirected back into the beams. Hold fire to boost Status Effects and Damage, at the cost of increased energy consumption. Thralls killed by this leave overshield pickups.",
+                "icon" : "assets/icons/abilityIcons/revenant4.webp",
+               "video" : "assets/extracted_mp4/RevenantPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 125,
+            "health" : 100,
+            "shields" : 225,
+            "energy" : 125
+        }
+    },
+    {
+        "id" : 138,
+        "prime" : true,
+        "name" : "Rhino Prime",
+        "gender" : "M",
+        "description" : "This is Rhino, an immovable force and highly resilient. Rhino can survive alone or become the cornerstone of any squad, Tenno. The choice is yours.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/RhinoPrime.webp",
+            "background" : "assets/backgrounds/RhinoPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "If Rhino falls far enough to incur a Hard Landing, the ground impact will discharge a shockwave that deals Impact damage in a 6 meter area of effect and knocking down nearby enemies."
+            },
+
+            "first" : 
+            {
+              "name" : "Rhino Charge",
+              "desc" : "Rhino charges towards a target, clobbering any in his path and goring his victim.",
+              "icon" : "assets/icons/abilityIcons/rhino1.webp",
+              "video" : "assets/extracted_mp4/RhinoPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Iron Skin",
+               "desc" : "Rhino hardens his skin, insulating himself from all damage.",
+               "icon" : "assets/icons/abilityIcons/rhino2.webp",
+               "video" : "assets/extracted_mp4/RhinoPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Roar",
+                "desc" : "Grants all nearby Warframes increased damage for a short duration.",
+                "icon" : "assets/icons/abilityIcons/rhino3.webp",
+                "video" : "assets/extracted_mp4/RhinoPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Rhino Stomp",
+                "desc" : "Rhino stomps with force sufficient to disrupt time, tumbling enemies around him in stasis.",
+                "icon" : "assets/icons/abilityIcons/rhino4.webp",
+               "video" : "assets/extracted_mp4/RhinoPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 139,
+        "prime" : true,
+        "name" : "Saryn Prime",
+        "gender" : "F",
+        "description" : "This is Saryn, elusive and deadly. Saryn is a deadly force on the battlefield. Get down with the sickness, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/SarynPrime.webp",
+            "background" : "assets/backgrounds/SarynPrimeFull.webp"
+        },
+        "releaseDate" : "2013-03-18",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Status Effects inflicted by Saryn's weapons and abilities last 25% longer."
+            },
+
+            "first" : 
+            {
+              "name" : "Spores",
+              "desc" : "Inflict a target with a pox of DmgCorrosiveSmall64.pngCorrosive spores. Spread spores to nearby enemies by destroying them or killing their host. The longer the Spore spreads, its damage will increase.",
+              "icon" : "assets/icons/abilityIcons/saryn1.webp",
+              "video" : "assets/extracted_mp4/SarynPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Molt",
+               "desc" : "Shedding her skin like a snake, Saryn leaves a decoy behind to draw fire from enemies.",
+               "icon" : "assets/icons/abilityIcons/saryn2.webp",
+               "video" : "assets/extracted_mp4/SarynPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Toxic Lash",
+                "desc" : "While active, attacks deal additional Toxin damage; this effect is doubled for melee strikes. Instantly burst spores when attacking afflicted enemies.",
+                "icon" : "assets/icons/abilityIcons/saryn3.webp",
+                "video" : "assets/extracted_mp4/SarynPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Miasma",
+                "desc" : "Releases a poisonous miasma that deals Viral damage to enemies in range. Foes afflicted by spores are more susceptible to the mist.",
+                "icon" : "assets/icons/abilityIcons/saryn4.webp",
+               "video" : "assets/extracted_mp4/SarynPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 225,
+            "health" :125 ,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 142,
+        "prime" : true,
+        "name" : "Titania Prime",
+        "gender" : "F",
+        "description" : "This is Titania, the pixie, the unseen. Titania is a deadly and mischievous addition to any squad, but don't take my word for it Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/TitaniaPrime.webp",
+            "background" : "assets/backgrounds/TitaniaPrimeFull.webp"
+        },
+        "releaseDate" : "2016-08-19",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Frolicking and fluttering about, Titania passively possesses +25% Bullet Jump and Rolling distance. Casting her abilities rejuvenates Titania and her allies within 15 meters, granting them the Upsurge buff which regenerates 4 Health points per second for 20 seconds."
+            },
+
+            "first" : 
+            {
+              "name" : "Spellbind",
+              "desc" : "Enemies fumble their weapons as they tumble into the air. Nearby allies become immune to Status Effects.",
+              "icon" : "assets/icons/abilityIcons/titania1.webp",
+              "video" : "assets/extracted_mp4/TitaniaPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Tribute",
+               "desc" : "Cycle through and extract one of the four Buffs when cast on an enemy. Thorns reduces incoming damage. Dust degrades enemy accuracy. Full Moon increases companion damage. Entangle slows enemies within range.",
+               "icon" : "assets/icons/abilityIcons/titania2.webp",
+               "video" : "assets/extracted_mp4/TitaniaPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Lantern",
+                "desc" : "Create a swarm of razorflies that transform an enemy into an irresistible floating beacon, attracting witless comrades and finally exploding.",
+                "icon" : "assets/icons/abilityIcons/titania3.webp",
+                "video" : "assets/extracted_mp4/TitaniaPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Razorwing",
+                "desc" : "Shrink down and take flight, while razorflies attack nearby enemies.",
+                "icon" : "assets/icons/abilityIcons/titania4.webp",
+               "video" : "assets/extracted_mp4/TitaniaPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 143,
+        "prime" : true,
+        "name" : "Trinity Prime",
+        "gender" : "F",
+        "description" : "This is Trinity, the healer, the equalizer. Trinity is a must for any high-stakes mission. She'll save your life, Tenno",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/TrinityPrime.webp",
+            "background" : "assets/backgrounds/TrinityPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Revive fallen allies 25% faster and from 50% farther away."
+            },
+
+            "first" : 
+            {
+              "name" : "Well of Life",
+              "desc" : "Create a well of life on an enemy. Allies will gain health when damaging the target.",
+              "icon" : "assets/icons/abilityIcons/trinity1.webp",
+              "video" : "assets/extracted_mp4/TrinityPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Energy Vampire",
+               "desc" : "Allies will gain energy over time when enemies are marked with Energy Vampire.",
+               "icon" : "assets/icons/abilityIcons/trinity2.webp",
+               "video" : "assets/extracted_mp4/TrinityPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Link",
+                "desc" : "Any damage taken while Link is active will be channeled to a nearby enemy.",
+                "icon" : "assets/icons/abilityIcons/trinity3.webp",
+                "video" : "assets/extracted_mp4/TrinityPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Blessing",
+                "desc" : "Restore the health and shields of allies within Trinity's Affinity aura while giving them some damage immunity.",
+                "icon" : "assets/icons/abilityIcons/trinity4.webp",
+               "video" : "assets/extracted_mp4/TrinityPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 100,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 144,
+        "prime" : true,
+        "name" : "Valkyr Prime",
+        "gender" : "F",
+        "description" : "This is Valkyr, the tormented, the experiment. Valkyr was crafted from torment, Tenno. Take control of her rage.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/ValkyrPrime.webp",
+            "background" : "assets/backgrounds/ValkyrPrimeFull.webp"
+        },
+        "releaseDate" : "2013-11-20",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Valkyr is nimble, able to recover from knockdown 50% faster and is immune to Hard Landings, landing with no touchdown delay."
+            },
+
+            "first" : 
+            {
+              "name" : "Rip Line",
+              "desc" : "Valkyr hurls forth a hook. If it hits an enemy, she pulls them to her. If it hits terrain, she pulls herself to the hook's location.",
+              "icon" : "assets/icons/abilityIcons/valkyr1.webp",
+              "video" : "assets/extracted_mp4/ValkyrPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Warcry",
+               "desc" : "Valkyr lets out a rallying cry that bolsters her allies melee speed while slowing down nearby enemies.",
+               "icon" : "assets/icons/abilityIcons/valkyr2.webp",
+               "video" : "assets/extracted_mp4/ValkyrPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Paralysis",
+                "desc" : "Valkyr unleashes her shields, stunning and damaging enemies around her.",
+                "icon" : "assets/icons/abilityIcons/valkyr3.webp",
+                "video" : "assets/extracted_mp4/ValkyrPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Hysteria",
+                "desc" : "Valkyr is imbued with energy and becomes a ball of vicious rage, capable of unleashing a torrent of deadly claw attacks on unsuspecting foes.",
+                "icon" : "assets/icons/abilityIcons/valkyr4.webp",
+               "video" : "assets/extracted_mp4/ValkyrPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 600,
+            "health" : 100,
+            "shields" : 50,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 145,
+        "prime" : true,
+        "name" : "Vauban Prime",
+        "gender" : "M",
+        "description" : "This is Vauban, focused and methodical. Vauban willingly sacrificed his own safety in the name of mayhem. Use him wisely, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/VaubanPrime.webp",
+            "background" : "assets/backgrounds/VaubanPrimeFull.webp"
+        },
+        "releaseDate" : "2013-05-17",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "An inventor by nature, the process of creation necessitates demolition and deconstruction. Vauban inflicts 25% extra damage with his weapons and abilities, against enemies that are incapacitated and unable to move."
+            },
+
+            "first" : 
+            {
+              "name" : "Tesla Nervos",
+              "desc" : "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing electricity to anything in the immediate area.",
+              "icon" : "assets/icons/abilityIcons/vauban1.webp",
+              "video" : "assets/extracted_mp4/VaubanPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Minelayer",
+               "desc" : "Cycle through four deployable mines: Tether Coil, Flechette Orb, Vector Pad and Overdriver.",
+               "icon" : "assets/icons/abilityIcons/vauban2.webp",
+               "video" : "assets/extracted_mp4/VaubanPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Photon Strike",
+                "desc" : "Drop a targeting beacon that calls in a devastating laser artillery strike.",
+                "icon" : "assets/icons/abilityIcons/vauban3.webp",
+                "video" : "assets/extracted_mp4/VaubanPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Bastille",
+                "desc" : "Erect a containment field to capture enemies and suspended them in stasis, stripping their armor. Hold to collapse all Bastilles into a single damaging vortex.",
+                "icon" : "assets/icons/abilityIcons/vauban4.webp",
+               "video" : "assets/extracted_mp4/VaubanPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 150,
+            "health" : 100,
+            "shields" : 75,
+            "energy" : 150
+        }
+    },
+    {
+        "id" : 146,
+        "prime" : true,
+        "name" : "Volt Prime",
+        "gender" : "M",
+        "description" : "This is Volt, a versatile warrior. Volt's arsenal is powerful and electrifying. Handle with care, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/VoltPrime.webp",
+            "background" : "assets/backgrounds/VoltPrimeFull.webp"
+        },
+        "releaseDate" : "2012-10-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Traveling along the ground between Volt's attacks (by walking, running, or sliding) will build up static energy, adding bonus Electricity damage toward Volt's next weapon attack or ability cast."
+            },
+
+            "first" : 
+            {
+              "name" : "Shock",
+              "desc" : "Launches a shocking projectile. It stuns and deals high damage to a single target and chains damage to nearby enemies.",
+              "icon" : "assets/icons/abilityIcons/volt1.webp",
+              "video" : "assets/extracted_mp4/VoltPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Speed",
+               "desc" : "Volt energizes his body and nearby Warframes, giving them increased speed and dexterity for a short time.",
+               "icon" : "assets/icons/abilityIcons/volt2.webp",
+               "video" : "assets/extracted_mp4/VoltPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Electric Shield",
+                "desc" : "Volt deploys an obstacle of energy, providing cover in any situation.",
+                "icon" : "assets/icons/abilityIcons/volt3.webp",
+                "video" : "assets/extracted_mp4/VoltPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Discharge",
+                "desc" : "Paralyze nearby hostiles with a damaging electric charge, this also shocks approaching enemies.",
+                "icon" : "assets/icons/abilityIcons/volt4.webp",
+               "video" : "assets/extracted_mp4/VoltPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 100,
+            "shields" : 150,
+            "energy" : 100
+        }
+    },
+    {
+        "id" : 150,
+        "prime" : true,
+        "name" : "Wukong Prime",
+        "gender" : "M",
+        "description" : "This is Wukong, the enduring, the swift. Everybody's got something to hide, Tenno. Except Wukong.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/WukongPrime.webp",
+            "background" : "assets/backgrounds/WukongPrimeFull.webp"
+        },
+        "releaseDate" : "2015-11-25",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Wukong has learned five techniques to avoid death whenever he takes fatal damage. Wukong will be randomly allowed 3 of these techniques per mission to avoid death 3 times. Each technique will make Wukong avoid entering bleedout upon taking fatal damage, invulnerable for 2 seconds, restore 50% health, and provide a unique buff."
+            },
+
+            "first" : 
+            {
+              "name" : "Celestial Twin",
+              "desc" : "Shedding part of himself, Wukong creates a twin to fight by his side. Attack at range and the twin will melee, pull a blade and the twin will lay down covering fire. Use again to command the twin to attack a target with increased damage.",
+              "icon" : "assets/icons/abilityIcons/wukong1.webp",
+              "video" : "assets/extracted_mp4/WukongPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Cloud Walker",
+               "desc" : "Evaporate into a cloud of mist and float through the battlefield, dazing any enemy encountered, while healing Wukong and his twin.",
+               "icon" : "assets/icons/abilityIcons/wukong2.webp",
+               "video" : "assets/extracted_mp4/WukongPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Defy",
+                "desc" : "Wukong and his twin become invulnerable and defy enemies to attack. All damage is captured, stored, and dealt back in a single furious strike of Wukong's staff. Bonus Armor is then granted relative to the damage captured.",
+                "icon" : "assets/icons/abilityIcons/wukong3.webp",
+                "video" : "assets/extracted_mp4/WukongPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Primal Fury",
+                "desc" : "Summon the Iron Staff and unleash fury.",
+                "icon" : "assets/icons/abilityIcons/wukong4.webp",
+               "video" : "assets/extracted_mp4/WukongPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 250,
+            "health" : 150,
+            "shields" : 100,
+            "energy" : 120
+        }
+    },
+    {
+        "id" : 153,
+        "prime" : true,
+        "name" : "Zephyr Prime",
+        "gender" : "F",
+        "description" : "This is Zephyr, light, yet deceivingly lethal. Zephyr brings graceful destruction to the battlefield. Look up, Tenno.",
+        "image" : {
+            "thumb" : "assets/icons/warframeIcons/ZephyrPrime.webp",
+            "background" : "assets/backgrounds/ZephyrPrimeFull.webp"
+        },
+        "releaseDate" : "2014-02-05",
+        "abilities" : {
+            "passive" : {
+                "icon" : "",
+                "description" : "Zephyr moves faster and falls slower while airborne. Also gain 150% Critical Hit chance with weapons while airborne."
+            },
+
+            "first" : 
+            {
+              "name" : "Tail Wind",
+              "desc" : "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
+              "icon" : "assets/icons/abilityIcons/zephyr1.webp",
+              "video" : "assets/extracted_mp4/ZephyrPower1_s.mp4"
+            },
+
+            "second" : 
+            {
+               "name" : "Airburst",
+               "desc" : "Launch a burst of massively dense air. Hold to send enemies flying, tap to pull them toward the burst. Damage increases per enemy hit.",
+               "icon" : "assets/icons/abilityIcons/zephyr2.webp",
+               "video" : "assets/extracted_mp4/ZephyrPower2_s.mp4"
+            },
+            
+            "third" : 
+            {
+                "name" : "Turbulence",
+                "desc" : "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
+                "icon" : "assets/icons/abilityIcons/zephyr3.webp",
+                "video" : "assets/extracted_mp4/ZephyrPower3_s.mp4"
+            },
+
+            "fourth" : 
+            {
+                "name" : "Tornado",
+                "desc" : "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental damage type they absorb the most. Shoot enemies engulfed in Tornadoes to do additional damage.",
+                "icon" : "assets/icons/abilityIcons/zephyr4.webp",
+               "video" : "assets/extracted_mp4/ZephyrPower4_s.mp4"
+            }
+        },
+        "stats" : {
+            "armor" : 100,
+            "health" : 150,
+            "shields" : 150,
             "energy" : 100
         }
     }
