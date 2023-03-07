@@ -127,8 +127,8 @@ $(".warframe").on('click', function(){
 
             var warframeData = `<div class='text-left' id='content'>
 
-            <div style='background-image: url(${frame.image.background}); background-position: top right; background-repeat: no-repeat;'>
-                    <div id='textInfo'>
+            <div class="row">
+                    <div class="col-md-8" id='textInfo'>
                      <h1 class='display-3'>${frame.name}</h1>
                      <h2>${frame.description}</h2>
                         <br/>
@@ -137,6 +137,7 @@ $(".warframe").on('click', function(){
                         <h3><b>Health:</b> ${frame.stats.health}</h3>
                         <h3><b>Energy:</b> ${frame.stats.energy}</h3>
                     </div>
+                    <div class="col-md-4" style='background-image: url(${frame.image.background}); background-position: top right; background-repeat: no-repeat; height: 325px;'></div>
             </div>
         
             <br/></br>
@@ -147,7 +148,7 @@ $(".warframe").on('click', function(){
         
             <div id='abilitiesText'>
             <div class='text-center'><h2>Abilities<h2></div>
-            <div class='text-center'><h3>Passive: ${frame.abilities.passive.description}<h3></div>
+            <div class='text-center'><h3><b>Passive:</b> ${frame.abilities.passive.description}<h3></div>
             </div>
             <div class='col'>
             <div class='card h-100' style='width: 18rem;'>

@@ -1194,15 +1194,16 @@ ul.social_icon li a:hover {
 }
 
 #formFilter{
-     display: flex;
-     justify-content: space-between;
      width: 100%;
      padding: 1rem;
-     margin-top: 30px;
+}
+
+#formFilter label{
+     color: white;
 }
 
 #formFilter input[type='radio']{
-     margin-left: 15px;
+     margin-left: 10px;
 }
 
 #warframeSort{
