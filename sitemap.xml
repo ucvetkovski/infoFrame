@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://oor0sh.github.io/infoFrame/index.html</loc>
+        <lastmod> 2023-03-08 </lastmod>
+        <changefreq>weekly</changefreq>
+        <priority> 1 </priority>
+    </url>
+    <url>
+        <loc>https://oor0sh.github.io/infoFrame/warframes.html</loc>
+        <lastmod> 2023-03-08 </lastmod>
+        <changefreq>monthly</changefreq>
+        <priority> 0.95 </priority>
+    </url>
+    <url>
+        <loc>https://oor0sh.github.io/infoFrame/about.html</loc>
+        <lastmod> 2023-03-08 </lastmod>
+        <changefreq>yearly</changefreq>
+        <priority> 0.5 </priority>
+    </url>
+    <url>
+        <loc>https://oor0sh.github.io/infoFrame/warframe.html</loc>
+        <lastmod> 2023-03-08 </lastmod>
+        <changefreq>daily</changefreq>
+        <priority> 0.45 </priority>
+    </url>
+</urlset>
