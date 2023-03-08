@@ -85,6 +85,9 @@ function showWarframes(niz){
            return rezultat;
         }
         else if(radios[i].value == "2"){
+            var favourites = JSON.parse(localStorage.getItem('favs'))
+            var parsedFavourites = favourites.map((x) =>parseInt(x));
+            {
             if(parsedFavourites.length != 0){
                 return niz.filter(f => parsedFavourites.some(item => item === f.id));
                 }
@@ -92,6 +95,7 @@ function showWarframes(niz){
                 return niz;
             }
         }
+    }
         else{
             return niz;
         }
