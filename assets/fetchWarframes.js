@@ -2,7 +2,6 @@ $(document).ready(function(){
 
 var frames;
 
-
 $.ajax({
     async: false,
     url : "assets/warframes.json",
@@ -68,24 +67,38 @@ function sortChange(){
     prikazi(showWarframes(sortWarframes(searchWarframes(frames))));
 }
 
+
 $("#warframeSort").change(sortChange);
 
+if(localStorage.getItem('favs')){
+    var favourites = JSON.parse(localStorage.getItem('favs'));
+    var parsedFavourites = favourites.map((x) =>parseInt(x));
+}
 
 function showWarframes(niz){
     let radios = document.querySelectorAll('input[name="variant"]:checked');
     for (var i = 0, length = radios.length; i < length; i++) {
       if (radios[i].checked) {
-        if(radios[i].value != "default")
+        if(radios[i].value != "default" && radios[i].value != "2")
         {
           var rezultat =  niz.filter(element => element.prime == radios[i].value)
            return rezultat;
+        }
+        else if(radios[i].value == "2"){
+            if(parsedFavourites.length != 0){
+                return niz.filter(f => parsedFavourites.some(item => item === f.id));
+                }
+            else{
+                return niz;
+            }
         }
         else{
             return niz;
         }
     }
-}
-}
+}}
+
+
 function variantChange(){
     if(sortType.value == -1){
     prikazi(showWarframes((searchWarframes(frames))));
@@ -115,7 +128,11 @@ function prikazi(niz){
     })
 }
 
-$(".warframe").on('click', function(){
+// $(".warframe").bind('click', function(){
+//     pretraga(this.id);
+// });
+
+$(document).on('click', '.warframe', function() {
     pretraga(this.id);
 });
 
@@ -129,7 +146,7 @@ $(".warframe").on('click', function(){
 
             <div class="row">
                     <div class="col-md-8" id='textInfo'>
-                     <h1 class='display-3'>${frame.name}</h1>
+                     <h1 class='display-3'>${frame.name}   <span id=${frame.id} class='fa fa-star'></span></h1>
                      <h2>${frame.description}</h2>
                         <br/>
                          <h3><b>Armor:</b> ${frame.stats.armor}</h3>
@@ -209,12 +226,26 @@ $(".warframe").on('click', function(){
             </div>
         </div></div>`;
 
-            
         localStorage.setItem('warframeData',warframeData);
         location.href = 'warframe.html';
         }
     })
 
 }
+
+$("#subButton").click(function(){
+    event.preventDefault();
+     if(subMail.value == ""){
+         subMailError.textContent = emailErrorMessage;
+     }
+     else if(!mailRegEx.test(subMail.value)){
+         subMailError.textContent = emailFormatErrorMessage;
+     }
+     else{
+         subMailError.textContent = '';
+         subMail.value = '';
+         alert("Thank you for subscribing! ^^");
+     }
+ });
 
 })

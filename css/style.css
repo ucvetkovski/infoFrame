@@ -820,7 +820,7 @@ ul.btn li:last-child {
 /** contact section **/
 
 .contact {
-     background: url("../assets/warframesBackground.webp");
+     background: url("../assets/contact.jpg");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding: 90px 0;
@@ -901,11 +901,12 @@ ul.btn li:last-child {
 /** footer **/
 
 .footer {
-     background-image: url("../assets/warframeFooter1.jpg");
+     background-image: url("../assets/warframesBackground.webp");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: top left;
      padding-top: 115px;
+     color: black;
      text-align: center;
 }
 
@@ -957,18 +958,23 @@ ul.social_icon li a:hover {
      font-size: 25px;
      line-height: 25px;
      text-align: left;
-     color: white;
+     color: black;
      padding-bottom: 15px;
 }
 
+.footer .fa{
+     font-size: 25px;
+     color: black;
+}
+
 .about_us li {
-     color: white;
+     color: black;
      font-size: 17px;
      text-align: left;
 }
 
 .conta li {
-     color: white;
+     color: black;
      font-size: 17px;
      text-align: left;
 }
@@ -978,7 +984,7 @@ ul.social_icon li a:hover {
      font-size: 25px;
      line-height: 25px;
      text-align: left;
-     color: white;
+     color: black;
      padding-bottom: 15px;
 }
 
@@ -1020,17 +1026,17 @@ ul.social_icon li a:hover {
 }
 
 .copyright p {
-     color: #ddd;
+     color: black;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
-     border-top: #ddd solid 1px;
+     border-top: black solid 1px;
      padding-top: 25px;
      font-weight: normal;
 }
 
 .copyright a {
-     color: #ddd;
+     color: black
 }
 
 .copyright a:hover {
@@ -1266,3 +1272,16 @@ ul.social_icon li a:hover {
      height: 151px;
 }
 
+.fa {
+     color: white;
+     font-size: 50px;
+     cursor: pointer;
+}
+
+.fa:hover{
+     color:orange;
+}
+
+.fa-checked{
+     color:orange;
+}

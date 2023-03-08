@@ -1205,7 +1205,7 @@
         "abilities" : {
             "passive" : {
                 "icon" : "",
-                "description" : ""
+                "description" : "Ivara has an innate radar that detects enemies within 20 meters and displays their position on the minimap."
             },
 
             "first" : 
@@ -2440,7 +2440,7 @@
         "prime" : false,
         "name" : "Trinity",
         "gender" : "F",
-        "description" : "This is Trinity, the healer, the equalizer. Trinity is a must for any high-stakes mission. She'll save your life, Tenno",
+        "description" : "This is Trinity, the healer, the equalizer. Trinity is a must for any high-stakes mission. She'll save your life, Tenno.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/Trinity.webp",
             "background" : "assets/backgrounds/TrinityFull.webp"
@@ -3061,7 +3061,7 @@
             "background" : "assets/backgrounds/AtlasPrimeFull.webp"
         },
 
-        "releaseDate" : "2015-10-01",
+        "releaseDate" : "2019-10-01",
 
         "abilities" : {
 
@@ -3105,10 +3105,10 @@
 
         },
         "stats" : {
-            "armor" : 450,
-            "health" : 100,
+            "armor" : 475,
+            "health" : 175,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 175
         }
     },
     {
@@ -3116,12 +3116,12 @@
     "prime" : true,
     "name" : "Banshee Prime",
     "gender" : "F",
-    "description" : "This is Banshee, stealthy and ranged. No one puts Banshee in a corner, Tenno. The element of surprise is in her favor.",
+    "description" : "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
     "image" : {
         "thumb" : "assets/icons/warframeIcons/BansheePrime.webp",
         "background" : "assets/backgrounds/BansheePrimeFull.webp"
     },
-    "releaseDate" : "2013-03-18",
+    "releaseDate" : "2017-02-28",
     "abilities" : {
         "passive" : {
             "icon" : "",
@@ -3165,10 +3165,10 @@
         }
     },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 175
         }
     },
     {
@@ -3176,12 +3176,12 @@
         "prime" : true,
         "name" : "Baruuk Prime",
         "gender" : "M",
-        "description" : "This is Baruuk, the reluctant warrior. Following the path that winds between peace and hate, he maintains restraint before unleashing the storm within.",
+        "description" : "Doomed are the fools who attack the peace and exhaust the restraint of this reluctant warrior.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/BaruukPrime.webp",
             "background" : "assets/backgrounds/BaruukPrime.webp"
         },
-        "releaseDate" : "2018-12-18",
+        "releaseDate" : "2022-12-14",
         "abilities" : {
 
             "passive" : {
@@ -3220,9 +3220,9 @@
             }
         },
         "stats" : {
-            "armor" : 175,
+            "armor" : 225,
             "health" : 75,
-            "shields" : 100,
+            "shields" : 125,
             "energy" : 200
         }
     },
@@ -3231,7 +3231,7 @@
         "prime" : true,
         "name" : "Chroma Prime",
         "gender" : "M",
-        "description" : "This is Chroma, an ancient legend, master of the elements. When all the land is in ruins, Tenno, only Chroma will remain.",
+        "description" : "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/ChromaPrime.webp",
             "background" : "assets/backgrounds/ChromaPrimeFull.webp"
@@ -3280,10 +3280,10 @@
             }
         },
         "stats" : {
-            "armor" : 350,
+            "armor" : 425,
             "health" : 100,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 200
         }
     },
     {
@@ -3291,12 +3291,12 @@
         "prime" : true,
         "name" : "Ember Prime",
         "gender" : "F",
-        "description" : "This is Ember, destructive and deadly. Ember's presence on the battlefield is devastating. Mind the heat, Tenno.",
+        "description" : "Ember Prime offers the same potential for wanton destruction as Ember but provides unique mod polarities, allowing for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/EmberPrime.webp",
             "background" : "assets/backgrounds/EmberPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2013-11-20",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3340,9 +3340,9 @@
             }
         },
         "stats" : {
-            "armor" : 125,
+            "armor" : 150,
             "health" : 100,
-            "shields" : 100,
+            "shields" : 125,
             "energy" : 150
         }
     },
@@ -3351,12 +3351,12 @@
         "prime" : true,
         "name" : "Equinox Prime",
         "gender" : "F",
-        "description" : "This is Equinox, a deadly duality. A true Tenno must master the divide between night and day. Do you have what it takes?",
+        "description" : "Night and Day in final balance; the graceful perfection of the one that walks the borders.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/EquinoxPrime.webp",
             "background" : "assets/backgrounds/EquinoxPrimeFull.webp"
         },
-        "releaseDate" : "2015-07-31",
+        "releaseDate" : "2019-04-02",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3400,10 +3400,10 @@
             }
         },
         "stats" : {
-            "armor" : 125,
-            "health" : 100,
+            "armor" : 150,
+            "health" : 125,
             "shields" : 100,
-            "energy" : 100 
+            "energy" : 165 
         }
     },
     {
@@ -3411,12 +3411,12 @@
         "prime" : true,
         "name" : "Excalibur Prime",
         "gender" : "M",
-        "description" : "This is Excalibur, a master of gun and blade. No matter your style, Tenno, Excalibur is a formidable choice.",
+        "description" : "Excalibur Prime is the epitome of mobility and offense, and features the same abilities as Excalibur, but has unique mod polarities installed allowing for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/ExcaliburPrime.webp",
             "background" : "assets/backgrounds/ExcaliburPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2012-12-18",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3460,10 +3460,10 @@
             }
         },
         "stats" : {
-            "armor" :225 ,
+            "armor" : 300,
             "health" : 100,
             "shields" : 100,
-            "energy" : 100 
+            "energy" : 150 
         }
     },
     {
@@ -3471,12 +3471,12 @@
         "prime" : true,
         "name" : "Frost Prime",
         "gender" : "M",
-        "description" : "This is Frost, colder and deadlier than space itself. Frost can protect or punish, the decision is yours.",
+        "description" : "Frost Prime has the same chilling abilities as Frost but provides unique mod polarities, allowing for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/FrostPrime.webp",
             "background" : "assets/backgrounds/FrostPrimeFull.webp"
         },
-        "releaseDate" : "2013-01-29",
+        "releaseDate" : "2013-05-03",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3522,7 +3522,7 @@
         "stats" : {
             "armor" : 300,
             "health" : 150,
-            "shields" : 100,
+            "shields" : 175,
             "energy" : 100 
         }
     },
@@ -3536,7 +3536,7 @@
             "thumb" : "assets/icons/warframeIcons/GaraPrime.webp",
             "background" : "assets/backgrounds/GaraPrimeFull.webp"
         },
-        "releaseDate" : "2017-10-12",
+        "releaseDate" : "2021-05-25",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3580,8 +3580,8 @@
             }
         },
         "stats" : {
-            "armor" : 150,
-            "health" : 100,
+            "armor" : 190,
+            "health" : 120,
             "shields" : 100,
             "energy" : 150
         }
@@ -3591,12 +3591,12 @@
         "prime" : true,
         "name" : "Garuda Prime",
         "gender" : "F",
-        "description" : "This is Garuda, the gore queen. Cleansed by the blood of her enemies, she draws strength from vulnerability.",
+        "description" : "White, gold and deepest scarlet, the queen of gore in full regalia.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/GarudaPrime.webp",
             "background" : "assets/backgrounds/GarudaPrimeFull.webp"
         },
-        "releaseDate" : "2018-11-08",
+        "releaseDate" : "2022-03-28",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3640,10 +3640,10 @@
             }
         },
         "stats" : {
-            "armor" : 300,
+            "armor" : 400,
             "health" : 100,
             "shields" : 100,
-            "energy" : 120
+            "energy" : 160
         }
     },
     {
@@ -3651,12 +3651,12 @@
         "prime" : true,
         "name" : "Harrow Prime",
         "gender" : "M",
-        "description" : "This is Harrow, the monastic, the ritualist. Harrow is suffragan to the Void. Will you believe, Tenno?",
+        "description" : "The Inquisitor Eternal arises, hallowed by the Void, preaching a gospel of iron and flame.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/HarrowPrime.webp",
             "background" : "assets/backgrounds/HarrowPrimeFull.webp"
         },
-        "releaseDate" : "2017-06-28",
+        "releaseDate" : "2021-12-15",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3702,8 +3702,8 @@
         "stats" : {
             "armor" : 175,
             "health" : 100,
-            "shields" : 150,
-            "energy" : 100 
+            "shields" : 200,
+            "energy" : 125 
         }
     },
     {
@@ -3711,12 +3711,12 @@
         "prime" : true,
         "name" : "Hydroid Prime",
         "gender" : "M",
-        "description" : "This is Hydroid, a deadly marauder from the deep. Whether the seas or the stars, Tenno, Hydroid takes a foreboding command of the battlefield.",
+        "description" : "Command the ocean's fury with this king of gold and silver. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/HydroidPrime.webp",
             "background" : "assets/backgrounds/HydroidPrimeFull.webp"
         },
-        "releaseDate" : "2014-04-09",
+        "releaseDate" : "2017-08-29",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3760,10 +3760,10 @@
             }
         },
         "stats" : {
-            "armor" : 225,
+            "armor" : 275,
             "health" : 100,
-            "shields" : 125,
-            "energy" : 125
+            "shields" : 175,
+            "energy" : 150
         }
     },
     {
@@ -3771,12 +3771,12 @@
         "prime" : true,
         "name" : "Inaros Prime",
         "gender" : "M",
-        "description" : "This is Inaros, the savior, king of the desert. Whether denizens of the sky or the earth, Tenno, the fear of Inaros is within.",
+        "description" : "Rise, eternal, to cast the fear of Inaros into them. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/InarosPrime.webp",
             "background" : "assets/backgrounds/InarosPrime.webp"
         },
-        "releaseDate" : "2016-03-04",
+        "releaseDate" : "2020-07-14",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3821,9 +3821,9 @@
         },
         "stats" : {
             "armor" : 225,
-            "health" : 500,
+            "health" : 575,
             "shields" : 0,
-            "energy" : 100
+            "energy" : 125
         }
     },
     {
@@ -3831,16 +3831,16 @@
         "prime" : true,
         "name" : "Ivara Prime",
         "gender" : "F",
-        "description" : "This is Ivara, the huntress, the thief. Don't roam around the forest looking for a fight, Tenno. Ivara is always on guard.",
+        "description" : "As regal and lethal as a nighttime wood, this is the queen of the hunt in her ultimate form.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/IvaraPrime.webp",
             "background" : "assets/backgrounds/IvaraPrimeFull.webp"
         },
-        "releaseDate" : "2015-12-03",
+        "releaseDate" : "2019-12-17",
         "abilities" : {
             "passive" : {
                 "icon" : "",
-                "description" : ""
+                "description" : "Ivara has an innate radar that detects enemies within 20 meters and displays their position on the minimap."
             },
 
             "first" : 
@@ -3880,10 +3880,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 75,
-            "shields" : 100,
-            "energy" : 175
+            "shields" : 150,
+            "energy" : 200
         }
     },
     {
@@ -3891,12 +3891,12 @@
         "prime" : true,
         "name" : "Khora Prime",
         "gender" : "F",
-        "description" : "This is Khora, with bladed precision, she is a mistress of entrapment. Don't get caught on the wrong end of a whipcrack of Khora's steel. It may be the last thing you hear.",
+        "description" : "A harmony of mistress and monster. The gilded huntress and her loyal Kavat, Venari, dominate the battlefield with their will.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/KhoraPrime.webp",
             "background" : "assets/backgrounds/KhoraPrime.webp"
         },
-        "releaseDate" : "2018-04-20",
+        "releaseDate" : "2022-07-16",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -3940,27 +3940,27 @@
             }
         },
         "stats" : {
-            "armor" : 275,
+            "armor" : 325,
             "health" : 125,
-            "shields" : 100,
-            "energy" : 125
+            "shields" : 125,
+            "energy" : 150
         }
     },
     {
         "id" : 124,
         "prime" : true,
-        "name" : "Limbo",
+        "name" : "Limbo Prime",
         "gender" : "M",
-        "description" : "This is Limbo, master of the Rift. In a land of both shadow and substance, Limbo is both nowhere and everywhere.",
+        "description" : "Dance between realms with this golden rift walker. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/LimboPrime.webp",
             "background" : "assets/backgrounds/LimboPrimeFull.webp"
         },
-        "releaseDate" : "2014-10-24",
+        "releaseDate" : "2018-06-19",
         "abilities" : {
             "passive" : {
                 "icon" : "",
-                "description" : " Limbo has access to the Rift plane (Rift for short), an alternate dimension to the normal environment, or material plane. By performing a Roll, a Sidespring, or a Backspring, Limbo slides into and out of the Rift at will. This is better known as Rift Walk. Several of Limbo's abilities impose the Rift upon the world around him, affecting himself, the environment, enemies, and even allies."
+                "description" : "Limbo has access to the Rift plane (Rift for short), an alternate dimension to the normal environment, or material plane. By performing a Roll, a Sidespring, or a Backspring, Limbo slides into and out of the Rift at will. This is better known as Rift Walk. Several of Limbo's abilities impose the Rift upon the world around him, affecting himself, the environment, enemies, and even allies."
             },
 
             "first" : 
@@ -3996,10 +3996,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
-            "shields" : 75,
-            "energy" : 150
+            "shields" : 100,
+            "energy" : 175
         }
     },
     {
@@ -4007,12 +4007,12 @@
         "prime" : true,
         "name" : "Loki Prime",
         "gender" : "M",
-        "description" : "This is Loki, the trickster, the deceiver. Whether you prefer to go into battle alone or with a team, Tenno, Loki will adapt to any style.",
+        "description" : "Confuse, deceive and destroy with Loki Prime. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/LokiPrime.webp",
             "background" : "assets/backgrounds/LokiPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2014-06-11",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4052,10 +4052,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 75,
             "shields" : 75,
-            "energy" : 150
+            "energy" : 175
         }
     },
     {
@@ -4063,12 +4063,12 @@
         "prime" : true,
         "name" : "Mag Prime",
         "gender" : "F",
-        "description" : "This is Mag, a force to be reckoned with. Mag is a team player, Tenno, and a worthy addition to any squad.",
+        "description" : " The exquisite Mag Prime offers the same abilities as Mag but with unique mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/MagPrime.webp",
             "background" : "assets/backgrounds/MagPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2013-09-13",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4108,10 +4108,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
-            "health" : 75,
+            "armor" : 125,
+            "health" : 100,
             "shields" : 150,
-            "energy" : 125
+            "energy" : 175
         }
     },
     {
@@ -4119,12 +4119,12 @@
         "prime" : true,
         "name" : "Mesa Prime",
         "gender" : "F",
-        "description" : "This is Mesa, the vagabond, the outcast. Do you feel lucky, Tenno? Mesa's got the fastest guns in the stars.",
+        "description" : "Cast a long shadow with this lethal enforcer. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/MesaPrime.webp",
             "background" : "assets/backgrounds/MesaPrimeFull.webp"
         },
-        "releaseDate" : "2014-11-27",
+        "releaseDate" : "2018-12-18",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4164,10 +4164,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
-            "health" : 125,
+            "armor" : 125,
+            "health" : 135,
             "shields" : 75,
-            "energy" : 100
+            "energy" : 125
         }
     },
     {
@@ -4175,12 +4175,12 @@
         "prime" : true,
         "name" : "Mirage Prime",
         "gender" : "F",
-        "description" : "This is Mirage, a sly conjurer. Do you believe in magic, Tenno? Mirage's deceiving influence on the battlefield might make you.",
+        "description" : "Dazzle the opposition with this golden master of illusion and mayhem.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/MiragePrime.webp",
             "background" : "assets/backgrounds/MiragePrimeFull.webp"
         },
-        "releaseDate" : "2014-07-18",
+        "releaseDate" : "2017-12-12",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4220,10 +4220,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 175,
             "health" : 80,
-            "shields" : 80,
-            "energy" : 100
+            "shields" : 110,
+            "energy" : 150
         }
     },
     {
@@ -4231,12 +4231,12 @@
         "prime" : true,
         "name" : "Nekros Prime",
         "gender" : "M",
-        "description" : "This is Nekros, manipulator of souls. Nekros possesses the battlefield, Tenno. Death is his playground.",
+        "description" : "Death's new master. Featuring altered mod polarities allow for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/NekrosPrime.webp",
             "background" : "assets/backgrounds/NekrosPrimeFull.webp"
         },
-        "releaseDate" : "2013-09-13",
+        "releaseDate" : "2016-08-23",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4276,10 +4276,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
-            "shields" : 90,
-            "energy" : 100
+            "shields" : 150,
+            "energy" : 125
         }
     },
     {
@@ -4287,12 +4287,12 @@
         "prime" : true,
         "name" : "Nezha Prime",
         "gender" : "M",
-        "description" : "This is Nezha, the protector, the quick. Feel the heat, Tenno. Nezha is a burning thing, and he makes a fiery ring.",
+        "description" : "Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/NezhaPrime.webp",
             "background" : "assets/backgrounds/NezhaPrime.webp"
         },
-        "releaseDate" : "2015-12-16",
+        "releaseDate" : "2020-10-27",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4332,7 +4332,7 @@
             }
         },
         "stats" : {
-            "armor" : 190,
+            "armor" : 250,
             "health" : 125,
             "shields" : 50,
             "energy" : 150
@@ -4343,12 +4343,12 @@
         "prime" : true,
         "name" : "Nidus Prime",
         "gender" : "M",
-        "description" : "This is Nidus, the adaptive, the scourge.Nidus is a deadly plague for which there is no cure. You must control the strange disease.",
+        "description" : "Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation. Features altered Mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/NidusPrime.webp",
             "background" : "assets/backgrounds/NidusPrimeFull.webp"
         },
-        "releaseDate" : "2016-12-22",
+        "releaseDate" : "2021-09-08",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4388,10 +4388,10 @@
             }
         },
         "stats" : {
-            "armor" : 300,
-            "health" : 150,
+            "armor" : 350,
+            "health" : 175,
             "shields" : 0,
-            "energy" : 100
+            "energy" : 125
         }
     },
     {
@@ -4399,12 +4399,12 @@
         "prime" : true,
         "name" : "Nova Prime",
         "gender" : "F",
-        "description" : "This is Nova, wildly unpredictable. Nova's presence on the battlefield is complex and deadly. Handle with care, Tenno.",
+        "description" : "Nova Prime wreaks devastation on her enemies using volatile anti-matter. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/NovaPrime.webp",
             "background" : "assets/backgrounds/NovaPrimeFull.webp"
         },
-        "releaseDate" : "2013-07-13",
+        "releaseDate" : "2014-12-16",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4444,10 +4444,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
-            "shields" : 75,
-            "energy" : 150
+            "shields" : 100,
+            "energy" : 175
         }
     },
     {
@@ -4455,12 +4455,12 @@
         "prime" : true,
         "name" : "Nyx Prime",
         "gender" : "F",
-        "description" : "This is Nyx, manipulator of minds. On her own or with a group, Nyx can turn the tide of battle in her favor.",
+        "description" : "Infiltrate the minds of your enemies with Nyx Prime. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/NyxPrime.webp",
             "background" : "assets/backgrounds/NyxPrimeFull.webp"
         },
-        "releaseDate" : "2013-01-29",
+        "releaseDate" : "2014-09-23",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4500,9 +4500,9 @@
             }
         },
         "stats" : {
-            "armor" :100 ,
+            "armor" : 125,
             "health" : 100,
-            "shields" : 100,
+            "shields" : 125,
             "energy" : 150
         }
     },
@@ -4511,12 +4511,12 @@
         "prime" : true,
         "name" : "Oberon Prime",
         "gender" : "M",
-        "description" : "This is Oberon, the mystic, the willful. Oberon is an adept and honorable warrior, Tenno. Are you?",
+        "description" : "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/OberonPrime.webp",
             "background" : "assets/backgrounds/OberonPrimeFull.webp"
         },
-        "releaseDate" : "2013-12-19",
+        "releaseDate" : "2017-05-30",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4556,10 +4556,10 @@
             }
         },
         "stats" : {
-            "armor" : 175,
+            "armor" : 225,
             "health" : 125,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 175
         }
     },
     {
@@ -4567,12 +4567,12 @@
         "prime" : true,
         "name" : "Octavia Prime",
         "gender" : "F",
-        "description" : "This is Octavia, the melodic, the maestro. If music be the food of death... play on, Tenno.",
+        "description" : "Strike up a symphony of destruction with the mistress of music, Octavia, in her grandest and most spectacular form. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/OctaviaPrime.webp",
             "background" : "assets/backgrounds/OctaviaPrimeFull.webp"
         },
-        "releaseDate" : "2017-03-24",
+        "releaseDate" : "2021-02-23",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4614,8 +4614,8 @@
         "stats" : {
             "armor" : 150,
             "health" : 100,
-            "shields" : 75,
-            "energy" : 150
+            "shields" : 100,
+            "energy" : 175
         }
     },
     {
@@ -4623,12 +4623,12 @@
         "prime" : true,
         "name" : "Revenant Prime",
         "gender" : "M",
-        "description" : "This is Revenant, the returned - the condemned. Harnessing the essence of Eidolon and warrior alike, he mystifies and obliterates his foes. Revenant serves last rites for the souls he leaves on fire, without a plea for mercy.",
+        "description" : "The lost one rises. Wield the essence of the Eidolon as you wield Revenant Prime’s power.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/RevenantPrime.webp",
             "background" : "assets/backgrounds/RevenantPrime.webp"
         },
-        "releaseDate" : "2018-08-24",
+        "releaseDate" : "2022-10-05",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4670,8 +4670,8 @@
         "stats" : {
             "armor" : 125,
             "health" : 100,
-            "shields" : 225,
-            "energy" : 125
+            "shields" : 250,
+            "energy" : 150
         }
     },
     {
@@ -4679,12 +4679,12 @@
         "prime" : true,
         "name" : "Rhino Prime",
         "gender" : "M",
-        "description" : "This is Rhino, an immovable force and highly resilient. Rhino can survive alone or become the cornerstone of any squad, Tenno. The choice is yours.",
+        "description" : "Takes Rhino's ground-shaking abilities to the next level with altered mod polarities that offer greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/RhinoPrime.webp",
             "background" : "assets/backgrounds/RhinoPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2014-03-05",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4724,7 +4724,7 @@
             }
         },
         "stats" : {
-            "armor" : 225,
+            "armor" : 275,
             "health" : 100,
             "shields" : 150,
             "energy" : 100
@@ -4735,12 +4735,12 @@
         "prime" : true,
         "name" : "Saryn Prime",
         "gender" : "F",
-        "description" : "This is Saryn, elusive and deadly. Saryn is a deadly force on the battlefield. Get down with the sickness, Tenno.",
+        "description" : "A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/SarynPrime.webp",
             "background" : "assets/backgrounds/SarynPrimeFull.webp"
         },
-        "releaseDate" : "2013-03-18",
+        "releaseDate" : "2016-02-16",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4780,10 +4780,10 @@
             }
         },
         "stats" : {
-            "armor" : 225,
-            "health" :125 ,
+            "armor" : 300,
+            "health" : 125,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 200
         }
     },
     {
@@ -4791,12 +4791,12 @@
         "prime" : true,
         "name" : "Titania Prime",
         "gender" : "F",
-        "description" : "This is Titania, the pixie, the unseen. Titania is a deadly and mischievous addition to any squad, but don't take my word for it Tenno.",
+        "description" : "Tempting and terrifying, this is Titania in her ultimate form.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/TitaniaPrime.webp",
             "background" : "assets/backgrounds/TitaniaPrimeFull.webp"
         },
-        "releaseDate" : "2016-08-19",
+        "releaseDate" : "2020-03-31",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4836,10 +4836,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
-            "health" : 100,
+            "armor" : 125,
+            "health" : 125,
             "shields" : 100,
-            "energy" : 150
+            "energy" : 175
         }
     },
     {
@@ -4847,7 +4847,7 @@
         "prime" : true,
         "name" : "Trinity Prime",
         "gender" : "F",
-        "description" : "This is Trinity, the healer, the equalizer. Trinity is a must for any high-stakes mission. She'll save your life, Tenno",
+        "description" : "Become the bastion that defends allies using powerful healing abilities with Trinity Prime. Featuring altered mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/TrinityPrime.webp",
             "background" : "assets/backgrounds/TrinityPrimeFull.webp"
@@ -4892,9 +4892,9 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
-            "shields" : 100,
+            "shields" : 150,
             "energy" : 150
         }
     },
@@ -4903,12 +4903,12 @@
         "prime" : true,
         "name" : "Valkyr Prime",
         "gender" : "F",
-        "description" : "This is Valkyr, the tormented, the experiment. Valkyr was crafted from torment, Tenno. Take control of her rage.",
+        "description" : "A proud fighter emerges unscarred by time or malice.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/ValkyrPrime.webp",
             "background" : "assets/backgrounds/ValkyrPrimeFull.webp"
         },
-        "releaseDate" : "2013-11-20",
+        "releaseDate" : "2016-11-22",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -4948,10 +4948,10 @@
             }
         },
         "stats" : {
-            "armor" : 600,
+            "armor" : 700,
             "health" : 100,
             "shields" : 50,
-            "energy" : 100
+            "energy" : 150
         }
     },
     {
@@ -4959,12 +4959,12 @@
         "prime" : true,
         "name" : "Vauban Prime",
         "gender" : "M",
-        "description" : "This is Vauban, focused and methodical. Vauban willingly sacrificed his own safety in the name of mayhem. Use him wisely, Tenno.",
+        "description" : "Transform the battlefield into a weapon with this gilded tactician. Features unique mod polarities for extended customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/VaubanPrime.webp",
             "background" : "assets/backgrounds/VaubanPrimeFull.webp"
         },
-        "releaseDate" : "2013-05-17",
+        "releaseDate" : "2016-05-17",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -5004,9 +5004,9 @@
             }
         },
         "stats" : {
-            "armor" : 150,
+            "armor" : 200,
             "health" : 100,
-            "shields" : 75,
+            "shields" : 100,
             "energy" : 150
         }
     },
@@ -5015,12 +5015,12 @@
         "prime" : true,
         "name" : "Volt Prime",
         "gender" : "M",
-        "description" : "This is Volt, a versatile warrior. Volt's arsenal is powerful and electrifying. Handle with care, Tenno.",
+        "description" : "A glorious warrior from the past, Volt Prime features the same abilities as Volt, but with unique mod polarities for greater customization.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/VoltPrime.webp",
             "background" : "assets/backgrounds/VoltPrimeFull.webp"
         },
-        "releaseDate" : "2012-10-25",
+        "releaseDate" : "2015-03-24",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -5060,10 +5060,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 100,
             "shields" : 150,
-            "energy" : 100
+            "energy" : 200
         }
     },
     {
@@ -5076,7 +5076,7 @@
             "thumb" : "assets/icons/warframeIcons/WukongPrime.webp",
             "background" : "assets/backgrounds/WukongPrimeFull.webp"
         },
-        "releaseDate" : "2015-11-25",
+        "releaseDate" : "2019-06-06",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -5116,10 +5116,10 @@
             }
         },
         "stats" : {
-            "armor" : 250,
+            "armor" : 275,
             "health" : 150,
-            "shields" : 100,
-            "energy" : 120
+            "shields" : 120,
+            "energy" : 130
         }
     },
     {
@@ -5127,12 +5127,12 @@
         "prime" : true,
         "name" : "Zephyr Prime",
         "gender" : "F",
-        "description" : "This is Zephyr, light, yet deceivingly lethal. Zephyr brings graceful destruction to the battlefield. Look up, Tenno.",
+        "description" : "Take to the skies with this golden bird of destruction.",
         "image" : {
             "thumb" : "assets/icons/warframeIcons/ZephyrPrime.webp",
             "background" : "assets/backgrounds/ZephyrPrimeFull.webp"
         },
-        "releaseDate" : "2014-02-05",
+        "releaseDate" : "2018-03-20",
         "abilities" : {
             "passive" : {
                 "icon" : "",
@@ -5172,10 +5172,10 @@
             }
         },
         "stats" : {
-            "armor" : 100,
+            "armor" : 125,
             "health" : 150,
             "shields" : 150,
-            "energy" : 100
+            "energy" : 150
         }
     }
 ]
